@@ -1,0 +1,2281 @@
+{
+  "scope": "65 C++-qualified diagnostic hybrids; Pascal images not yet compared.",
+  "qualification_sha256": "88f60539e3fb63367f46f7a701cbb92b3a56fa2e872a061eeab045ee0612cc1a",
+  "cases": [
+    {
+      "id": "vsshapes_hybrid_1_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_1_first_1.m3p",
+      "sha256": "d65da5a05b493256d17d6f08af2548f425e140e99ed40423ef8ffed454bd47eb",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_1_mod_2_3.m3p",
+      "source_sha256": "8cc4a82416d92350ca0f34a80826aa85dadbc8ba900fcbcfbec33feed4ea25f0",
+      "mode": 1,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_1_first_1",
+        "mode": 1,
+        "status": "useful",
+        "geometry_pixels": 1146,
+        "pixels": 3072,
+        "hit_depth_values": 1043,
+        "rgb_colors": 1165,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "749b8ce61261c892b34805250819f266485475717ecb0a47f107489fe425ca0f",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "d65da5a05b493256d17d6f08af2548f425e140e99ed40423ef8ffed454bd47eb",
+        "depth_sha256": "c4ab964151ec48bbc6558cd7b4cb0e4020dd3dbd2b640a4b7b1f2ee258b38544",
+        "png_sha256": "26fdf4f2159b449a372a9ac65010b0ac17de22796dcf08991b598d3df6cbc074"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_1_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_1_first_2.m3p",
+      "sha256": "92d46666b6640257110661f37302d0b796d3b8f51a660507e29491b5e27db7ac",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_1_mod_2_3.m3p",
+      "source_sha256": "8cc4a82416d92350ca0f34a80826aa85dadbc8ba900fcbcfbec33feed4ea25f0",
+      "mode": 1,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_1_first_2",
+        "mode": 1,
+        "status": "useful",
+        "geometry_pixels": 2835,
+        "pixels": 3072,
+        "hit_depth_values": 1936,
+        "rgb_colors": 2380,
+        "changed_depth_pixels": [
+          2675
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "749b8ce61261c892b34805250819f266485475717ecb0a47f107489fe425ca0f",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "92d46666b6640257110661f37302d0b796d3b8f51a660507e29491b5e27db7ac",
+        "depth_sha256": "77d1609ae3c30494ba95f3961dd791be0b933ae19621de1f03a66c5b23abb23b",
+        "png_sha256": "7f27095a6f79c7eea16dc64e30e1d2138ac809e6f5c44bd3c8a40f5bd9aa1a72"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_1_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_1_last_1.m3p",
+      "sha256": "87e94f4e4604bb86fe87133e9f4774ca30a2f1d743f28fa2e4d6f4fadf801b21",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_1_mod_2_3.m3p",
+      "source_sha256": "8cc4a82416d92350ca0f34a80826aa85dadbc8ba900fcbcfbec33feed4ea25f0",
+      "mode": 1,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_1_last_1",
+        "mode": 1,
+        "status": "useful",
+        "geometry_pixels": 1947,
+        "pixels": 3072,
+        "hit_depth_values": 1654,
+        "rgb_colors": 1917,
+        "changed_depth_pixels": [
+          2487
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "23e967a009a4942220ffafc0bf97f41875fe714863a59a5a4ac8dff09fac071e",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "87e94f4e4604bb86fe87133e9f4774ca30a2f1d743f28fa2e4d6f4fadf801b21",
+        "depth_sha256": "260033567b73a04f31befbe2453dc534591cd1896956a8dfd9f3dcca8bf747c4",
+        "png_sha256": "12c5ebec781367743bc6262d8fedbe58e19c7802f2631bb12b1fcd42ba859e19"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_1_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_1_last_2.m3p",
+      "sha256": "393b82fd449841ca502a85866c68b62fbd6231699871872d7278996e369eed18",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_1_mod_2_3.m3p",
+      "source_sha256": "8cc4a82416d92350ca0f34a80826aa85dadbc8ba900fcbcfbec33feed4ea25f0",
+      "mode": 1,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_1_last_2",
+        "mode": 1,
+        "status": "useful",
+        "geometry_pixels": 3070,
+        "pixels": 3072,
+        "hit_depth_values": 1549,
+        "rgb_colors": 2252,
+        "changed_depth_pixels": [
+          3070
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "23e967a009a4942220ffafc0bf97f41875fe714863a59a5a4ac8dff09fac071e",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "393b82fd449841ca502a85866c68b62fbd6231699871872d7278996e369eed18",
+        "depth_sha256": "d1eee5d02755231728218afc11ad0479d5d467bc7752eb507bb02a8db41c2d2d",
+        "png_sha256": "6843da247610661a899854ac529a5f9e1bff39b9cff753d3af6cc3859bdd65ff"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_2_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_2_first_1.m3p",
+      "sha256": "e561bb26d4cc90ccc8c4ecab0fe30195e3039032908a39c0489a9bd6594f6a29",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_2_mod_2_3.m3p",
+      "source_sha256": "cb91017f8fd728bcbd74ba21c91785c5b2108aa68d6e1fa70b624c8b999017fe",
+      "mode": 2,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_2_first_1",
+        "mode": 2,
+        "status": "useful",
+        "geometry_pixels": 1471,
+        "pixels": 3072,
+        "hit_depth_values": 1299,
+        "rgb_colors": 1475,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "6d04c31c05294d8eb94cddc43eb49b437d4a2f1c9546186b44445841e1f892f1",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "e561bb26d4cc90ccc8c4ecab0fe30195e3039032908a39c0489a9bd6594f6a29",
+        "depth_sha256": "7a7f06e0afb051cf8c316dae129f0db8bf9825defae5b95f09f51497b80a803e",
+        "png_sha256": "1366c3e9ac11e05876e498b7342a4789447c3b26cbddebea195828c9f083b85a"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_2_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_2_first_2.m3p",
+      "sha256": "14209c2f27e3674dbd9ecd49975dcdc3859ec6c1bf8664c6978e0c8c3d3fcb18",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_2_mod_2_3.m3p",
+      "source_sha256": "cb91017f8fd728bcbd74ba21c91785c5b2108aa68d6e1fa70b624c8b999017fe",
+      "mode": 2,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_2_first_2",
+        "mode": 2,
+        "status": "useful",
+        "geometry_pixels": 2869,
+        "pixels": 3072,
+        "hit_depth_values": 1896,
+        "rgb_colors": 2635,
+        "changed_depth_pixels": [
+          2989
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "6d04c31c05294d8eb94cddc43eb49b437d4a2f1c9546186b44445841e1f892f1",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "14209c2f27e3674dbd9ecd49975dcdc3859ec6c1bf8664c6978e0c8c3d3fcb18",
+        "depth_sha256": "ecbfd4a7b74f21c9ff279cf763f312f5d7c6621f8b81eb55214e0020c98c9226",
+        "png_sha256": "e48171168016aef0a85f6187f6a9bb67f0632158b8f5a1a6be0f914bbc7f5e59"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_2_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_2_last_1.m3p",
+      "sha256": "62967ed056a0064ebda70cd787fe55f82e603eb628cac10367b329b5fad75fa1",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_2_mod_2_3.m3p",
+      "source_sha256": "cb91017f8fd728bcbd74ba21c91785c5b2108aa68d6e1fa70b624c8b999017fe",
+      "mode": 2,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_2_last_1",
+        "mode": 2,
+        "status": "useful",
+        "geometry_pixels": 2214,
+        "pixels": 3072,
+        "hit_depth_values": 1793,
+        "rgb_colors": 2107,
+        "changed_depth_pixels": [
+          2549
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "c2952e28576f757dacfeed126c12ad6ee281fd6115f4a4119e2f61fb302dc9fe",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "62967ed056a0064ebda70cd787fe55f82e603eb628cac10367b329b5fad75fa1",
+        "depth_sha256": "61100b55556a4a24b3fc036cc24c53b62ba41c417304e8ebad9b4afe541a3e18",
+        "png_sha256": "31cd3425b88d95237977a81fbcc784c9d1b8f6c0505ce0c188194cf23a122086"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_first_1.m3p",
+      "sha256": "09ae9fa3e9019057df402c5ded294ea3c003da17f34785a58516a626fd7c611d",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_first_1",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 263,
+        "pixels": 3072,
+        "hit_depth_values": 249,
+        "rgb_colors": 270,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "250cdefc49fdf4225cf2d4cf36297836de5f1f0053e3849bf3bcba3615eafb2a",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "09ae9fa3e9019057df402c5ded294ea3c003da17f34785a58516a626fd7c611d",
+        "depth_sha256": "c9ee1f114567ea607ef798be6f60aea7ce10d7278886265b45760d365df21568",
+        "png_sha256": "7171f2c79477a047c1c7a54b1c2e53ef3c4e377721148586f6f3a1fac3927a9d"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_first_2.m3p",
+      "sha256": "c2adef6d973f063b6c35b22e2dcf52709ed24cf8916b919632a9123a9f0f3ced",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_first_2",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 373,
+        "pixels": 3072,
+        "hit_depth_values": 352,
+        "rgb_colors": 384,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "250cdefc49fdf4225cf2d4cf36297836de5f1f0053e3849bf3bcba3615eafb2a",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "c2adef6d973f063b6c35b22e2dcf52709ed24cf8916b919632a9123a9f0f3ced",
+        "depth_sha256": "88f20634d1be684df0babdb27f8a868abb10ae6646e0a43e88c723482dcc8742",
+        "png_sha256": "08a3047d3b9e8bc2eb5816e7a4c028e104c8527373841c44ed89e79c3f4f04e1"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_first_4",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_first_4.m3p",
+      "sha256": "393c8c3b91c564c845c712165aee6e30c7e2c6057d990189cedd6028d7f0ad85",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "first",
+      "repeat": 4,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_first_4",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 534,
+        "pixels": 3072,
+        "hit_depth_values": 458,
+        "rgb_colors": 460,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "250cdefc49fdf4225cf2d4cf36297836de5f1f0053e3849bf3bcba3615eafb2a",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "393c8c3b91c564c845c712165aee6e30c7e2c6057d990189cedd6028d7f0ad85",
+        "depth_sha256": "525f9de7cc363544390ccce3018b726eabfe562c8d9c3c9da10cc2b57bd0d6c7",
+        "png_sha256": "225351dacfd3181634c771578506af0141203298d9ca60a7380fea724929ce2e"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_last_1.m3p",
+      "sha256": "5fad10e480c15bb475cf4b6decc91288d6f3376121494a7ae622131930782ed9",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_last_1",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 747,
+        "pixels": 3072,
+        "hit_depth_values": 684,
+        "rgb_colors": 738,
+        "changed_depth_pixels": [
+          1677
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "66ef8c9ff24ba131804dec50eb3b64278b8245a362aeebfde0a8840450ee9280",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "5fad10e480c15bb475cf4b6decc91288d6f3376121494a7ae622131930782ed9",
+        "depth_sha256": "ccc3cb0f6aa507da2a1d2e1a27421dc3333c1432617ffb5d4fc9130bc44a1a4c",
+        "png_sha256": "6db3aa5a9da5e2efabe2e244278eacffbf7d2dab30988806c1bb58f7eae0ea9f"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_last_2.m3p",
+      "sha256": "d11c5ac229e93d4c09ca77ec95c3605965413bff95b45954c35882472049b67c",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_last_2",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 1269,
+        "pixels": 3072,
+        "hit_depth_values": 1132,
+        "rgb_colors": 1215,
+        "changed_depth_pixels": [
+          1966
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "66ef8c9ff24ba131804dec50eb3b64278b8245a362aeebfde0a8840450ee9280",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "d11c5ac229e93d4c09ca77ec95c3605965413bff95b45954c35882472049b67c",
+        "depth_sha256": "c81f76fbbe39d8d8e4a00d9d1c47f0c0188475255d9755e5a88a22037c15dcab",
+        "png_sha256": "709b0b60cc5d8cfb318b9ba3395f32cf7f6f70b7125c95d08e103c57134d1458"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_3_last_4",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_3_last_4.m3p",
+      "sha256": "8ec936d9aeab9639a27b36f012e082677392298bd6a48082fb566a4169c3c9e5",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_3_mod_2_3.m3p",
+      "source_sha256": "f6342d0c6053acfa1aa0905e72d9da3cc56c587a2ea690dbe3fed33def95ad0a",
+      "mode": 3,
+      "order": "last",
+      "repeat": 4,
+      "qualification": {
+        "case": "vsshapes_hybrid_3_last_4",
+        "mode": 3,
+        "status": "useful",
+        "geometry_pixels": 1520,
+        "pixels": 3072,
+        "hit_depth_values": 1336,
+        "rgb_colors": 1289,
+        "changed_depth_pixels": [
+          2063
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "66ef8c9ff24ba131804dec50eb3b64278b8245a362aeebfde0a8840450ee9280",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "8ec936d9aeab9639a27b36f012e082677392298bd6a48082fb566a4169c3c9e5",
+        "depth_sha256": "4ede5fc8db2157e57386d810a9f25fdb7ca2708271caf151e0ef33fbbb620a83",
+        "png_sha256": "0723b0419de98638b0918980cfe82cd35d000922e38c83ef0c5686a0ff60d9c7"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_4_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_4_first_1.m3p",
+      "sha256": "2fc367f3e5b43e04d876648176003c9b3d61dc1f86030b67e7a05f9a20b55db2",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_4_mod_2_3.m3p",
+      "source_sha256": "8e27e4494826dfa7b342ce233ca38ccb2bc128b1a321fc556ef171b70673158a",
+      "mode": 4,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_4_first_1",
+        "mode": 4,
+        "status": "useful",
+        "geometry_pixels": 1481,
+        "pixels": 3072,
+        "hit_depth_values": 1314,
+        "rgb_colors": 1488,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "4109e598ef178dd7bc2fa4b3900546f7824e72bf9971f4ae288bdeec649c9721",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "2fc367f3e5b43e04d876648176003c9b3d61dc1f86030b67e7a05f9a20b55db2",
+        "depth_sha256": "9fc04dea9e5f2eee10231c22916cb873cb151684f431a1491dcec9ebdfdb0c1b",
+        "png_sha256": "f41c4e0ea31e25e3928c5b96369b9ec29642802dd148555ab7ab93802d3cbce7"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_4_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_4_first_2.m3p",
+      "sha256": "5e06fbf3918a379d8199035f9923a109eb3d597a1d72fe2d7c14702661e38b38",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_4_mod_2_3.m3p",
+      "source_sha256": "8e27e4494826dfa7b342ce233ca38ccb2bc128b1a321fc556ef171b70673158a",
+      "mode": 4,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_4_first_2",
+        "mode": 4,
+        "status": "useful",
+        "geometry_pixels": 2879,
+        "pixels": 3072,
+        "hit_depth_values": 1913,
+        "rgb_colors": 2636,
+        "changed_depth_pixels": [
+          2989
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "4109e598ef178dd7bc2fa4b3900546f7824e72bf9971f4ae288bdeec649c9721",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "5e06fbf3918a379d8199035f9923a109eb3d597a1d72fe2d7c14702661e38b38",
+        "depth_sha256": "053ca3c8ef27865fb0cb30dded4deec0d8f878f2f1f143119c550c485bb95ad6",
+        "png_sha256": "8f7805f7c36614d445fab4d77dd723146271f0596bd528512569458c1b83bdcf"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_4_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_4_last_1.m3p",
+      "sha256": "d29e4907391bd31f86af841ac4a7de5a01728014bc0d00726c62471853e266c1",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_4_mod_2_3.m3p",
+      "source_sha256": "8e27e4494826dfa7b342ce233ca38ccb2bc128b1a321fc556ef171b70673158a",
+      "mode": 4,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_4_last_1",
+        "mode": 4,
+        "status": "useful",
+        "geometry_pixels": 2459,
+        "pixels": 3072,
+        "hit_depth_values": 1969,
+        "rgb_colors": 2343,
+        "changed_depth_pixels": [
+          2658
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "cdbcdc4ee19b9fafd7ccc6683e686e468cdbf9128444902a050c74b154b3ae22",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "d29e4907391bd31f86af841ac4a7de5a01728014bc0d00726c62471853e266c1",
+        "depth_sha256": "33f6fb9d86af03bc1069cd600960e2e913adaa44a47b95c8ee8bfebc82cab3a1",
+        "png_sha256": "027342f3617ec3bcc499aae28e277f59209643abf0101b6ffedca0447af7df58"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_5_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_5_first_1.m3p",
+      "sha256": "775f4b73194d4d06de4480fceb3a6e44b74ce09db05860dda26753f60ce194d7",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_5_mod_2_3.m3p",
+      "source_sha256": "fbcf3b56887f5d2f3af552169bfecffcdaa71ee48a6b55fa49d650efa765c6f0",
+      "mode": 5,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_5_first_1",
+        "mode": 5,
+        "status": "useful",
+        "geometry_pixels": 1472,
+        "pixels": 3072,
+        "hit_depth_values": 1341,
+        "rgb_colors": 1484,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "c6a03c92d7d15d2818aed3ad44e3aa2f68fc1b5e4721456977883ea6e9c37015",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "775f4b73194d4d06de4480fceb3a6e44b74ce09db05860dda26753f60ce194d7",
+        "depth_sha256": "6658d183298f3e910b90abb30e20a9b42dfbd60fe6b17fa71206abc0235c40ab",
+        "png_sha256": "809abb2f86485fe977e74675aed93c3ef3b690483aa326224ccecbd6c1805c31"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_5_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_5_first_2.m3p",
+      "sha256": "c7d138ca84dcb7b038f8cc203426af6c7969431e3e777164171acaa1cb68f85a",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_5_mod_2_3.m3p",
+      "source_sha256": "fbcf3b56887f5d2f3af552169bfecffcdaa71ee48a6b55fa49d650efa765c6f0",
+      "mode": 5,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_5_first_2",
+        "mode": 5,
+        "status": "useful",
+        "geometry_pixels": 2910,
+        "pixels": 3072,
+        "hit_depth_values": 1873,
+        "rgb_colors": 2515,
+        "changed_depth_pixels": [
+          2820
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "c6a03c92d7d15d2818aed3ad44e3aa2f68fc1b5e4721456977883ea6e9c37015",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "c7d138ca84dcb7b038f8cc203426af6c7969431e3e777164171acaa1cb68f85a",
+        "depth_sha256": "6dfaaa4f7bf2c6674658ecc060771fb2ddfedab34afe7b8377a400598e619657",
+        "png_sha256": "1282a8633b57c0ab022ebdc1f4ca6803936313c603dc10d9ec2d0b4c288599b9"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_5_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_5_last_1.m3p",
+      "sha256": "7c1cf8f0f4b32b50d5f5a48fbdbe44e23e38456b221f8c0bf74b6cace63b63c3",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_5_mod_2_3.m3p",
+      "source_sha256": "fbcf3b56887f5d2f3af552169bfecffcdaa71ee48a6b55fa49d650efa765c6f0",
+      "mode": 5,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_5_last_1",
+        "mode": 5,
+        "status": "useful",
+        "geometry_pixels": 2698,
+        "pixels": 3072,
+        "hit_depth_values": 2082,
+        "rgb_colors": 2500,
+        "changed_depth_pixels": [
+          2807
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "35c0a8a6f244e5dd60894078f450c452681a1ec6ac0b424eff67ff5c04c02ba4",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "7c1cf8f0f4b32b50d5f5a48fbdbe44e23e38456b221f8c0bf74b6cace63b63c3",
+        "depth_sha256": "afe9accc14b1dc664e2e758babaeb379c8d30e45ae6ac793193a057098630fd2",
+        "png_sha256": "7ef63e4c322d876893d1fdb098a39a8e217d0ae067dc35a18c892f1466ef9b2f"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_6_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_6_first_1.m3p",
+      "sha256": "b076e65003bceb1ad9150468375216aa148636c5f5eff777f8208f9ac37b278a",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_6_mod_2_3.m3p",
+      "source_sha256": "ef865c460a561b3ce87f1145ee0d7d560e562dfac52152d3734a7529346d1dbe",
+      "mode": 6,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_6_first_1",
+        "mode": 6,
+        "status": "useful",
+        "geometry_pixels": 1649,
+        "pixels": 3072,
+        "hit_depth_values": 1494,
+        "rgb_colors": 1632,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "4d40781742e97527d9346f009b7ea19884be755ae992f3c06cae505e03ef7601",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "b076e65003bceb1ad9150468375216aa148636c5f5eff777f8208f9ac37b278a",
+        "depth_sha256": "deaf8d1de8d7230a9dc810bc6317af729c1a2dbe001c483b65481d3e6cab8b5f",
+        "png_sha256": "67d89188578ce63e2c2583c7f2986d24ce04582b9c04c6d67516b645de660784"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_6_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_6_first_2.m3p",
+      "sha256": "fc83cd2fcf6418ad1ab44b7e68605bdbc5a837c37441d0a8970b6915beb76f67",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_6_mod_2_3.m3p",
+      "source_sha256": "ef865c460a561b3ce87f1145ee0d7d560e562dfac52152d3734a7529346d1dbe",
+      "mode": 6,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_6_first_2",
+        "mode": 6,
+        "status": "useful",
+        "geometry_pixels": 2653,
+        "pixels": 3072,
+        "hit_depth_values": 2202,
+        "rgb_colors": 2452,
+        "changed_depth_pixels": [
+          3028
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "4d40781742e97527d9346f009b7ea19884be755ae992f3c06cae505e03ef7601",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "fc83cd2fcf6418ad1ab44b7e68605bdbc5a837c37441d0a8970b6915beb76f67",
+        "depth_sha256": "1e9635b7ff889b26b520918c0b6fb5e29c3bda350ce6cdbc4f6ccb45554a4007",
+        "png_sha256": "7d1ef4b98fe7976c6e4d02691cd66444183914e4d00fa2f6dfd7858248e48741"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_6_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_6_last_1.m3p",
+      "sha256": "343f798286653793addee928035cfc74e113d7eaab82dc4493bcaf84c65b743a",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_6_mod_2_3.m3p",
+      "source_sha256": "ef865c460a561b3ce87f1145ee0d7d560e562dfac52152d3734a7529346d1dbe",
+      "mode": 6,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_6_last_1",
+        "mode": 6,
+        "status": "useful",
+        "geometry_pixels": 2636,
+        "pixels": 3072,
+        "hit_depth_values": 2078,
+        "rgb_colors": 2415,
+        "changed_depth_pixels": [
+          2728
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "322b5d5722bb097a1a3e1036352aae0c310454ee1971e7e7b6e397da025b39c8",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "343f798286653793addee928035cfc74e113d7eaab82dc4493bcaf84c65b743a",
+        "depth_sha256": "f3910315ca867422f16935f934c9fd613f5461a786832a4b5f3a54b80f9e1625",
+        "png_sha256": "2b122c8b04f965a1a086782fbf492edae488ffdad5b3c71963d98fc0dee582a6"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_6_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_6_last_2.m3p",
+      "sha256": "2e8199234870a22aeadb1a859c2dd28485fa4457e854adc6ab0d986e9757ed40",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_6_mod_2_3.m3p",
+      "source_sha256": "ef865c460a561b3ce87f1145ee0d7d560e562dfac52152d3734a7529346d1dbe",
+      "mode": 6,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_6_last_2",
+        "mode": 6,
+        "status": "useful",
+        "geometry_pixels": 3071,
+        "pixels": 3072,
+        "hit_depth_values": 1767,
+        "rgb_colors": 2456,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "322b5d5722bb097a1a3e1036352aae0c310454ee1971e7e7b6e397da025b39c8",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "2e8199234870a22aeadb1a859c2dd28485fa4457e854adc6ab0d986e9757ed40",
+        "depth_sha256": "b4e9bec79ac504164d679a11ce2daf43bdf7a464b5c416e07376b2bf228b48cb",
+        "png_sha256": "3125a561b7704e349f73a2c737cdcf22efc7ea12457ce5de44b13cd70129cf48"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_7_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_7_first_1.m3p",
+      "sha256": "1d7f208b3935f9e15ccd46f64cd7e1f0d32872954fa43517d6b9578e93fde961",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_7_mod_2_3.m3p",
+      "source_sha256": "2117fe295a08c197c414c5057825f93905f442bd262ac317db26bb8dd9d177d3",
+      "mode": 7,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_7_first_1",
+        "mode": 7,
+        "status": "useful",
+        "geometry_pixels": 1644,
+        "pixels": 3072,
+        "hit_depth_values": 1477,
+        "rgb_colors": 1628,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "8b3d59835513203c8c9a36b7b9b8d90fc65645b561c315330ef31e64b9277ebe",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "1d7f208b3935f9e15ccd46f64cd7e1f0d32872954fa43517d6b9578e93fde961",
+        "depth_sha256": "1addb708957b76fda1c7fae079b7a370441816c081a8d28ef77d41075a498c12",
+        "png_sha256": "2ba5d281c7a10d22a885ef50daaf552b289deeb50609b7493051ce350941f4e4"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_7_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_7_first_2.m3p",
+      "sha256": "014993e12013c0adb252eeb408ba30221de1ad706e5eef14b921f58d11cc037f",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_7_mod_2_3.m3p",
+      "source_sha256": "2117fe295a08c197c414c5057825f93905f442bd262ac317db26bb8dd9d177d3",
+      "mode": 7,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_7_first_2",
+        "mode": 7,
+        "status": "useful",
+        "geometry_pixels": 2638,
+        "pixels": 3072,
+        "hit_depth_values": 1715,
+        "rgb_colors": 2285,
+        "changed_depth_pixels": [
+          2743
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "8b3d59835513203c8c9a36b7b9b8d90fc65645b561c315330ef31e64b9277ebe",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "014993e12013c0adb252eeb408ba30221de1ad706e5eef14b921f58d11cc037f",
+        "depth_sha256": "0229636206559f11f4f6ba1f650d2da26ced361caa8be594a0f17b46aabb2de6",
+        "png_sha256": "9c35386c9b3b021934040beb57e53c8ba2d4eeb19100649a52be6ea8e516478b"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_7_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_7_last_1.m3p",
+      "sha256": "73f11d8605b4bc4e62b83be567cf93738f54cbee4013f7279265ee6576002bd3",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_7_mod_2_3.m3p",
+      "source_sha256": "2117fe295a08c197c414c5057825f93905f442bd262ac317db26bb8dd9d177d3",
+      "mode": 7,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_7_last_1",
+        "mode": 7,
+        "status": "useful",
+        "geometry_pixels": 2826,
+        "pixels": 3072,
+        "hit_depth_values": 2137,
+        "rgb_colors": 2565,
+        "changed_depth_pixels": [
+          2873
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b35efc46095fb585822efd6ce5d89176d379cd30261244959d721ccb23796610",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "73f11d8605b4bc4e62b83be567cf93738f54cbee4013f7279265ee6576002bd3",
+        "depth_sha256": "28877f4361a981a2bc0bbf8f1b03f08b7a111bfa7a8c5e36999d5717bed03abd",
+        "png_sha256": "fe53539f7bd7edf56610168f48f8efdfa991b3030a775ee5532e5bad55ca7075"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_8_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_8_first_1.m3p",
+      "sha256": "4bedd378cfdccda220a9d153880101f28a117bd79045920a60a174bc6608a088",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_8_mod_2_3.m3p",
+      "source_sha256": "35dd6f9e5be12b305b1f5f17a5e228888d3f157083ee800b6889080fcd046c46",
+      "mode": 8,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_8_first_1",
+        "mode": 8,
+        "status": "useful",
+        "geometry_pixels": 1158,
+        "pixels": 3072,
+        "hit_depth_values": 1043,
+        "rgb_colors": 1189,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "3430fe6f807899b0dadc26d701eeea770d3a2792d9b2ea04e87de32ff99d1d53",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "4bedd378cfdccda220a9d153880101f28a117bd79045920a60a174bc6608a088",
+        "depth_sha256": "1e81b24fea1775ae47af6219fcee58d9c0a028f1fea1a50cf9082eb7e3d42be9",
+        "png_sha256": "acf1f9b44fb885ffeceb4285986f9ade6ca146911732a1cdfd9ec3613d2944f0"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_8_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_8_first_2.m3p",
+      "sha256": "eb4373a03a4a2ca1b2c490075c57b04f42c5b3ef9d49aff9f8ab1230fead860c",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_8_mod_2_3.m3p",
+      "source_sha256": "35dd6f9e5be12b305b1f5f17a5e228888d3f157083ee800b6889080fcd046c46",
+      "mode": 8,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_8_first_2",
+        "mode": 8,
+        "status": "useful",
+        "geometry_pixels": 2972,
+        "pixels": 3072,
+        "hit_depth_values": 1734,
+        "rgb_colors": 2376,
+        "changed_depth_pixels": [
+          2600
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "3430fe6f807899b0dadc26d701eeea770d3a2792d9b2ea04e87de32ff99d1d53",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "eb4373a03a4a2ca1b2c490075c57b04f42c5b3ef9d49aff9f8ab1230fead860c",
+        "depth_sha256": "db61ec019a13f5220e1f0693066560f303a878a6f0cf26a808f785f3dc7e5662",
+        "png_sha256": "782a453bbdbeac496f807d6c6d05530f7a7fb787d320a7e888868292dce88ebe"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_8_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_8_last_1.m3p",
+      "sha256": "dfe987b633a2c95c88e1c492f86d3da00ae25d49e1d6e9d8584bf42456ed902f",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_8_mod_2_3.m3p",
+      "source_sha256": "35dd6f9e5be12b305b1f5f17a5e228888d3f157083ee800b6889080fcd046c46",
+      "mode": 8,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_8_last_1",
+        "mode": 8,
+        "status": "useful",
+        "geometry_pixels": 2220,
+        "pixels": 3072,
+        "hit_depth_values": 1791,
+        "rgb_colors": 2156,
+        "changed_depth_pixels": [
+          2656
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "80b76b74f4a8f88ccd744068f475893f1714deff309f7a9529d04cf89ec6e16d",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "dfe987b633a2c95c88e1c492f86d3da00ae25d49e1d6e9d8584bf42456ed902f",
+        "depth_sha256": "da002468b864a3e7de92f96355a091491b78748e2f8ce3f988a9aa4b3aa4a2e6",
+        "png_sha256": "048fc5869fe1c6d7b47edaaad4d42aea57e88d85beb2ffaa2caefa68119d2536"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_8_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_8_last_2.m3p",
+      "sha256": "de66e60ff570761c8aad4b503050a4947f482d067fa5d0b696816939a0364d6d",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_8_mod_2_3.m3p",
+      "source_sha256": "35dd6f9e5be12b305b1f5f17a5e228888d3f157083ee800b6889080fcd046c46",
+      "mode": 8,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_8_last_2",
+        "mode": 8,
+        "status": "useful",
+        "geometry_pixels": 3071,
+        "pixels": 3072,
+        "hit_depth_values": 1348,
+        "rgb_colors": 2139,
+        "changed_depth_pixels": [
+          3071
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "80b76b74f4a8f88ccd744068f475893f1714deff309f7a9529d04cf89ec6e16d",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "de66e60ff570761c8aad4b503050a4947f482d067fa5d0b696816939a0364d6d",
+        "depth_sha256": "74ebfce039d076dc28cbbbf8d0f7bc31148103b364648bb65ab2ce9b8df10011",
+        "png_sha256": "a704310098568a05a3f6d7f9884f7320cb576b26402d7e3c160565bfb2579f0c"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_9_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_9_first_1.m3p",
+      "sha256": "6406f426acd54099e532dba839e09cb3ec26e66e2adc4aeb4d30b409d13b7e5c",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_9_mod_2_3.m3p",
+      "source_sha256": "c0de4059bdcc3b62785dfa1515278e67272b5be64823690901473703a3954f2a",
+      "mode": 9,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_9_first_1",
+        "mode": 9,
+        "status": "useful",
+        "geometry_pixels": 1050,
+        "pixels": 3072,
+        "hit_depth_values": 962,
+        "rgb_colors": 1087,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "fc214b8549e06de6febffde29ad6f54c90b451a4c714c1423de497f3d1527af4",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "6406f426acd54099e532dba839e09cb3ec26e66e2adc4aeb4d30b409d13b7e5c",
+        "depth_sha256": "0f2259aca7c41b21f8a7d9b5377629ddf82b4c140d587e9af7256dc5dcbbbab3",
+        "png_sha256": "f30767ad3514b9be352f4587943527418a0d14d525bb8f8e959b0302d1e87977"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_9_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_9_last_1.m3p",
+      "sha256": "30fc8c73ae2e4c6a9c063344863c3660751ebae6444e3e915c72394ac1f3b8e6",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_9_mod_2_3.m3p",
+      "source_sha256": "c0de4059bdcc3b62785dfa1515278e67272b5be64823690901473703a3954f2a",
+      "mode": 9,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_9_last_1",
+        "mode": 9,
+        "status": "useful",
+        "geometry_pixels": 2709,
+        "pixels": 3072,
+        "hit_depth_values": 2063,
+        "rgb_colors": 2560,
+        "changed_depth_pixels": [
+          2916
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "bdfa9e5e014f0defa6ff70399771eef60610f2b46a8bd5594cecedbc50e490b6",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "30fc8c73ae2e4c6a9c063344863c3660751ebae6444e3e915c72394ac1f3b8e6",
+        "depth_sha256": "29fbbcad9111a3f72791c3fc9c429de3ca5b6287f26f106921b5b2b55e85d0db",
+        "png_sha256": "eea36a404e2b2e7a7a990bfd4463c909c6c95a553e080461ecb3e8044829ff41"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_9_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_9_last_2.m3p",
+      "sha256": "3f14cac0564cef9acd5894ab165f0c4f0bd6bd02df12cd2f375dab47ab9e335d",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_9_mod_2_3.m3p",
+      "source_sha256": "c0de4059bdcc3b62785dfa1515278e67272b5be64823690901473703a3954f2a",
+      "mode": 9,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_9_last_2",
+        "mode": 9,
+        "status": "useful",
+        "geometry_pixels": 3070,
+        "pixels": 3072,
+        "hit_depth_values": 1073,
+        "rgb_colors": 1665,
+        "changed_depth_pixels": [
+          3070
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "bdfa9e5e014f0defa6ff70399771eef60610f2b46a8bd5594cecedbc50e490b6",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "3f14cac0564cef9acd5894ab165f0c4f0bd6bd02df12cd2f375dab47ab9e335d",
+        "depth_sha256": "e0773d5fbd14959c9eaf9393bb227c9dad58968159b92b0b4e7609f9d12976fd",
+        "png_sha256": "edc5fa527712cbefb06142bb0baabc9acb88c2127c1898d25be949ffa4d4761a"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_10_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_10_first_1.m3p",
+      "sha256": "86020382bb1c09460e4fee50fa5a71eff8a0710723cd9e96c89a9bea671f5b51",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_10_mod_2_3.m3p",
+      "source_sha256": "feef64470b431931670e4b3389e1852daa05e33197e6907f220780374d9c039b",
+      "mode": 10,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_10_first_1",
+        "mode": 10,
+        "status": "useful",
+        "geometry_pixels": 1268,
+        "pixels": 3072,
+        "hit_depth_values": 1103,
+        "rgb_colors": 1266,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "64146e7ddc5151cd68285dc156b900e17ea703d7616b83a3bd8e89a52fb4a78d",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "86020382bb1c09460e4fee50fa5a71eff8a0710723cd9e96c89a9bea671f5b51",
+        "depth_sha256": "e446ef597899a025b7befc7806881048b6260e9d26801b238f6e1b73bc632c0a",
+        "png_sha256": "9b2bbba345d5fb03bcb2bcdba6a9e44f14678356d1ebbc025d6fa540b415bc2e"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_10_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_10_first_2.m3p",
+      "sha256": "4680c9d8e1aef386d13ec62b10a6141c14a9687249634dad9ebc7492da218a09",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_10_mod_2_3.m3p",
+      "source_sha256": "feef64470b431931670e4b3389e1852daa05e33197e6907f220780374d9c039b",
+      "mode": 10,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_10_first_2",
+        "mode": 10,
+        "status": "useful",
+        "geometry_pixels": 2838,
+        "pixels": 3072,
+        "hit_depth_values": 2391,
+        "rgb_colors": 2562,
+        "changed_depth_pixels": [
+          3013
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "64146e7ddc5151cd68285dc156b900e17ea703d7616b83a3bd8e89a52fb4a78d",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "4680c9d8e1aef386d13ec62b10a6141c14a9687249634dad9ebc7492da218a09",
+        "depth_sha256": "8be5b8ae7ff8f529422c9afea0de23250daa7fdc3811b5f1477d20d420e97d98",
+        "png_sha256": "c771953f52f70e976a576d67d97afd6c9f41dc19d45cc81661f8155d83f0771a"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_10_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_10_last_1.m3p",
+      "sha256": "8781c3286459fbf4f1f7cf17e6a2ba74cd4f09ef2e101f9059a43fc7d54dd5b7",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_10_mod_2_3.m3p",
+      "source_sha256": "feef64470b431931670e4b3389e1852daa05e33197e6907f220780374d9c039b",
+      "mode": 10,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_10_last_1",
+        "mode": 10,
+        "status": "useful",
+        "geometry_pixels": 2308,
+        "pixels": 3072,
+        "hit_depth_values": 1876,
+        "rgb_colors": 2210,
+        "changed_depth_pixels": [
+          2676
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "9a303855079fe3243c59e21dc92b8a80f2f5aeb1e2fa4a865df7cc7d5a6b3df1",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "8781c3286459fbf4f1f7cf17e6a2ba74cd4f09ef2e101f9059a43fc7d54dd5b7",
+        "depth_sha256": "8bca3fc3cb6b162c0aca02f55a39c0d462ed438448301e6a0c1d8430de567e0c",
+        "png_sha256": "62629efd6ec6677be70bb00ecf434aef490fee78152f730583496cdc1342c1b3"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_10_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_10_last_2.m3p",
+      "sha256": "c0b6990a0ee07759aac456d699b8b32769b977a9404f81654e520342abb0748e",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_10_mod_2_3.m3p",
+      "source_sha256": "feef64470b431931670e4b3389e1852daa05e33197e6907f220780374d9c039b",
+      "mode": 10,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_10_last_2",
+        "mode": 10,
+        "status": "useful",
+        "geometry_pixels": 3071,
+        "pixels": 3072,
+        "hit_depth_values": 1602,
+        "rgb_colors": 2264,
+        "changed_depth_pixels": [
+          3071
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "9a303855079fe3243c59e21dc92b8a80f2f5aeb1e2fa4a865df7cc7d5a6b3df1",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "c0b6990a0ee07759aac456d699b8b32769b977a9404f81654e520342abb0748e",
+        "depth_sha256": "33feb28750d89a27b48d966af9164de04579690d53aefef27a5a0e6f61d1b1c2",
+        "png_sha256": "1f3b5ba65690ac32c5680828a290abce6204659b6f983c802cff88f7e835fb15"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_first_1.m3p",
+      "sha256": "86b93e71bb536f6914931a526bfebf018ec03d512c1209bc08832a78306f6929",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_first_1",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 1351,
+        "pixels": 3072,
+        "hit_depth_values": 1197,
+        "rgb_colors": 1324,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "d5b25e49a1de1dba7217c5ace92b2c0aa1ef2c0f114c475325c04ff3ccfd1801",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "86b93e71bb536f6914931a526bfebf018ec03d512c1209bc08832a78306f6929",
+        "depth_sha256": "591116d3e03e8ea362a259b37cf08173de4f5e1bd7377754159d781b41145b22",
+        "png_sha256": "452821eee6d2a888f53e77afaa4501f5254d7697f9ca38db6c9b958fda0c98f0"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_first_2.m3p",
+      "sha256": "5416e1a1a066807e90519e2619a6a809c5fe74cc4bfe9733a0e2c8654c097e65",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_first_2",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 2597,
+        "pixels": 3072,
+        "hit_depth_values": 2209,
+        "rgb_colors": 2294,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "d5b25e49a1de1dba7217c5ace92b2c0aa1ef2c0f114c475325c04ff3ccfd1801",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "5416e1a1a066807e90519e2619a6a809c5fe74cc4bfe9733a0e2c8654c097e65",
+        "depth_sha256": "8db644e7bc5fb2569f3e6404d599d45e727c3e72caa890f8f6f23396b326c036",
+        "png_sha256": "c4eb03c63133073b8e80312ea67c7435a4767112de16d428f2acf473c84e16a2"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_first_4",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_first_4.m3p",
+      "sha256": "df7db8ee343e8a420846e82ebd2e361cadb0c0fc57a6a619019d0b8fae67420b",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "first",
+      "repeat": 4,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_first_4",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 3030,
+        "pixels": 3072,
+        "hit_depth_values": 2490,
+        "rgb_colors": 2755,
+        "changed_depth_pixels": [
+          3053
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "d5b25e49a1de1dba7217c5ace92b2c0aa1ef2c0f114c475325c04ff3ccfd1801",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "df7db8ee343e8a420846e82ebd2e361cadb0c0fc57a6a619019d0b8fae67420b",
+        "depth_sha256": "364ce65d3e490403ad52a3fe9deb0cec6b008ee53cb85595dce811d6dc08edaf",
+        "png_sha256": "22032a929457ff0c870f76ef32eaf9e95cdd0eb51639fdf77d9d49a27ec8ce09"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_last_1.m3p",
+      "sha256": "eadc9376794fe2d0c7cba7672ea188ab382385573fda16f3d84257452b016aeb",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_last_1",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 1431,
+        "pixels": 3072,
+        "hit_depth_values": 1268,
+        "rgb_colors": 1408,
+        "changed_depth_pixels": [
+          1960
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "72eff6dfdfcffe4549a79e172783ed4d8181cd07274045417b4077be6f6e9d7d",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "eadc9376794fe2d0c7cba7672ea188ab382385573fda16f3d84257452b016aeb",
+        "depth_sha256": "501a25291fa8fbc19f8fc4937b53b15f9ffbd54937bb7102035ae5d6def5bc97",
+        "png_sha256": "b3900ba6665869ee7b74dcea1e28b142f7f7803b6513bc727709d01506ccb2ca"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_last_2.m3p",
+      "sha256": "cd49dee106b5ef25b1736e0ea36a928b154eeb557cd4808e8b7532668a74aadc",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_last_2",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 3006,
+        "pixels": 3072,
+        "hit_depth_values": 2107,
+        "rgb_colors": 2418,
+        "changed_depth_pixels": [
+          3030
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "72eff6dfdfcffe4549a79e172783ed4d8181cd07274045417b4077be6f6e9d7d",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "cd49dee106b5ef25b1736e0ea36a928b154eeb557cd4808e8b7532668a74aadc",
+        "depth_sha256": "96b1615c588ef7b5d2ca1ba5fc02b439c08ecc93134cb624d7df0ad354705a0b",
+        "png_sha256": "198e2a0590be6677d035317ab909d956b1f4e85322488f228fa778c4c0209598"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_11_last_4",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_11_last_4.m3p",
+      "sha256": "b12da19c645162ef546ffb9744fd3b3eecf84aa663ae5d57553642980553592f",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_11_mod_2_3.m3p",
+      "source_sha256": "4cd4709743f6341e812b3be825c206b913a6128b63ded361f50d970745b99c15",
+      "mode": 11,
+      "order": "last",
+      "repeat": 4,
+      "qualification": {
+        "case": "vsshapes_hybrid_11_last_4",
+        "mode": 11,
+        "status": "useful",
+        "geometry_pixels": 3056,
+        "pixels": 3072,
+        "hit_depth_values": 1872,
+        "rgb_colors": 2563,
+        "changed_depth_pixels": [
+          3056
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "72eff6dfdfcffe4549a79e172783ed4d8181cd07274045417b4077be6f6e9d7d",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "b12da19c645162ef546ffb9744fd3b3eecf84aa663ae5d57553642980553592f",
+        "depth_sha256": "4f48fc267bb3d2036447a2fb1923e0b4d9009e92dbcd79fb21860c8534a5e27c",
+        "png_sha256": "23a550a733f92164e9820872d393f9c9695638b916755f9a6fc40a995b9a1ffa"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_12_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_12_first_1.m3p",
+      "sha256": "1e28a5ad613e0b01583661ae0414c1b83eb76088ded398b327dedc86dc746710",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_12_mod_2_3.m3p",
+      "source_sha256": "76ec08c72dc56e57d812625bcbc378e380a15c192b5a3bd01ef02dc353c93fc6",
+      "mode": 12,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_12_first_1",
+        "mode": 12,
+        "status": "useful",
+        "geometry_pixels": 1294,
+        "pixels": 3072,
+        "hit_depth_values": 1154,
+        "rgb_colors": 1309,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b1679d2ab725e1044ab2e494fa283325adf44799898c96799ae601837a1b6692",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "1e28a5ad613e0b01583661ae0414c1b83eb76088ded398b327dedc86dc746710",
+        "depth_sha256": "7225d7186fedfe1608a15ef302656982f50f06c5b737c32d708f74d0552af019",
+        "png_sha256": "b4986da5bb29b6f7fda801f5a083c4535bce16f7a1187f5231d31d04d54520b1"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_12_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_12_first_2.m3p",
+      "sha256": "f1685dbe854b0aad848138e3f1a23db3a7340827bcb39ba5cb6ba3e01b21ebb1",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_12_mod_2_3.m3p",
+      "source_sha256": "76ec08c72dc56e57d812625bcbc378e380a15c192b5a3bd01ef02dc353c93fc6",
+      "mode": 12,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_12_first_2",
+        "mode": 12,
+        "status": "useful",
+        "geometry_pixels": 2501,
+        "pixels": 3072,
+        "hit_depth_values": 2166,
+        "rgb_colors": 2417,
+        "changed_depth_pixels": [
+          3042
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b1679d2ab725e1044ab2e494fa283325adf44799898c96799ae601837a1b6692",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "f1685dbe854b0aad848138e3f1a23db3a7340827bcb39ba5cb6ba3e01b21ebb1",
+        "depth_sha256": "ef1c42cff74b3ddd31f575568c3164274630c0cd93f1cc8dfdc73f4085ebcdb4",
+        "png_sha256": "550dba9c60f32e679b6e41d4155d380a45a437fd8dce2a6735b4cee6130473a6"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_12_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_12_last_1.m3p",
+      "sha256": "a1b09056302bd874a89dab8b362cdeba4ca71e9fb7d2b314b953af86c7ffdfed",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_12_mod_2_3.m3p",
+      "source_sha256": "76ec08c72dc56e57d812625bcbc378e380a15c192b5a3bd01ef02dc353c93fc6",
+      "mode": 12,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_12_last_1",
+        "mode": 12,
+        "status": "useful",
+        "geometry_pixels": 1806,
+        "pixels": 3072,
+        "hit_depth_values": 1533,
+        "rgb_colors": 1739,
+        "changed_depth_pixels": [
+          2341
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b077e979fd8446f1b019b50dbe597ce671b8e8223885407643926a0e88cb129b",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "a1b09056302bd874a89dab8b362cdeba4ca71e9fb7d2b314b953af86c7ffdfed",
+        "depth_sha256": "607a877d7408d54e9403cefe875b37a8af48e8cb0835328cc5b7dc499478af34",
+        "png_sha256": "892d9b0892f1cb3a46dd74566deac99be2023e920b733c83e5a7d8cbcc07cbe0"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_12_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_12_last_2.m3p",
+      "sha256": "c7c766f93cd6b28aba3d9ab70aa6c1b188c467342dde9f8f8d952f1d7a407949",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_12_mod_2_3.m3p",
+      "source_sha256": "76ec08c72dc56e57d812625bcbc378e380a15c192b5a3bd01ef02dc353c93fc6",
+      "mode": 12,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_12_last_2",
+        "mode": 12,
+        "status": "useful",
+        "geometry_pixels": 3004,
+        "pixels": 3072,
+        "hit_depth_values": 1874,
+        "rgb_colors": 2427,
+        "changed_depth_pixels": [
+          3017
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b077e979fd8446f1b019b50dbe597ce671b8e8223885407643926a0e88cb129b",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "c7c766f93cd6b28aba3d9ab70aa6c1b188c467342dde9f8f8d952f1d7a407949",
+        "depth_sha256": "49b06a45188614b9cdf82c35a2e920970cc56b1d9e2c148c0d55b71b9ee6b2ec",
+        "png_sha256": "5f129e29f1b76f4c98407640c548b128e732bebf71f93f14db5b0cf59dde3945"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_12_last_4",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_12_last_4.m3p",
+      "sha256": "80f42d6cad396704a758845457ff7acebb4b37257446d4b48d858ec9bc47999d",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_12_mod_2_3.m3p",
+      "source_sha256": "76ec08c72dc56e57d812625bcbc378e380a15c192b5a3bd01ef02dc353c93fc6",
+      "mode": 12,
+      "order": "last",
+      "repeat": 4,
+      "qualification": {
+        "case": "vsshapes_hybrid_12_last_4",
+        "mode": 12,
+        "status": "useful",
+        "geometry_pixels": 3071,
+        "pixels": 3072,
+        "hit_depth_values": 1232,
+        "rgb_colors": 1852,
+        "changed_depth_pixels": [
+          3071
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b077e979fd8446f1b019b50dbe597ce671b8e8223885407643926a0e88cb129b",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "80f42d6cad396704a758845457ff7acebb4b37257446d4b48d858ec9bc47999d",
+        "depth_sha256": "f5177be44c2cf593102788f7f115feadc6ba08a0d8446a72fe7684b11ee72859",
+        "png_sha256": "4ff2998475d8d453b810973d0a4dc8244e18bf10f3e47c64e7b5276a5c2f088f"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_13_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_13_first_1.m3p",
+      "sha256": "b3aac8f7bbc93461571ca13e288d6070bbb5a6c2d8504046be48a7da35824812",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_13_mod_2_3.m3p",
+      "source_sha256": "55b3361908a6ed1af2c2436aabaa72cc81e97300cab8141bb032bbb60d7b92dc",
+      "mode": 13,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_13_first_1",
+        "mode": 13,
+        "status": "useful",
+        "geometry_pixels": 1374,
+        "pixels": 3072,
+        "hit_depth_values": 1224,
+        "rgb_colors": 1370,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "af2084321d63938693bc76ee968e501b95e1264133fab6a06756083767ec014f",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "b3aac8f7bbc93461571ca13e288d6070bbb5a6c2d8504046be48a7da35824812",
+        "depth_sha256": "a772d80d1a7730861e1c1e5c349541803c1cbe97580e79912b5e3697335b2fcd",
+        "png_sha256": "181ba675dfcc13c6fb6aa6f8b468517507946e3471ca624cac79e7111fedb6b5"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_13_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_13_first_2.m3p",
+      "sha256": "6bb982b63e1b820723b604097d90f3e2767e7cb84e4a6ca1598407111943da2f",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_13_mod_2_3.m3p",
+      "source_sha256": "55b3361908a6ed1af2c2436aabaa72cc81e97300cab8141bb032bbb60d7b92dc",
+      "mode": 13,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_13_first_2",
+        "mode": 13,
+        "status": "useful",
+        "geometry_pixels": 2812,
+        "pixels": 3072,
+        "hit_depth_values": 2007,
+        "rgb_colors": 2575,
+        "changed_depth_pixels": [
+          2968
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "af2084321d63938693bc76ee968e501b95e1264133fab6a06756083767ec014f",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "6bb982b63e1b820723b604097d90f3e2767e7cb84e4a6ca1598407111943da2f",
+        "depth_sha256": "dbd1a4d19cd7ae71c30548ae9f75e1dd6a8dc7e11b67a9fdfff9852d1ea85fa5",
+        "png_sha256": "511a1cd411aaebc034fb62033feb9903e6d136307d396076ae2cc73096eb2d10"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_13_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_13_last_1.m3p",
+      "sha256": "461416650d66d32f748755c5c5cebc78a2146000c3cc26db4e38a9f2e05b16ef",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_13_mod_2_3.m3p",
+      "source_sha256": "55b3361908a6ed1af2c2436aabaa72cc81e97300cab8141bb032bbb60d7b92dc",
+      "mode": 13,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_13_last_1",
+        "mode": 13,
+        "status": "useful",
+        "geometry_pixels": 2141,
+        "pixels": 3072,
+        "hit_depth_values": 1743,
+        "rgb_colors": 2042,
+        "changed_depth_pixels": [
+          2512
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "9d135312ed6712e153a4d72b0a142c8264983bccec6ae3fca28f6c3be2088cdc",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "461416650d66d32f748755c5c5cebc78a2146000c3cc26db4e38a9f2e05b16ef",
+        "depth_sha256": "d10445c437210e5fbbb68ed0f4ebddd8528e88fc7edd108126ee57dfff7917a6",
+        "png_sha256": "8c574c5492738bd26fd03e90a848eca2e08360f48edc190b43665391d07f66fc"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_14_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_14_first_1.m3p",
+      "sha256": "014a74efd49d8f6a938d31e9f5d492d3ace355b3b6a80ca09464c646005ad4f6",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_14_mod_2_3.m3p",
+      "source_sha256": "67a6a211746ed7757b8550edaa5cbc2bde4233aa2019023d5eb76d110f2251ab",
+      "mode": 14,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_14_first_1",
+        "mode": 14,
+        "status": "useful",
+        "geometry_pixels": 1159,
+        "pixels": 3072,
+        "hit_depth_values": 1035,
+        "rgb_colors": 1179,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "1257aa0e6a6e8accace3f19b25879453070290cee1aca042654e8896631d36f7",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "014a74efd49d8f6a938d31e9f5d492d3ace355b3b6a80ca09464c646005ad4f6",
+        "depth_sha256": "37dc2ff8daf89954a421a931e7a94ec8b71a6a82d706cda89900654ec662571c",
+        "png_sha256": "ac9b4514897b01dfefeee9714d4e2c00b54359b06574d84c379ff94b1fefbd53"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_14_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_14_first_2.m3p",
+      "sha256": "30abe0b20d36760de921c799c4fee09377d2504385a856cb8bc936a0d6cf1c25",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_14_mod_2_3.m3p",
+      "source_sha256": "67a6a211746ed7757b8550edaa5cbc2bde4233aa2019023d5eb76d110f2251ab",
+      "mode": 14,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_14_first_2",
+        "mode": 14,
+        "status": "useful",
+        "geometry_pixels": 2228,
+        "pixels": 3072,
+        "hit_depth_values": 1885,
+        "rgb_colors": 2189,
+        "changed_depth_pixels": [
+          3068
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "1257aa0e6a6e8accace3f19b25879453070290cee1aca042654e8896631d36f7",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "30abe0b20d36760de921c799c4fee09377d2504385a856cb8bc936a0d6cf1c25",
+        "depth_sha256": "7d0ac4f9fc499d21cc986b4ac68cd1e738e0ede7fc8d5565d91b4d46c32a826c",
+        "png_sha256": "62c6fc14f5d36f01175e59f7d0d863545eaea48014fe1f97c8d691c74cb9f15d"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_14_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_14_last_1.m3p",
+      "sha256": "c3ff4e081f8cf7e0c2099a4181f4f86ee14eaea00c6ec7668d36ee80fde5dc88",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_14_mod_2_3.m3p",
+      "source_sha256": "67a6a211746ed7757b8550edaa5cbc2bde4233aa2019023d5eb76d110f2251ab",
+      "mode": 14,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_14_last_1",
+        "mode": 14,
+        "status": "useful",
+        "geometry_pixels": 1761,
+        "pixels": 3072,
+        "hit_depth_values": 1501,
+        "rgb_colors": 1724,
+        "changed_depth_pixels": [
+          2310
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b643f549e82b788f68137776b3356d562f48eb5a7750b46e3c4332e22d3b0c5a",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "c3ff4e081f8cf7e0c2099a4181f4f86ee14eaea00c6ec7668d36ee80fde5dc88",
+        "depth_sha256": "9b889ff48f5fd54c9ae85ca7d2b2bac52711d57e01298a7bdd5ca18f2e36b06a",
+        "png_sha256": "44398d1ee8d26fddb81fee49d099b520575ac8fba075fe3d41910ab6d7f9f0c4"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_14_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_14_last_2.m3p",
+      "sha256": "269a9247921391be07c932bdadb41ed6fec3e990af16d7f6ddc21c3e4330d067",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_14_mod_2_3.m3p",
+      "source_sha256": "67a6a211746ed7757b8550edaa5cbc2bde4233aa2019023d5eb76d110f2251ab",
+      "mode": 14,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_14_last_2",
+        "mode": 14,
+        "status": "useful",
+        "geometry_pixels": 3065,
+        "pixels": 3072,
+        "hit_depth_values": 1836,
+        "rgb_colors": 2438,
+        "changed_depth_pixels": [
+          3065
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "b643f549e82b788f68137776b3356d562f48eb5a7750b46e3c4332e22d3b0c5a",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "269a9247921391be07c932bdadb41ed6fec3e990af16d7f6ddc21c3e4330d067",
+        "depth_sha256": "0edffa24cff43753c2c7e94520749067575918a8f03dadc743725c3f05859c54",
+        "png_sha256": "0abd4b190de78e4742bdb6fc840705ff430b066428a8647132245dc6e51eac1f"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_15_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_15_first_1.m3p",
+      "sha256": "b200d5ebf8796de03ba6fc3998ca3bd4a1454d283f5b72f854cda73817491a98",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_15_mod_2_3.m3p",
+      "source_sha256": "2b5ee0a3aa0d92cfbd8dbd991ef76bd52284be2ef54e236510caa951cdb5a6e6",
+      "mode": 15,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_15_first_1",
+        "mode": 15,
+        "status": "useful",
+        "geometry_pixels": 1135,
+        "pixels": 3072,
+        "hit_depth_values": 1037,
+        "rgb_colors": 1166,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "a87240f68ea2002081442da8f37637d7652788af7b0d2733e34b4bc14473b403",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "b200d5ebf8796de03ba6fc3998ca3bd4a1454d283f5b72f854cda73817491a98",
+        "depth_sha256": "5ab40a8ecedd6ce2672f9c3ce78eae57ae248219d15561edd36aaee28131fa81",
+        "png_sha256": "495ac1321ad065021a333059271d41d2281a27f3b8ab8ff43f01b2774d105208"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_15_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_15_first_2.m3p",
+      "sha256": "6564759bd21ae7ad5b411cf7aac09584e7dd1ebd46c4feb2b6a02230b84e5fb5",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_15_mod_2_3.m3p",
+      "source_sha256": "2b5ee0a3aa0d92cfbd8dbd991ef76bd52284be2ef54e236510caa951cdb5a6e6",
+      "mode": 15,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_15_first_2",
+        "mode": 15,
+        "status": "useful",
+        "geometry_pixels": 3012,
+        "pixels": 3072,
+        "hit_depth_values": 1607,
+        "rgb_colors": 2146,
+        "changed_depth_pixels": [
+          2313
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "a87240f68ea2002081442da8f37637d7652788af7b0d2733e34b4bc14473b403",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "6564759bd21ae7ad5b411cf7aac09584e7dd1ebd46c4feb2b6a02230b84e5fb5",
+        "depth_sha256": "6677a0fbfe338fcb1b0fc7fce8b7b8423df59b3a0589436ebaef6ad2fc281e89",
+        "png_sha256": "4490beed0e8d72419f0111ca5c8ffd19d56370a2d5bcd21c807da0814e9e3e7a"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_15_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_15_last_1.m3p",
+      "sha256": "2e2935d45c205305b2a1436c830b7e484fec6d3a4c51c01e3df1f0774184a460",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_15_mod_2_3.m3p",
+      "source_sha256": "2b5ee0a3aa0d92cfbd8dbd991ef76bd52284be2ef54e236510caa951cdb5a6e6",
+      "mode": 15,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_15_last_1",
+        "mode": 15,
+        "status": "useful",
+        "geometry_pixels": 2206,
+        "pixels": 3072,
+        "hit_depth_values": 1779,
+        "rgb_colors": 2141,
+        "changed_depth_pixels": [
+          2667
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "1196b1797ac03a5b712bfcd366b43b54bb36e84fa07af67bc928353292f244a7",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "2e2935d45c205305b2a1436c830b7e484fec6d3a4c51c01e3df1f0774184a460",
+        "depth_sha256": "262d7a16a4268acd89adfb4f4b1438453edda34a06c8906ab0731667235c264e",
+        "png_sha256": "742860505f3b8f2d45db3121953b0673c204d402859b53c1acb99e0cc113ecb1"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_16_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_16_first_1.m3p",
+      "sha256": "91c16ea7c0755a5a8b9586268424c56e915b90d2a11acafa64c7053a58453f72",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_16_mod_2_3.m3p",
+      "source_sha256": "853131a1b871c186e1fff70deae96e9a411d5061afc48febe4093ead616fea10",
+      "mode": 16,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_16_first_1",
+        "mode": 16,
+        "status": "useful",
+        "geometry_pixels": 1075,
+        "pixels": 3072,
+        "hit_depth_values": 987,
+        "rgb_colors": 1106,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "c1f501e61c9253e06d9e1713f1f39077a5b6c49d27efe84aacdbba6d5dae618a",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "91c16ea7c0755a5a8b9586268424c56e915b90d2a11acafa64c7053a58453f72",
+        "depth_sha256": "488419fe81469a5f691bad2da6f902b24ba9a657415c87a0b08e2be4ad917789",
+        "png_sha256": "0e1d7c3000de370f079d17c19f5677f2497c51d3c3b6072dff0a9ff3be9811ab"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_16_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_16_last_1.m3p",
+      "sha256": "9b148bc67b206726abe79dc7923994a497c0efc4333d3e8b0833edb4ae971076",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_16_mod_2_3.m3p",
+      "source_sha256": "853131a1b871c186e1fff70deae96e9a411d5061afc48febe4093ead616fea10",
+      "mode": 16,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_16_last_1",
+        "mode": 16,
+        "status": "useful",
+        "geometry_pixels": 2582,
+        "pixels": 3072,
+        "hit_depth_values": 1994,
+        "rgb_colors": 2478,
+        "changed_depth_pixels": [
+          2865
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "a5ba85a0b312d4c6a15971e38479270fccadc01ce3905f8722cff3b445b6e4b0",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "9b148bc67b206726abe79dc7923994a497c0efc4333d3e8b0833edb4ae971076",
+        "depth_sha256": "984def08fc5358ccc2c80ce558017637b5f70745fbc1f0c60e2c41820490e9bf",
+        "png_sha256": "1e0c40ca6175e6abcd4112be14e809f6e537463ac3178229fdf20fc552e47ee5"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_16_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_16_last_2.m3p",
+      "sha256": "932885e574fd301e4ff23c6c24a43a28de10a15cff5b0ac1414b34ae3e73a098",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_16_mod_2_3.m3p",
+      "source_sha256": "853131a1b871c186e1fff70deae96e9a411d5061afc48febe4093ead616fea10",
+      "mode": 16,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_16_last_2",
+        "mode": 16,
+        "status": "useful",
+        "geometry_pixels": 3071,
+        "pixels": 3072,
+        "hit_depth_values": 1089,
+        "rgb_colors": 1697,
+        "changed_depth_pixels": [
+          3071
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "a5ba85a0b312d4c6a15971e38479270fccadc01ce3905f8722cff3b445b6e4b0",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "932885e574fd301e4ff23c6c24a43a28de10a15cff5b0ac1414b34ae3e73a098",
+        "depth_sha256": "27cad665347eba113dc01c2007d770c1991e99f5a2725b10daddefcacceb2443",
+        "png_sha256": "aceb5cb91b43ed27208fde63496f79a168cb60f33390c4c72efaec80a6cf023b"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_17_first_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_17_first_1.m3p",
+      "sha256": "16fe65ef4b0b53cb18346cf8b1fe5fe3e57f9bb2d60ab5c572708578c00e664c",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_17_mod_2_3.m3p",
+      "source_sha256": "e398841951ddf18859416dbab35ef3101c7c68ce6bdd8a77ca15d75d0fef72c3",
+      "mode": 17,
+      "order": "first",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_17_first_1",
+        "mode": 17,
+        "status": "useful",
+        "geometry_pixels": 1204,
+        "pixels": 3072,
+        "hit_depth_values": 1099,
+        "rgb_colors": 1236,
+        "changed_depth_pixels": [
+          3072
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "fea1b65a5be52d245db0c2bbea78f86fa50fec8fdfe66235fe51b6a3943187f2",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "16fe65ef4b0b53cb18346cf8b1fe5fe3e57f9bb2d60ab5c572708578c00e664c",
+        "depth_sha256": "5551fa544be0e9aa1a087558d1ab32e705ec8efb75c0ddea4f854bb690806d8c",
+        "png_sha256": "0eebc77b33a46b8fa49d68560ff9829f0be88abc5e55fda12dfcf8c02a07c8ae"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_17_first_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_17_first_2.m3p",
+      "sha256": "93aec228de7378558947162781a290d655d1ac3677c16fd33e6283e21a5edcf9",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_17_mod_2_3.m3p",
+      "source_sha256": "e398841951ddf18859416dbab35ef3101c7c68ce6bdd8a77ca15d75d0fef72c3",
+      "mode": 17,
+      "order": "first",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_17_first_2",
+        "mode": 17,
+        "status": "useful",
+        "geometry_pixels": 2569,
+        "pixels": 3072,
+        "hit_depth_values": 1954,
+        "rgb_colors": 2206,
+        "changed_depth_pixels": [
+          2806
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "fea1b65a5be52d245db0c2bbea78f86fa50fec8fdfe66235fe51b6a3943187f2",
+            "depth_sha256": "239fc8596061a04d949441c9987eb9fd8ba896cd01ef07e87e099369afa06911"
+          }
+        ],
+        "scene_sha256": "93aec228de7378558947162781a290d655d1ac3677c16fd33e6283e21a5edcf9",
+        "depth_sha256": "c23b329efdfcfbbe9fc8fe4a429090cb6778c24e57920b364e04be848db8ce7a",
+        "png_sha256": "6b827fbe439aadeaa1a23b6acfe5ace9779e0e896ce94c7fb0342d5a8c29b4de"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_17_last_1",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_17_last_1.m3p",
+      "sha256": "e85104a19efbe671041e7cdf5559f004023a25b05ee5e34971af0c4bdc6a5141",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_17_mod_2_3.m3p",
+      "source_sha256": "e398841951ddf18859416dbab35ef3101c7c68ce6bdd8a77ca15d75d0fef72c3",
+      "mode": 17,
+      "order": "last",
+      "repeat": 1,
+      "qualification": {
+        "case": "vsshapes_hybrid_17_last_1",
+        "mode": 17,
+        "status": "useful",
+        "geometry_pixels": 2631,
+        "pixels": 3072,
+        "hit_depth_values": 2038,
+        "rgb_colors": 2500,
+        "changed_depth_pixels": [
+          2801
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "5da1fc669a69e6d319cc50f6f5c9988a72caec1ad770bbc60e0a6dd37376c5be",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "e85104a19efbe671041e7cdf5559f004023a25b05ee5e34971af0c4bdc6a5141",
+        "depth_sha256": "5535a708505f110decc253535b4fa4bcf30de39b65bf03e4d670e52a9f1ff54a",
+        "png_sha256": "79c8848a2ec78fe60613a4328cafeb7a951f96af843abb231cdd2261d29c0851"
+      }
+    },
+    {
+      "id": "vsshapes_hybrid_17_last_2",
+      "target_formulas": [
+        "ABoxVSShapes"
+      ],
+      "scene": "comparison\\scenes_validation\\vsshapes\\vsshapes_hybrid_17_last_2.m3p",
+      "sha256": "9bb79ea838b9d36d72135908f29191625df0f45870fe6e278019c73d636b5935",
+      "source": "comparison\\runs\\external-complete\\vsshapes-checks\\vsshapes_17_mod_2_3.m3p",
+      "source_sha256": "e398841951ddf18859416dbab35ef3101c7c68ce6bdd8a77ca15d75d0fef72c3",
+      "mode": 17,
+      "order": "last",
+      "repeat": 2,
+      "qualification": {
+        "case": "vsshapes_hybrid_17_last_2",
+        "mode": 17,
+        "status": "useful",
+        "geometry_pixels": 3065,
+        "pixels": 3072,
+        "hit_depth_values": 1760,
+        "rgb_colors": 2426,
+        "changed_depth_pixels": [
+          3070
+        ],
+        "controls": [
+          {
+            "name": "ABoxVSShapes",
+            "scene_sha256": "5da1fc669a69e6d319cc50f6f5c9988a72caec1ad770bbc60e0a6dd37376c5be",
+            "depth_sha256": "4446be6c6f8f7bef1a4a17fa58841d03b89fdd896937e6a0645eea4188de174a"
+          }
+        ],
+        "scene_sha256": "9bb79ea838b9d36d72135908f29191625df0f45870fe6e278019c73d636b5935",
+        "depth_sha256": "09424003aa210fe225d1a5511eb2dfd9e09459ea54d01b5cf679fe3522e41567",
+        "png_sha256": "67c52b80594ac431834bb7ddf31c8890e601b2cb45f22789ca5f977de42543fd"
+      }
+    }
+  ]
+}

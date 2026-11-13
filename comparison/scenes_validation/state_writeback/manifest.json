@@ -1,0 +1,25 @@
+{
+  "scene": "challenge__updateC2_p3_zero.m3p",
+  "sha256": "49e8fc807ea20f761ea5c0646fd63651badf995534507f999f2f4f12b8f8af6f",
+  "reference": "comparison/runs/external-complete/parameter-parity-batch/summary.json",
+  "pixels": [
+    {
+      "x": 31,
+      "y": 32,
+      "rgb": [
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "x": 62,
+      "y": 14,
+      "rgb": [
+        90,
+        230,
+        69
+      ]
+    }
+  ]
+}

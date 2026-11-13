@@ -1,0 +1,1634 @@
+{
+  "schema": "mb3d.render-benchmark-selection.v1",
+  "name": "effects-v1",
+  "description": "Nine finite ordinary workloads and twelve effect-off controls. These are new benchmark inputs, not frozen references or historical parity results.",
+  "origin_source_commit": "4027dabcb4b7f885d55b738115c1d72468f5de1c",
+  "generator": {
+    "path": "comparison/benchmark_scenes/generate_effects_v1.py",
+    "sha256": "dd6c8df957a2601ee3463c772873b06c270f6ffeab8bd195682bb1586459875c"
+  },
+  "expected_count": 9,
+  "expected_control_count": 12,
+  "default_dimensions": {
+    "width": 512,
+    "height": 384
+  },
+  "smoke_dimensions": {
+    "width": 64,
+    "height": 48
+  },
+  "excluded": [
+    "Monte Carlo",
+    "JIT"
+  ],
+  "assets": [
+    {
+      "id": "map9001",
+      "source_path": "comparison/fixtures/M3Maps/9001.bmp",
+      "runtime_path": "M3Maps/9001.bmp",
+      "sha256": "6e368b0451de795ad157725dd1a35864e01fdd3290761f3e148f4c05d2465c09"
+    }
+  ],
+  "acceptance": {
+    "require_all_selected_scenes": true,
+    "require_nonconstant_rgb": true,
+    "require_effect_control_rgb_difference": true,
+    "require_declared_stages_completed": true,
+    "repeat_rgb": "exact",
+    "cpu_metal_rgb": "exact_for_common_scenes",
+    "note": "Flags alone do not prove an active effect. Each control must render successfully and change RGB; unsupported Metal effects must be reported explicitly."
+  },
+  "scenes": [
+    {
+      "id": "sphereifs-ao-shadows",
+      "name": "SphereIFS: AO and hard shadows",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-ao-shadows.m3p",
+      "scene_sha256": "369f10a6e62fa86bbd2b2b11fbf9e14a57f20be7262130a7a827c4bf5c1b71fd",
+      "source_scene": {
+        "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+        "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 200,
+          "after": 512,
+          "before_hex": "c8000000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 150,
+          "after": 384,
+          "before_hex": "96000000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        }
+      ],
+      "backends": [
+        "cpu",
+        "metal"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color"
+      ],
+      "active_effects": [
+        "ao",
+        "shadows"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "metal_profile": "exact-full-shading",
+      "effect_controls": [
+        {
+          "id": "sphereifs-ao-shadows-ao-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-ao-shadows-ao-off.m3p",
+          "scene_sha256": "7381fc589699988bf54f509438b7f4ea0d040a1b277af93beca9e06006853e8d",
+          "source_scene": {
+            "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+            "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 200,
+              "after": 512,
+              "before_hex": "c8000000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 150,
+              "after": 384,
+              "before_hex": "96000000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            },
+            {
+              "field": "bCalculateHardShadow",
+              "offset": 133,
+              "struct_format": "<B",
+              "before": 6,
+              "after": 7,
+              "before_hex": "06",
+              "after_hex": "07"
+            },
+            {
+              "field": "bCalcAmbShadowAutomatic",
+              "offset": 149,
+              "struct_format": "<B",
+              "before": 21,
+              "after": 20,
+              "before_hex": "15",
+              "after_hex": "14"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "ao"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "shadows",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "ao"
+          ],
+          "expect_rgb_difference": true
+        },
+        {
+          "id": "sphereifs-ao-shadows-shadows-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-ao-shadows-shadows-off.m3p",
+          "scene_sha256": "14b12ec3f651deb6fe61ed32362b4561f4fb403805a71e1b757a10005cf50f2d",
+          "source_scene": {
+            "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+            "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 200,
+              "after": 512,
+              "before_hex": "c8000000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 150,
+              "after": 384,
+              "before_hex": "96000000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "shadows"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "ao",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "shadows"
+          ],
+          "expect_rgb_difference": true
+        }
+      ]
+    },
+    {
+      "id": "boxifs-ao-shadows",
+      "name": "boxIFS: AO and hard shadows",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/boxifs-ao-shadows.m3p",
+      "scene_sha256": "a6e9d0370b4c7ca474d2b947c6897d8f4e1781d07c094d6b080f298ecb233a75",
+      "source_scene": {
+        "path": "comparison/scenes/extall_dIFS_boxIFS.m3p",
+        "sha256": "f1421193b493ce6e9d46161983a2b51ca3f9db6dce195dfc55ef3197c6230b15"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 200,
+          "after": 512,
+          "before_hex": "c8000000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 150,
+          "after": 384,
+          "before_hex": "96000000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        }
+      ],
+      "backends": [
+        "cpu",
+        "metal"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color"
+      ],
+      "active_effects": [
+        "ao",
+        "shadows"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "metal_profile": "exact-full-shading",
+      "effect_controls": [
+        {
+          "id": "boxifs-ao-shadows-ao-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/boxifs-ao-shadows-ao-off.m3p",
+          "scene_sha256": "a733cd3dd55de86fb579df935005141e6c04e0f3b0e277edf05d3d2f1e481dbc",
+          "source_scene": {
+            "path": "comparison/scenes/extall_dIFS_boxIFS.m3p",
+            "sha256": "f1421193b493ce6e9d46161983a2b51ca3f9db6dce195dfc55ef3197c6230b15"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 200,
+              "after": 512,
+              "before_hex": "c8000000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 150,
+              "after": 384,
+              "before_hex": "96000000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            },
+            {
+              "field": "bCalculateHardShadow",
+              "offset": 133,
+              "struct_format": "<B",
+              "before": 6,
+              "after": 7,
+              "before_hex": "06",
+              "after_hex": "07"
+            },
+            {
+              "field": "bCalcAmbShadowAutomatic",
+              "offset": 149,
+              "struct_format": "<B",
+              "before": 21,
+              "after": 20,
+              "before_hex": "15",
+              "after_hex": "14"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "ao"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "shadows",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "ao"
+          ],
+          "expect_rgb_difference": true
+        },
+        {
+          "id": "boxifs-ao-shadows-shadows-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/boxifs-ao-shadows-shadows-off.m3p",
+          "scene_sha256": "b468ce03de41939134c0abbbac5299fcbcc01786cbbba1502e497b9801b8b59d",
+          "source_scene": {
+            "path": "comparison/scenes/extall_dIFS_boxIFS.m3p",
+            "sha256": "f1421193b493ce6e9d46161983a2b51ca3f9db6dce195dfc55ef3197c6230b15"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 200,
+              "after": 512,
+              "before_hex": "c8000000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 150,
+              "after": 384,
+              "before_hex": "96000000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "shadows"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "ao",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "shadows"
+          ],
+          "expect_rgb_difference": true
+        }
+      ]
+    },
+    {
+      "id": "integerpower8-ao-shadows",
+      "name": "Integer Power 8: AO and hard shadows",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-ao-shadows.m3p",
+      "scene_sha256": "338347c1431e11047aacfe38335c9e690b083e5d0e47836a4cc7bc13d3fd5ed5",
+      "source_scene": {
+        "path": "comparison/scenes/test_03_intpow8.m3p",
+        "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 480,
+          "after": 512,
+          "before_hex": "e0010000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 360,
+          "after": 384,
+          "before_hex": "68010000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        }
+      ],
+      "backends": [
+        "cpu",
+        "metal"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color"
+      ],
+      "active_effects": [
+        "ao",
+        "shadows"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "metal_profile": "exact-full-shading",
+      "effect_controls": [
+        {
+          "id": "integerpower8-ao-shadows-ao-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-ao-shadows-ao-off.m3p",
+          "scene_sha256": "ab624333ffe53d724a09a5e3ad794526d67d1920090365962c48996c5bba0249",
+          "source_scene": {
+            "path": "comparison/scenes/test_03_intpow8.m3p",
+            "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 480,
+              "after": 512,
+              "before_hex": "e0010000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 360,
+              "after": 384,
+              "before_hex": "68010000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            },
+            {
+              "field": "bCalculateHardShadow",
+              "offset": 133,
+              "struct_format": "<B",
+              "before": 6,
+              "after": 7,
+              "before_hex": "06",
+              "after_hex": "07"
+            },
+            {
+              "field": "bCalcAmbShadowAutomatic",
+              "offset": 149,
+              "struct_format": "<B",
+              "before": 21,
+              "after": 20,
+              "before_hex": "15",
+              "after_hex": "14"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "ao"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "shadows",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "ao"
+          ],
+          "expect_rgb_difference": true
+        },
+        {
+          "id": "integerpower8-ao-shadows-shadows-off",
+          "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-ao-shadows-shadows-off.m3p",
+          "scene_sha256": "c4ea869e19d130c5a84f535d393540aef3846e10a111122a24baf93369ba04ec",
+          "source_scene": {
+            "path": "comparison/scenes/test_03_intpow8.m3p",
+            "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+          },
+          "patch_operations": [
+            {
+              "field": "Width",
+              "offset": 4,
+              "struct_format": "<i",
+              "before": 480,
+              "after": 512,
+              "before_hex": "e0010000",
+              "after_hex": "00020000"
+            },
+            {
+              "field": "Height",
+              "offset": 8,
+              "struct_format": "<i",
+              "before": 360,
+              "after": 384,
+              "before_hex": "68010000",
+              "after_hex": "80010000"
+            },
+            {
+              "field": "MCoptions",
+              "offset": 124,
+              "struct_format": "<B",
+              "before": 2,
+              "after": 0,
+              "before_hex": "02",
+              "after_hex": "00"
+            }
+          ],
+          "backends": [
+            "cpu"
+          ],
+          "disabled_effects": [
+            "shadows"
+          ],
+          "required_stages": [
+            "preparation",
+            "primary",
+            "ao",
+            "color"
+          ],
+          "required_not_run_stages": [
+            "shadows"
+          ],
+          "expect_rgb_difference": true
+        }
+      ]
+    },
+    {
+      "id": "integerpower8-reflections",
+      "name": "Integer Power 8: two reflection bounces",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-reflections.m3p",
+      "scene_sha256": "c3f841011b70bea1ddc626c1f696b0d231296ff7578553d19fbf7f1f7499c5df",
+      "source_scene": {
+        "path": "comparison/scenes/test_03_intpow8.m3p",
+        "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 480,
+          "after": 512,
+          "before_hex": "e0010000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 360,
+          "after": 384,
+          "before_hex": "68010000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        },
+        {
+          "field": "bCalcSRautomatic",
+          "offset": 336,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 1,
+          "before_hex": "00",
+          "after_hex": "01"
+        },
+        {
+          "field": "SRamount",
+          "offset": 332,
+          "struct_format": "<f",
+          "before": 1.0,
+          "after": 0.800000011920929,
+          "before_hex": "0000803f",
+          "after_hex": "cdcc4c3f"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color",
+        "reflections"
+      ],
+      "active_effects": [
+        "reflections"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal scene backend rejects the ordinary reflection pass."
+      },
+      "effect_control": {
+        "id": "integerpower8-reflections-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-reflections-off.m3p",
+        "scene_sha256": "a6eadbee3fe9ca1e723df64e849962dc1a02f0f96c38546988cd35b0bb641c61",
+        "source_scene": {
+          "path": "comparison/scenes/test_03_intpow8.m3p",
+          "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 480,
+            "after": 512,
+            "before_hex": "e0010000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 360,
+            "after": 384,
+            "before_hex": "68010000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          },
+          {
+            "field": "SRamount",
+            "offset": 332,
+            "struct_format": "<f",
+            "before": 1.0,
+            "after": 0.800000011920929,
+            "before_hex": "0000803f",
+            "after_hex": "cdcc4c3f"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "reflections"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color"
+        ],
+        "required_not_run_stages": [
+          "reflections"
+        ],
+        "expect_rgb_difference": true
+      }
+    },
+    {
+      "id": "sphereifs-transparency",
+      "name": "SphereIFS: refraction and transmission",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-transparency.m3p",
+      "scene_sha256": "b104751ebedc2ee08ce31fd68e364cc3b1a414bf6d4fe28b95cebaf204247821",
+      "source_scene": {
+        "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+        "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 200,
+          "after": 512,
+          "before_hex": "c8000000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 150,
+          "after": 384,
+          "before_hex": "96000000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        },
+        {
+          "field": "bCalcSRautomatic",
+          "offset": 336,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 3,
+          "before_hex": "00",
+          "after_hex": "03"
+        },
+        {
+          "field": "SRreflectioncount",
+          "offset": 337,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 3,
+          "before_hex": "02",
+          "after_hex": "03"
+        },
+        {
+          "field": "SRamount",
+          "offset": 332,
+          "struct_format": "<f",
+          "before": 1.0,
+          "after": 0.6499999761581421,
+          "before_hex": "0000803f",
+          "after_hex": "6666263f"
+        },
+        {
+          "field": "sTRIndex",
+          "offset": 116,
+          "struct_format": "<f",
+          "before": 1.5,
+          "after": 1.2999999523162842,
+          "before_hex": "0000c03f",
+          "after_hex": "6666a63f"
+        },
+        {
+          "field": "sTRscattering",
+          "offset": 120,
+          "struct_format": "<f",
+          "before": 1.0,
+          "after": 0.0,
+          "before_hex": "0000803f",
+          "after_hex": "00000000"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color",
+        "reflections"
+      ],
+      "active_effects": [
+        "transparency"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal scene backend rejects reflection/transmission; the control retains reflections and only disables transmission."
+      },
+      "effect_control": {
+        "id": "sphereifs-transparency-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-transparency-off.m3p",
+        "scene_sha256": "de25cc53e9ab8d694a4be0bc8a095b9bc13a79642f1f4302a182bde197f8a83a",
+        "source_scene": {
+          "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+          "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 200,
+            "after": 512,
+            "before_hex": "c8000000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 150,
+            "after": 384,
+            "before_hex": "96000000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          },
+          {
+            "field": "bCalcSRautomatic",
+            "offset": 336,
+            "struct_format": "<B",
+            "before": 0,
+            "after": 1,
+            "before_hex": "00",
+            "after_hex": "01"
+          },
+          {
+            "field": "SRreflectioncount",
+            "offset": 337,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 3,
+            "before_hex": "02",
+            "after_hex": "03"
+          },
+          {
+            "field": "SRamount",
+            "offset": 332,
+            "struct_format": "<f",
+            "before": 1.0,
+            "after": 0.6499999761581421,
+            "before_hex": "0000803f",
+            "after_hex": "6666263f"
+          },
+          {
+            "field": "sTRIndex",
+            "offset": 116,
+            "struct_format": "<f",
+            "before": 1.5,
+            "after": 1.2999999523162842,
+            "before_hex": "0000c03f",
+            "after_hex": "6666a63f"
+          },
+          {
+            "field": "sTRscattering",
+            "offset": 120,
+            "struct_format": "<f",
+            "before": 1.0,
+            "after": 0.0,
+            "before_hex": "0000803f",
+            "after_hex": "00000000"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "transparency"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color",
+          "reflections"
+        ],
+        "required_not_run_stages": [],
+        "expect_rgb_difference": true
+      }
+    },
+    {
+      "id": "integerpower8-volume",
+      "name": "Integer Power 8: volumetric light",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-volume.m3p",
+      "scene_sha256": "fad01709e8943680c8279f38720aea7cd00a3f157088bcd4ed6dccdb460240ca",
+      "source_scene": {
+        "path": "comparison/scenes/test_03_intpow8.m3p",
+        "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 480,
+          "after": 512,
+          "before_hex": "e0010000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 360,
+          "after": 384,
+          "before_hex": "68010000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        },
+        {
+          "field": "bVolLightNr",
+          "offset": 343,
+          "struct_format": "<B",
+          "before": 32,
+          "after": 33,
+          "before_hex": "20",
+          "after_hex": "21"
+        },
+        {
+          "field": "Light.TBpos[3]",
+          "offset": 452,
+          "struct_format": "<i",
+          "before": 53,
+          "after": 100,
+          "before_hex": "35000000",
+          "after_hex": "64000000"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color",
+        "volume"
+      ],
+      "active_effects": [
+        "volume"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal scene backend rejects volumetric-light map preparation and sampling."
+      },
+      "effect_control": {
+        "id": "integerpower8-volume-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-volume-off.m3p",
+        "scene_sha256": "81e87d1ec959090a8e3f9a3f5f0daccd3c1c85a91a3d5229e5a4a0b05a3965f7",
+        "source_scene": {
+          "path": "comparison/scenes/test_03_intpow8.m3p",
+          "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 480,
+            "after": 512,
+            "before_hex": "e0010000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 360,
+            "after": 384,
+            "before_hex": "68010000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          },
+          {
+            "field": "Light.TBpos[3]",
+            "offset": 452,
+            "struct_format": "<i",
+            "before": 53,
+            "after": 100,
+            "before_hex": "35000000",
+            "after_hex": "64000000"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "volume"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color"
+        ],
+        "required_not_run_stages": [
+          "volume"
+        ],
+        "expect_rgb_difference": true
+      }
+    },
+    {
+      "id": "integerpower8-dof",
+      "name": "Integer Power 8: sorted depth of field",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-dof.m3p",
+      "scene_sha256": "570809be0a94822dbb5e85c9bacd4858150da287748222e9d6bcb99d4eba5b10",
+      "source_scene": {
+        "path": "comparison/scenes/test_03_intpow8.m3p",
+        "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 480,
+          "after": 512,
+          "before_hex": "e0010000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 360,
+          "after": 384,
+          "before_hex": "68010000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        },
+        {
+          "field": "bCalcDOFtype",
+          "offset": 181,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 1,
+          "before_hex": "00",
+          "after_hex": "01"
+        },
+        {
+          "field": "sDOFaperture",
+          "offset": 172,
+          "struct_format": "<f",
+          "before": 0.019999999552965164,
+          "after": 0.30000001192092896,
+          "before_hex": "0ad7a33c",
+          "after_hex": "9a99993e"
+        },
+        {
+          "field": "sDOFclipR",
+          "offset": 168,
+          "struct_format": "<f",
+          "before": 25.0,
+          "after": 12.0,
+          "before_hex": "0000c841",
+          "after_hex": "00004041"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color",
+        "dof"
+      ],
+      "active_effects": [
+        "dof"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal scene backend rejects ordered depth-of-field postprocessing."
+      },
+      "effect_control": {
+        "id": "integerpower8-dof-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-dof-off.m3p",
+        "scene_sha256": "0e8a84dd0bb08b015f87ca781201ab1e1fb2441f9021b83309d950a37d901364",
+        "source_scene": {
+          "path": "comparison/scenes/test_03_intpow8.m3p",
+          "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 480,
+            "after": 512,
+            "before_hex": "e0010000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 360,
+            "after": 384,
+            "before_hex": "68010000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          },
+          {
+            "field": "sDOFaperture",
+            "offset": 172,
+            "struct_format": "<f",
+            "before": 0.019999999552965164,
+            "after": 0.30000001192092896,
+            "before_hex": "0ad7a33c",
+            "after_hex": "9a99993e"
+          },
+          {
+            "field": "sDOFclipR",
+            "offset": 168,
+            "struct_format": "<f",
+            "before": 25.0,
+            "after": 12.0,
+            "before_hex": "0000c841",
+            "after_hex": "00004041"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "dof"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color"
+        ],
+        "required_not_run_stages": [
+          "dof"
+        ],
+        "expect_rgb_difference": true
+      }
+    },
+    {
+      "id": "integerpower8-zbuffer-normals",
+      "name": "Integer Power 8: Z-buffer normal reconstruction",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-zbuffer-normals.m3p",
+      "scene_sha256": "ca1d2407e2c0fbfa2ad428ab330cb4d483ce3b7cdc32b9c9a8259e6889ef926c",
+      "source_scene": {
+        "path": "comparison/scenes/test_03_intpow8.m3p",
+        "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 480,
+          "after": 512,
+          "before_hex": "e0010000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 360,
+          "after": 384,
+          "before_hex": "68010000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "byCalcNsOnZBufAuto",
+          "offset": 331,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 1,
+          "before_hex": "00",
+          "after_hex": "01"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color",
+        "normals"
+      ],
+      "active_effects": [
+        "normals"
+      ],
+      "assets": [],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal scene backend rejects the separate Z-buffer normals pass."
+      },
+      "effect_control": {
+        "id": "integerpower8-zbuffer-normals-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/integerpower8-zbuffer-normals-off.m3p",
+        "scene_sha256": "338347c1431e11047aacfe38335c9e690b083e5d0e47836a4cc7bc13d3fd5ed5",
+        "source_scene": {
+          "path": "comparison/scenes/test_03_intpow8.m3p",
+          "sha256": "8e86179ced397fe76aac613cd78ec7ba935e1b41ecea6d5c536fa9240f8d4794"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 480,
+            "after": 512,
+            "before_hex": "e0010000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 360,
+            "after": 384,
+            "before_hex": "68010000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "normals"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color"
+        ],
+        "required_not_run_stages": [
+          "normals"
+        ],
+        "expect_rgb_difference": true
+      }
+    },
+    {
+      "id": "sphereifs-diffuse-map",
+      "name": "SphereIFS: real diffuse bitmap",
+      "category": "ordinary-effects",
+      "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-diffuse-map.m3p",
+      "scene_sha256": "048fe131b836a6d10eeade55abcce1e0f1e78e2952947f124c3295f681f00112",
+      "source_scene": {
+        "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+        "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+      },
+      "patch_operations": [
+        {
+          "field": "Width",
+          "offset": 4,
+          "struct_format": "<i",
+          "before": 200,
+          "after": 512,
+          "before_hex": "c8000000",
+          "after_hex": "00020000"
+        },
+        {
+          "field": "Height",
+          "offset": 8,
+          "struct_format": "<i",
+          "before": 150,
+          "after": 384,
+          "before_hex": "96000000",
+          "after_hex": "80010000"
+        },
+        {
+          "field": "MCoptions",
+          "offset": 124,
+          "struct_format": "<B",
+          "before": 2,
+          "after": 0,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "field": "bCalculateHardShadow",
+          "offset": 133,
+          "struct_format": "<B",
+          "before": 6,
+          "after": 7,
+          "before_hex": "06",
+          "after_hex": "07"
+        },
+        {
+          "field": "Light.bColorMap",
+          "offset": 435,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 41,
+          "before_hex": "00",
+          "after_hex": "29"
+        },
+        {
+          "field": "Light.Lights[1].AdditionalByteEx.map_number_high",
+          "offset": 548,
+          "struct_format": "<B",
+          "before": 0,
+          "after": 35,
+          "before_hex": "00",
+          "after_hex": "23"
+        }
+      ],
+      "backends": [
+        "cpu"
+      ],
+      "required_stages": [
+        "preparation",
+        "primary",
+        "shadows",
+        "ao",
+        "color"
+      ],
+      "active_effects": [
+        "diffuse_map"
+      ],
+      "assets": [
+        "map9001"
+      ],
+      "require_nonconstant_rgb": true,
+      "unsupported_backends": {
+        "metal": "The exact Metal color backend rejects loaded diffuse maps; color is the consuming CPU stage, not a separate map stage."
+      },
+      "effect_control": {
+        "id": "sphereifs-diffuse-map-off",
+        "scene_path": "comparison/benchmark_scenes/effects-v1/sphereifs-diffuse-map-off.m3p",
+        "scene_sha256": "369f10a6e62fa86bbd2b2b11fbf9e14a57f20be7262130a7a827c4bf5c1b71fd",
+        "source_scene": {
+          "path": "comparison/scenes/extall_dIFS_SphereIFS.m3p",
+          "sha256": "0ec9d55cc7007f665f93811a8a686859fb2e37de67b9e0ec2d0b40d15b93eb47"
+        },
+        "patch_operations": [
+          {
+            "field": "Width",
+            "offset": 4,
+            "struct_format": "<i",
+            "before": 200,
+            "after": 512,
+            "before_hex": "c8000000",
+            "after_hex": "00020000"
+          },
+          {
+            "field": "Height",
+            "offset": 8,
+            "struct_format": "<i",
+            "before": 150,
+            "after": 384,
+            "before_hex": "96000000",
+            "after_hex": "80010000"
+          },
+          {
+            "field": "MCoptions",
+            "offset": 124,
+            "struct_format": "<B",
+            "before": 2,
+            "after": 0,
+            "before_hex": "02",
+            "after_hex": "00"
+          },
+          {
+            "field": "bCalculateHardShadow",
+            "offset": 133,
+            "struct_format": "<B",
+            "before": 6,
+            "after": 7,
+            "before_hex": "06",
+            "after_hex": "07"
+          }
+        ],
+        "backends": [
+          "cpu"
+        ],
+        "disabled_effects": [
+          "diffuse_map"
+        ],
+        "required_stages": [
+          "preparation",
+          "primary",
+          "shadows",
+          "ao",
+          "color"
+        ],
+        "required_not_run_stages": [],
+        "expect_rgb_difference": true
+      }
+    }
+  ]
+}

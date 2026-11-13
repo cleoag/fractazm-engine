@@ -1,0 +1,821 @@
+{
+  "reference": "mb3d",
+  "working_tree": "C:\\work\\_c\\mb3d_pascal_work\\mb3d_work",
+  "files": {
+    "Adler32.pas": {
+      "reference_sha256": "2083fb4bcd49df85c2d490e31f3886ce2b24dbdf331ddfb08ce1b907488e7c06",
+      "working_sha256": "2083fb4bcd49df85c2d490e31f3886ce2b24dbdf331ddfb08ce1b907488e7c06",
+      "working_lf_sha256": "b2f46a6ebfa9cae67ec5db21885ed00ab52dbceaf737c06bc2b3bb90d318f85a"
+    },
+    "AmbHiQ.pas": {
+      "reference_sha256": "7744546dd188c41a4451676b8e73cb206cfbfc29befb81b39464dda72a6a235b",
+      "working_sha256": "0d9d17368af9c8879e8bf037a9544bd6a6fe56422b26a8e88e52d54d5c5d241c",
+      "working_lf_sha256": "785b4f84924a8da131a5867d78a79eba86a18ee7c76ac18c88d3506e9ad056cf"
+    },
+    "AmbShadowCalcThread.pas": {
+      "reference_sha256": "9312529c76555844dfc315e906719acaead3eb70a8afe488a0b59c25a2d21044",
+      "working_sha256": "9312529c76555844dfc315e906719acaead3eb70a8afe488a0b59c25a2d21044",
+      "working_lf_sha256": "39ec475d513880cf42f919f21bf36b72c0918288f7a52a6a5f65313ba0cb040e"
+    },
+    "AmbShadowCalcThreadN.pas": {
+      "reference_sha256": "1558c972f8b94ed7b91d11f2811d59f267027202ea28fdaffe5ae834f0c15dfa",
+      "working_sha256": "1558c972f8b94ed7b91d11f2811d59f267027202ea28fdaffe5ae834f0c15dfa",
+      "working_lf_sha256": "9d4a535b7ca0ed5b0b34778fc4ad978adcde36acac0fc84898d935037a196bee"
+    },
+    "AniPreviewWindow.lfm": {
+      "reference_sha256": "49321ab583eb41758e3f5ec3cedde4648a89efbfc410929cc678835d02c5bf57",
+      "working_sha256": "49321ab583eb41758e3f5ec3cedde4648a89efbfc410929cc678835d02c5bf57",
+      "working_lf_sha256": "294e252920cdc3a8912d48f6335b0dc4be8f4b3c9bb11c6f0918710ce0e45b33"
+    },
+    "AniPreviewWindow.pas": {
+      "reference_sha256": "35f1c73ae8ebbd8496275d9b53f062e381b14741d85dd241dc709470c039c2d5",
+      "working_sha256": "35f1c73ae8ebbd8496275d9b53f062e381b14741d85dd241dc709470c039c2d5",
+      "working_lf_sha256": "e890cf45b28b0260c5a7e0a75cce8ded948f02feda3ff0599dd108641308498f"
+    },
+    "AniProcess.lfm": {
+      "reference_sha256": "5aed7c8830181a1547b2cab0c9f709e019db7729b3504151e7722ba39470766e",
+      "working_sha256": "5aed7c8830181a1547b2cab0c9f709e019db7729b3504151e7722ba39470766e",
+      "working_lf_sha256": "e523efe0616de92a1f7505e2998353a479e5632f02e6a4380484ab578e0215d3"
+    },
+    "AniProcess.pas": {
+      "reference_sha256": "efdcc38b5662ecbebc79eef21710f9174db741b405722f7d01686d45f5ad738d",
+      "working_sha256": "efdcc38b5662ecbebc79eef21710f9174db741b405722f7d01686d45f5ad738d",
+      "working_lf_sha256": "39a6427b2f35ac0f263517e4ed24940ff248cb7eb8c491d4cd91fcbf593f4a75"
+    },
+    "Animation.lfm": {
+      "reference_sha256": "95d6c3159abbcdb3717b0f6f5406f320fcedea54eac42b19e42f467a086dd8b5",
+      "working_sha256": "95d6c3159abbcdb3717b0f6f5406f320fcedea54eac42b19e42f467a086dd8b5",
+      "working_lf_sha256": "2fd571508d34fef7eb3fb582ac030cbea7092fad24fb5b42fab89a8d926435c5"
+    },
+    "Animation.pas": {
+      "reference_sha256": "7c8b0964d07903c86184b2a179c32f5eb77462a922ba178bea383f28acfe4cde",
+      "working_sha256": "7c8b0964d07903c86184b2a179c32f5eb77462a922ba178bea383f28acfe4cde",
+      "working_lf_sha256": "dc0013af32ab33629d401d8d25bd62e347904ddf9b6af1dc3038558e86cce77a"
+    },
+    "BRInfoWindow.lfm": {
+      "reference_sha256": "b068470f43954e3da88aa0a1d3813c7b60e7e14b9e9c8b0910c534e00cf72392",
+      "working_sha256": "b068470f43954e3da88aa0a1d3813c7b60e7e14b9e9c8b0910c534e00cf72392",
+      "working_lf_sha256": "26ae6fd589f451d219d96e8d28391ffe8a214a5b26dd22f3bf4fc06f6aeebbbf"
+    },
+    "BRInfoWindow.pas": {
+      "reference_sha256": "d7b9bbee06b4ef861eab8adb98852baa0272e4b8aa6293a9b2dcc60ba634a971",
+      "working_sha256": "d7b9bbee06b4ef861eab8adb98852baa0272e4b8aa6293a9b2dcc60ba634a971",
+      "working_lf_sha256": "df931b3b29bdfb43cf030ea34e5d4e6a637d3162db15f125efad4c2f20cfbeba"
+    },
+    "BatchForm.lfm": {
+      "reference_sha256": "1fab5d711914907ff99b54bf462a40362429f3fc27694575071f0abdcaad23e1",
+      "working_sha256": "1fab5d711914907ff99b54bf462a40362429f3fc27694575071f0abdcaad23e1",
+      "working_lf_sha256": "6a041d6f94474f1d04961d13ca24450dca24ae732a8e68daf164b2796a31e4cd"
+    },
+    "BatchForm.pas": {
+      "reference_sha256": "74b93980eddd51b9155b667cd7954717a56c546a960778827122b49042024214",
+      "working_sha256": "74b93980eddd51b9155b667cd7954717a56c546a960778827122b49042024214",
+      "working_lf_sha256": "660cd46dbe765f467b3c2b81fa62490fc0aa03bb65e8cf6b105467d80c5036df"
+    },
+    "BitStream.pas": {
+      "reference_sha256": "ec3bef70ea7bf4af789c4967961d344d31aa5c4ca86b69ae0c6edfee5eb8fb54",
+      "working_sha256": "ec3bef70ea7bf4af789c4967961d344d31aa5c4ca86b69ae0c6edfee5eb8fb54",
+      "working_lf_sha256": "159f792ed179050ca4bb19aab7c79a0ca025d98be255041e8af479f43e0daf67"
+    },
+    "BufStream.pas": {
+      "reference_sha256": "bb720596fd88d8fbfa51654f633daab872fd62ce180c97174654ec2bf725132d",
+      "working_sha256": "bb720596fd88d8fbfa51654f633daab872fd62ce180c97174654ec2bf725132d",
+      "working_lf_sha256": "325ae0709bc241f7456537b2f1975c26a6341de421df9ff9e0e28da608fc4120"
+    },
+    "CRC32Stream.pas": {
+      "reference_sha256": "a06375723c262cd44fee998d01f60f4a4a5f0980acd9e21b7efd0346df3c4e0c",
+      "working_sha256": "a06375723c262cd44fee998d01f60f4a4a5f0980acd9e21b7efd0346df3c4e0c",
+      "working_lf_sha256": "ed5bb09681f08128fd5c8ddadd278351d62b8ae917395d2107093b531cb51e18"
+    },
+    "Calc.pas": {
+      "reference_sha256": "5604eb78726eef20d336dbb6f63f400eacdbc15fd25a433182fc0018bdfe4718",
+      "working_sha256": "0e3e4ba77a9b827ac3b1e6a1f660b3f6b0180f92bfe6fca907c810f6b56f85cd",
+      "working_lf_sha256": "e794232e3bdcc0bd0aca9c8ab7a36feb68062f70f1ac87a1b06acb8a055bddcb"
+    },
+    "CalcAmbShadowDE.pas": {
+      "reference_sha256": "bec78e6e28210e1687b13185c3aa8b5fcefc32ac4fc652b4f52c4b7b24316930",
+      "working_sha256": "050193c3a23e5d2f9d829c8e9f37c5e176f7805340911f9b0defbdce4e08ec0d",
+      "working_lf_sha256": "bdca2c8d8f094fd7508adcc65d44cbb5d17cb48fdfdf4ab9c1d91e5a5f590836"
+    },
+    "CalcHardShadow.pas": {
+      "reference_sha256": "f403e24be72c72ea72cf1d3bcfda9f6b6326b82f2a2bbf5d03d9ae3d501e490b",
+      "working_sha256": "f403e24be72c72ea72cf1d3bcfda9f6b6326b82f2a2bbf5d03d9ae3d501e490b",
+      "working_lf_sha256": "dc705f28e388eb2c074a8f2587531dfd698bf199cbb9d6a421121ba75bff5c10"
+    },
+    "CalcMissed.pas": {
+      "reference_sha256": "830294ce32b17c85f2073a26fcb0fe4b63cc4bc077f1fc856a196ce8fe7ac4a5",
+      "working_sha256": "b34cca030c65b500ed4355ec6c6b9620f3c74df63d93337605574c9e7b22af7d",
+      "working_lf_sha256": "0c175e353adc6391af5dffa328c3dae77693fa7048c1800bfefefe7d2559eb1d"
+    },
+    "CalcMonteCarlo.pas": {
+      "reference_sha256": "6ba167bd08006004f39547f753f2ba36b5a87a22d9cebaaa088d16aac53150e4",
+      "working_sha256": "da54b2738c32b4f1aeb2c902559a469bec8f6a240dedcaa84769d370a07b3dde",
+      "working_lf_sha256": "48f6a5cde402ba75c9985be22cde08e86b8a0390b7e54ead6edd9e1987532162"
+    },
+    "CalcPart.pas": {
+      "reference_sha256": "758b953c57d365d4fba17cd6bffbedff6267ec4b5f1cba6abd8f789a798631ad",
+      "working_sha256": "70dc255d89978b4a8a03abafb284c424d2d19bded4a99e263cf20a5d8a22975d",
+      "working_lf_sha256": "8186e52fad8a7dc6f1f55beaedc11f158e0de12b181135d3830120f3e912d167"
+    },
+    "CalcSR.pas": {
+      "reference_sha256": "c0835d5af67dcfddaf150a9cc510366b070d4e8cc2e62525594a85aaff5f6882",
+      "working_sha256": "da8473c90a423ea02433eadc19cee9e52189fa3d831793c8dfcdd813bbd22921",
+      "working_lf_sha256": "56a72569fbe11072efc45607c80a9caecdba01e10097bb7e7a5269ab62860fff"
+    },
+    "CalcThread.pas": {
+      "reference_sha256": "05fdfda18e90f2499256a2d6a191b4ea8c8527d92800afe10b82618e2d450bde",
+      "working_sha256": "6c70817b9e4cee627a3d17be26cf6d32439c738e9ecf7187eee698d0ed49e518",
+      "working_lf_sha256": "8d4ff04d2e246421c87eef87b2276c27d11ed7a80d1a237c14aa32d4978e2811"
+    },
+    "CalcThread2D.pas": {
+      "reference_sha256": "26e29a3525a20dafa08e30d15267dd9f054f052ae47e4716c6e0205c72fee250",
+      "working_sha256": "26e29a3525a20dafa08e30d15267dd9f054f052ae47e4716c6e0205c72fee250",
+      "working_lf_sha256": "13e8a583c9ec5e8b95e9d87ec22e781ee8afecbefbf90129bb32c13425dfa2b6"
+    },
+    "CalcVoxelSliceThread.pas": {
+      "reference_sha256": "afb8a2c7591e755b4280fe74a7e982fa8c4b876130e56275e80e73b0ad4b93ce",
+      "working_sha256": "afb8a2c7591e755b4280fe74a7e982fa8c4b876130e56275e80e73b0ad4b93ce",
+      "working_lf_sha256": "282f6d9a7e5493fc178d526a6487373258f343e49917b22b3503b8677aa9e6dc"
+    },
+    "ColorMapper.pas": {
+      "reference_sha256": "32abcd8b6364329281ad06cb797d1543ae55fe69e30c23c1804bc636a0daf102",
+      "working_sha256": "32abcd8b6364329281ad06cb797d1543ae55fe69e30c23c1804bc636a0daf102",
+      "working_lf_sha256": "148151f03b42dbea7ee53a70a77328cf7e57d7c3118ebf5681987553a7b9ed22"
+    },
+    "ColorOptionForm.lfm": {
+      "reference_sha256": "9b4efbccaaed8291c49478dff3f1044c3357466cadd229a38b3ce2a6442237a7",
+      "working_sha256": "9b4efbccaaed8291c49478dff3f1044c3357466cadd229a38b3ce2a6442237a7",
+      "working_lf_sha256": "9d82a6f223127b371ce4e832713387d970aad7214165eb4b4d042286c398c2df"
+    },
+    "ColorOptionForm.pas": {
+      "reference_sha256": "f30c0529752c30539a213164a64da9161bc2ac80f44b76a209cbc7d2d24f6c92",
+      "working_sha256": "f30c0529752c30539a213164a64da9161bc2ac80f44b76a209cbc7d2d24f6c92",
+      "working_lf_sha256": "cd3054d16d1dd97c7a04e21adc1e5dfd42b5c671904817c067f3e5db44214fc3"
+    },
+    "ColorPick.lfm": {
+      "reference_sha256": "b96018026d36313366d4dc913117697e0299bca9ef3d47f2bf01f4a0d02f86c6",
+      "working_sha256": "b96018026d36313366d4dc913117697e0299bca9ef3d47f2bf01f4a0d02f86c6",
+      "working_lf_sha256": "1e0f83b9e1339e05f0eafa156f676615f9adf63002d26845bc1587fce93234f6"
+    },
+    "ColorPick.pas": {
+      "reference_sha256": "50ad9b6af025b22d5c3dde5881f349a62bc980536d39dd5fd9bfe77f41126be6",
+      "working_sha256": "50ad9b6af025b22d5c3dde5881f349a62bc980536d39dd5fd9bfe77f41126be6",
+      "working_lf_sha256": "365d7b69aa4780d0dcd8de12bf09c32e39ffcb1d8b83a80367f0a1e5c33a95bb"
+    },
+    "ColorSSAO.pas": {
+      "reference_sha256": "03773e36e962a756d636d92a3dceb459ddc0ddee367cae1be883c6bed59ab1ec",
+      "working_sha256": "03773e36e962a756d636d92a3dceb459ddc0ddee367cae1be883c6bed59ab1ec",
+      "working_lf_sha256": "13c2542f79121f20d37d937a17b997a51d6579e74b64841b91b8641b89fdda95"
+    },
+    "CustomFormulas.pas": {
+      "reference_sha256": "8333ba7087680599cf92a781c7cf130d82c8c06c1cfa9c9d28c6b5eea6a70d23",
+      "working_sha256": "f31c8372d7453616a913c574adea2723dae7a4a8dd1eb11804b5bfbcf8f1a3b6",
+      "working_lf_sha256": "f960f83137308556fda2226c091c9266a1c83fe56c391396e1995c78ad0c1ea9"
+    },
+    "DOF.pas": {
+      "reference_sha256": "08030c6a0d348312f262e0f808c5e67feb0ed2851bedc804cfc59df1995e3047",
+      "working_sha256": "08030c6a0d348312f262e0f808c5e67feb0ed2851bedc804cfc59df1995e3047",
+      "working_lf_sha256": "c30a8153640294ec51dbf4666bb303f48dcf4ff76d483455486a358e3b4bc5e5"
+    },
+    "Deflate.pas": {
+      "reference_sha256": "3fb2a67c608306fdf69c9de0375ee939486ee320a2b2be15220762312dcbf3d0",
+      "working_sha256": "3fb2a67c608306fdf69c9de0375ee939486ee320a2b2be15220762312dcbf3d0",
+      "working_lf_sha256": "4d6bdaccc1a8b692ea0cc3ca9543dad1dc8070a1b8e2924a0e0a2ecfae0396d3"
+    },
+    "DelphiStream.pas": {
+      "reference_sha256": "9ff48b5b22177c5402f1143dfc63c0486a61d5d076324eb3b572a03a74698574",
+      "working_sha256": "9ff48b5b22177c5402f1143dfc63c0486a61d5d076324eb3b572a03a74698574",
+      "working_lf_sha256": "06531cb34d812900039851983fce7c131e95f1c9627006897fe1aab4b6045640"
+    },
+    "DiagASMCheck.pas": {
+      "reference_sha256": "d31424c33b378e06685b5caf35be6334f3751089c8a17362f1b7322e6a65ecbe",
+      "working_sha256": "d31424c33b378e06685b5caf35be6334f3751089c8a17362f1b7322e6a65ecbe",
+      "working_lf_sha256": "0b2b124993c63b95189a38e0695c4823edc678961fa5e5eef7ff2e63db3c5b5c"
+    },
+    "DiagHarness.pas": {
+      "reference_sha256": "d2233f00ad8c97816da6625cc06f297737a1556e9acd854704e056377748e4ff",
+      "working_sha256": "d2233f00ad8c97816da6625cc06f297737a1556e9acd854704e056377748e4ff",
+      "working_lf_sha256": "c6ee8746136c488a9bf9e4d5a167b4201b6f1289598b57e5be8dc611170e5a73"
+    },
+    "DivUtils.pas": {
+      "reference_sha256": "1958b3ca5e52a40c24074f8ed40bc84ac19fc157eda444ed79a383f25c6d9529",
+      "working_sha256": "1958b3ca5e52a40c24074f8ed40bc84ac19fc157eda444ed79a383f25c6d9529",
+      "working_lf_sha256": "879221cb1d6abb371452f1f04afcf5315af238317dcb31b6359a145cb303da96"
+    },
+    "DoubleSize.pas": {
+      "reference_sha256": "b9f424b2516f46b7efedb882f13e01a7dd775a50748b24192c5648eb02adcbe9",
+      "working_sha256": "b9f424b2516f46b7efedb882f13e01a7dd775a50748b24192c5648eb02adcbe9",
+      "working_lf_sha256": "1302fdb5c3627b68599e55b2814beb6a17fca5faa248fc29fbec039658014e92"
+    },
+    "ExtDlgsM3D.rc": {
+      "reference_sha256": "533cd274d3609150f81fd2ecc9831ef814a6e699ea15f38d57b00d46e793806a",
+      "working_sha256": "533cd274d3609150f81fd2ecc9831ef814a6e699ea15f38d57b00d46e793806a",
+      "working_lf_sha256": "7a65c69fb76164cebfe35ac2a8b899f0434ffa27457aa64f820e9101af71f5d8"
+    },
+    "FFT.pas": {
+      "reference_sha256": "e63e823bfc59aeaa334dd192b23285e10e05f13a4906649a534611f041f97b7d",
+      "working_sha256": "e63e823bfc59aeaa334dd192b23285e10e05f13a4906649a534611f041f97b7d",
+      "working_lf_sha256": "52acd78ff31e6aeb4cadb33c1949eee15d4aa7c94de63ec3d830c80bb6de9cf1"
+    },
+    "FTGifAnimate.pas": {
+      "reference_sha256": "744cf00641b6ba9e426ab4a65067bf2accbbde7439f96e39da111378c07562eb",
+      "working_sha256": "744cf00641b6ba9e426ab4a65067bf2accbbde7439f96e39da111378c07562eb",
+      "working_lf_sha256": "d9c9c684f5dc29bbaf9eb61238a6d7d493a14ef0e02e65f86ffbbb92810cb5ca"
+    },
+    "FileHandling.pas": {
+      "reference_sha256": "47ae9c015815302d9c2f374e4ce47b04f7bc6a2050d14df52b9826124292e6fb",
+      "working_sha256": "b97aeb39753192a4c561d6bcc5f2fcb2260fbe84af17f32e894fe1257f0dec32",
+      "working_lf_sha256": "ca2f2140236e670d244e5a733e4de0788965d13cf55465def1433912ccdc5bdc"
+    },
+    "FormulaClass.pas": {
+      "reference_sha256": "cadfe789e8cf088c271a20739cc0efc654010e039dc5fee63b65f08c412534e0",
+      "working_sha256": "cadfe789e8cf088c271a20739cc0efc654010e039dc5fee63b65f08c412534e0",
+      "working_lf_sha256": "00bdea04953b5d4bb0b890254aaafce34cdeff54fe86b12e7221eedc8a82d159"
+    },
+    "FormulaParser.lfm": {
+      "reference_sha256": "acd86bbb2cb05dcb35a95acf2cfe8af58e4b0508c391f68c02cfd9fb1c4606bd",
+      "working_sha256": "acd86bbb2cb05dcb35a95acf2cfe8af58e4b0508c391f68c02cfd9fb1c4606bd",
+      "working_lf_sha256": "5a3c95e124148aee66afda6b0800e0c5ef88ffe27d3c3e0a73041d4f1e72634c"
+    },
+    "FormulaParser.pas": {
+      "reference_sha256": "fb57cd9fd5657f9bbb459524d594ef3b540f638946e5e88d24e4d44c02e6fa09",
+      "working_sha256": "fb57cd9fd5657f9bbb459524d594ef3b540f638946e5e88d24e4d44c02e6fa09",
+      "working_lf_sha256": "547a1a40e24834b4d7ef6c88aee89de61a4a61120f9331a42defdf4ea43ad444"
+    },
+    "GPURenderForm.lfm": {
+      "reference_sha256": "1dd475c68c22b25ef4a7d2ef1792ae34f1449b9bf7bcc7e9c28ed60284fe7c4f",
+      "working_sha256": "1dd475c68c22b25ef4a7d2ef1792ae34f1449b9bf7bcc7e9c28ed60284fe7c4f",
+      "working_lf_sha256": "eb8d26d6beb313470003eee21456b87a208649677cc9d3a4c02398240707a237"
+    },
+    "GPURenderForm.pas": {
+      "reference_sha256": "89b3ce1b0958e3deb89c61b225b0b9a7dbec595a693451c474d54f302fa1f0d5",
+      "working_sha256": "89b3ce1b0958e3deb89c61b225b0b9a7dbec595a693451c474d54f302fa1f0d5",
+      "working_lf_sha256": "c192f28dd2b38ffd865cee4ecece1cf5f3cd78530693e4218d12d6133485ba6d"
+    },
+    "HeaderTrafos.pas": {
+      "reference_sha256": "95e8d070ffab5075a1fd5572cdc40b5a26ee519c0fe8f8e689a30212898f5bae",
+      "working_sha256": "95e8d070ffab5075a1fd5572cdc40b5a26ee519c0fe8f8e689a30212898f5bae",
+      "working_lf_sha256": "52b3209608ba3360f4be7d821866c37a1845bc09f9aa2ec56d1912616f5d7f9d"
+    },
+    "HeadlessRender.pas": {
+      "reference_sha256": "e59c1287d2685cd137b8602a46c7eaf92fd0da36f56acb9abe34a9dd0eef4934",
+      "working_sha256": "5d783d6102acb18901f6176af12bd5d3f0fc316c06f4f2f1263a78f1a0ce9820",
+      "working_lf_sha256": "5d783d6102acb18901f6176af12bd5d3f0fc316c06f4f2f1263a78f1a0ce9820"
+    },
+    "Huffman.pas": {
+      "reference_sha256": "730dfb97ae32b8cff004383c076c479a7552a7ab6b512b50591a19b2a66074eb",
+      "working_sha256": "730dfb97ae32b8cff004383c076c479a7552a7ab6b512b50591a19b2a66074eb",
+      "working_lf_sha256": "981469fb5b3b31cd412f2d641ed06b82c50429c924dce6c7ef0e87163c122662"
+    },
+    "IFS.pas": {
+      "reference_sha256": "0f415f3d0f70a883c4217285a1efe96d4ad61edf244a54d947c65af4b0c8b73b",
+      "working_sha256": "0f415f3d0f70a883c4217285a1efe96d4ad61edf244a54d947c65af4b0c8b73b",
+      "working_lf_sha256": "986b759fc870295aaa6285edaaab1738227a65d2db8ee4e22710bbe1e7833fe5"
+    },
+    "ImageProcess.pas": {
+      "reference_sha256": "4012657ffc392244cc9d8bb6a965c4dbd37d6e794a771044c8cd844b866dc7a8",
+      "working_sha256": "4012657ffc392244cc9d8bb6a965c4dbd37d6e794a771044c8cd844b866dc7a8",
+      "working_lf_sha256": "3a2ccc5790fa8a61715b8b7838507080bc640ef72f9c87b6e3a7e66118303527"
+    },
+    "Interpolation.pas": {
+      "reference_sha256": "eba0badae29d57dd0ca1935cad564a489eba9218834ec2965e31b9720bccd927",
+      "working_sha256": "eba0badae29d57dd0ca1935cad564a489eba9218834ec2965e31b9720bccd927",
+      "working_lf_sha256": "57bbc11cc276597dc893d4b94ed83aee0f2fd57e00a53829ce7b9c8bbc723ae2"
+    },
+    "LcgDumpTool.lpr": {
+      "reference_sha256": null,
+      "working_sha256": "567f44e63bda5a87517d1644a91824d95c0424281bc6e4dd70027617ac1541d1",
+      "working_lf_sha256": "567f44e63bda5a87517d1644a91824d95c0424281bc6e4dd70027617ac1541d1"
+    },
+    "LightAdjust.lfm": {
+      "reference_sha256": "187a33418542294fa5ca2681adaaeb960bfca6b318bb4ceca8a32961ce0e1d28",
+      "working_sha256": "187a33418542294fa5ca2681adaaeb960bfca6b318bb4ceca8a32961ce0e1d28",
+      "working_lf_sha256": "235f45f3f4f442f6bf65a124b16f3756334c0043d0e6679054a417578ac152c0"
+    },
+    "LightAdjust.pas": {
+      "reference_sha256": "a9bc290a37e14467d2e486ecaf1505e8eeb777e2a14f78c75281dcd6c1c04439",
+      "working_sha256": "a9bc290a37e14467d2e486ecaf1505e8eeb777e2a14f78c75281dcd6c1c04439",
+      "working_lf_sha256": "7651fbb77cde0e1d3142dc3792d31408419499730518e44eb685b632802f9618"
+    },
+    "LinarBitmap.pas": {
+      "reference_sha256": "9b4f9d1dbafa3d79b70d123ef6e1a919fc6487c1f9f96fc42f8b8816a90aaefd",
+      "working_sha256": "9b4f9d1dbafa3d79b70d123ef6e1a919fc6487c1f9f96fc42f8b8816a90aaefd",
+      "working_lf_sha256": "b9dc47338fabeb6db9b4f8bfd232599506f816274381529b75edc63bfb7b360c"
+    },
+    "ListBoxEx.pas": {
+      "reference_sha256": "b30036e3f0745c4234f9423da22bd7d4aa1ae9ed0e36f9deb869eccae5fe84b0",
+      "working_sha256": "b30036e3f0745c4234f9423da22bd7d4aa1ae9ed0e36f9deb869eccae5fe84b0",
+      "working_lf_sha256": "5908f1c077862e2293c2eccc30d8e025a188cfe98f00d5006aa584124ae06b89"
+    },
+    "M3DfractalClass.pas": {
+      "reference_sha256": "7fff8d3d6398114b39da9ad04975d9cf0949f2591daf222b4a71567310009788",
+      "working_sha256": "7fff8d3d6398114b39da9ad04975d9cf0949f2591daf222b4a71567310009788",
+      "working_lf_sha256": "4174b499262e0cd64754e662358ca9fe76a6ae88ff8a7ecc18e33a8c351ebdd0"
+    },
+    "M3Iregister.pas": {
+      "reference_sha256": "a8e1113dc1d0730727f7908a8f0194aca930b39ac9f57b3eeb916d09fcbc7dfb",
+      "working_sha256": "a8e1113dc1d0730727f7908a8f0194aca930b39ac9f57b3eeb916d09fcbc7dfb",
+      "working_lf_sha256": "f2ab053e37a925e82ecb89eb2c84acd63b3ddd098fea5b4dcd26fe5db94df1bf"
+    },
+    "MB3DSpin.pas": {
+      "reference_sha256": "2dea63bede87234c3a82503b56f89efe5fe52fe1981fc3aa4bc50734ffdff57f",
+      "working_sha256": "2dea63bede87234c3a82503b56f89efe5fe52fe1981fc3aa4bc50734ffdff57f",
+      "working_lf_sha256": "da435927ac63a746d15bd6e45e6b087e12c4bad5bff59ec692a366573876b555"
+    },
+    "Mand.lfm": {
+      "reference_sha256": "5db30745f8d2d349571eea460a58a24f8ba079cdb38b02c423dc9b04da88b8db",
+      "working_sha256": "5db30745f8d2d349571eea460a58a24f8ba079cdb38b02c423dc9b04da88b8db",
+      "working_lf_sha256": "b191e360a31eac0b0f502a86d0a02ca1c4d3046b9f42ec0387705633f3b3158a"
+    },
+    "Mand.pas": {
+      "reference_sha256": "d82f091b1aa8320657419ab26b3ac03f1bafc6ee80705bb57bac22c2d7dde725",
+      "working_sha256": "c545e0c407e0a332ba2e01df2c08f0b3f86b94f972c1ef5f9cf41cbfed62fa31",
+      "working_lf_sha256": "e638d8b8b53a4f9faf1e18ad71771e672ff3db1b4bc100367b508e050896fc12"
+    },
+    "Mandelbulb3D.lpi": {
+      "reference_sha256": "4dee8370281e02d724cb9ccd4d5c6b609d45cb07d75b0318fbdcbf76d304e89f",
+      "working_sha256": "4dd091b86ab03fd1d161a6c10b23c8a15c2d3664768288335a182660105fc151",
+      "working_lf_sha256": "e3cc0b216f6a3b0dc9276cd8ca4a87fa2ba5d5e499978d06a6b6380dcedfeea3"
+    },
+    "Mandelbulb3D.lpr": {
+      "reference_sha256": "7cc784ce6f16d0d250bab88363ea33337232e13b92bb7b2852d77ec8d8ef39d3",
+      "working_sha256": "0467526aae4611724ce22eded8ba7f98d6d3dc5fae52c9a46f23c91c3e32eeb9",
+      "working_lf_sha256": "4d280f65bdeaa2f5f85e3f6fafdd155756aa7dea3b9e319074266b8d3733946f"
+    },
+    "Math3D.pas": {
+      "reference_sha256": "ad03ae11af6907a7b6edd6e7f95d46b889a47de084906652ef65bd242d7cd557",
+      "working_sha256": "a098cec0efe09a5e201d825be131ebd9ec48e3e24c81fe1b006f61399eb2b303",
+      "working_lf_sha256": "82411c38e4d3589820d599a42bd6b77c5ee830294bb42dbaed5289b2a2647b23"
+    },
+    "MathUtils.pas": {
+      "reference_sha256": "df6ebf2539c6e10df7d12d28bce3f7bb28e0522aed3c2eb0331d501fa06ebd85",
+      "working_sha256": "df6ebf2539c6e10df7d12d28bce3f7bb28e0522aed3c2eb0331d501fa06ebd85",
+      "working_lf_sha256": "dce39f410f2f45ff7e06741c4d9e9421bd53f9644190c9b08eb98443f0178ad4"
+    },
+    "MemStream.pas": {
+      "reference_sha256": "493cf8d862222b6505afce966d68f3b79acbe00f574073d5327420457f9050e1",
+      "working_sha256": "493cf8d862222b6505afce966d68f3b79acbe00f574073d5327420457f9050e1",
+      "working_lf_sha256": "bab1e9d6aef8a7048b5fd8b3d64e426191600b1f56d7ba2697814dc78aaf7f44"
+    },
+    "MemUtils.pas": {
+      "reference_sha256": "23455e1de46b8e62e01ea777be9f82cad3dc1d11befd09b67a16d396fc9b757e",
+      "working_sha256": "23455e1de46b8e62e01ea777be9f82cad3dc1d11befd09b67a16d396fc9b757e",
+      "working_lf_sha256": "3c39f033df1346f4574373c8b9cf5cadddd0e527f78d8445f3717a703612d7db"
+    },
+    "Monitor.pas": {
+      "reference_sha256": "1e7f485a23b2d355d8b33d71aaded28d0d5de76e6603d8de39eccea9b3e7389b",
+      "working_sha256": "1e7f485a23b2d355d8b33d71aaded28d0d5de76e6603d8de39eccea9b3e7389b",
+      "working_lf_sha256": "b530f0526260950cd6f2e224362b7bd46022321e24e0e26cd40ee9cb99f02f10"
+    },
+    "MonteCarloForm.lfm": {
+      "reference_sha256": "fd2b67f87d0e620d9dde9f60057e39beb627238ff95cd1a36fb9b32141bae27f",
+      "working_sha256": "fd2b67f87d0e620d9dde9f60057e39beb627238ff95cd1a36fb9b32141bae27f",
+      "working_lf_sha256": "67df6ec0f538f778af0d45376a7fd797424c4242daeca933719f9baff381a6a5"
+    },
+    "MonteCarloForm.pas": {
+      "reference_sha256": "dd1bbc002ea324227647513fb2f0d69fc2b074df7b8baaa2abe3b8dde7812e0b",
+      "working_sha256": "dd1bbc002ea324227647513fb2f0d69fc2b074df7b8baaa2abe3b8dde7812e0b",
+      "working_lf_sha256": "d349ceb51a005b57b777d0f80273e26df0742c258f133a2f61eb72ba9328952b"
+    },
+    "NaviCalcThread.pas": {
+      "reference_sha256": "71742c33fda396ecd97b83ed6ae5cb1a53a55a64c4389f3686ef383a866ea453",
+      "working_sha256": "71742c33fda396ecd97b83ed6ae5cb1a53a55a64c4389f3686ef383a866ea453",
+      "working_lf_sha256": "026a4d5a89549f33dd871aed35c7632e0e2c1154cb8c51fc38a9aa0b09789e65"
+    },
+    "Navigator.lfm": {
+      "reference_sha256": "fa5d58a561dce3f0355ccdaaec9478d9793e63cc7e86d019ede91a5a7998edda",
+      "working_sha256": "fa5d58a561dce3f0355ccdaaec9478d9793e63cc7e86d019ede91a5a7998edda",
+      "working_lf_sha256": "8dd9b50dc094a9b0c900ea3215f4c222772cfe81e5ef066416a019b24629e558"
+    },
+    "Navigator.pas": {
+      "reference_sha256": "e0a3e1923ad9ede34c684b5a861191be1612387b6e5b86a9441859f333b7a551",
+      "working_sha256": "e0a3e1923ad9ede34c684b5a861191be1612387b6e5b86a9441859f333b7a551",
+      "working_lf_sha256": "5be28620d4b4a9354c5dbe40028d1333fd873ccd576a02092ce19ee236166e02"
+    },
+    "OTrapDEcalc.pas": {
+      "reference_sha256": "5ca07326fd1055cc5b0fbd55ca433ec72d3c1a525a9c093cdd632fffc8c36aa4",
+      "working_sha256": "5ca07326fd1055cc5b0fbd55ca433ec72d3c1a525a9c093cdd632fffc8c36aa4",
+      "working_lf_sha256": "dc5b6cfee896c98752d68d4806086f37050e3a97385e4127ffbaf2e90973a4e5"
+    },
+    "PNGLoader.pas": {
+      "reference_sha256": "e4193a6ad4f1b830d464b6665653df2c4f3f3521cda1c9c7dba4a73d7032a2c0",
+      "working_sha256": "e4193a6ad4f1b830d464b6665653df2c4f3f3521cda1c9c7dba4a73d7032a2c0",
+      "working_lf_sha256": "da7de9e47a0f53f430df4cf2f3d8d15a7c6d59755becc425a18dd82ac37ff043"
+    },
+    "Paint.pas": {
+      "reference_sha256": "b6d43f7b656a9bf8302a4ecfc334d32c27ddf0e5dbc138b8ba5099350575ad3c",
+      "working_sha256": "db397e5fb76da9a63aebecfd7d33795ef9e70b7d473438382c7619cf4c2eb4b7",
+      "working_lf_sha256": "bc8058faf2cf8e7ca23e6960278b7c0a43226989aa49549cf378725d0838a368"
+    },
+    "PaintThread.pas": {
+      "reference_sha256": "84916b83e5b368251b33f920278e72d7383ab6e2d4b3cdc556b1c90ca6dc35fe",
+      "working_sha256": "0d0a7f258c1502294d331a05de3253746f7957de11ed0a86cbd8b2db3544fb3f",
+      "working_lf_sha256": "0d0a7f258c1502294d331a05de3253746f7957de11ed0a86cbd8b2db3544fb3f"
+    },
+    "ParityTrace.pas": {
+      "reference_sha256": null,
+      "working_sha256": "d4ee589ec826b55e94d2a04f0fa233bc6b039feba1a9ffb97a6c66a7e63b29aa",
+      "working_lf_sha256": "d4ee589ec826b55e94d2a04f0fa233bc6b039feba1a9ffb97a6c66a7e63b29aa"
+    },
+    "PasLcg.pas": {
+      "reference_sha256": null,
+      "working_sha256": "15badc35ec568462ac1f7e33b1dea1b609154d60fccb483ebd742d7f2272cc77",
+      "working_lf_sha256": "15badc35ec568462ac1f7e33b1dea1b609154d60fccb483ebd742d7f2272cc77"
+    },
+    "PostProcessForm.lfm": {
+      "reference_sha256": "a40aa2c1229461c88ddfd2e333536b88396351b09e98341731772e701d41b205",
+      "working_sha256": "a40aa2c1229461c88ddfd2e333536b88396351b09e98341731772e701d41b205",
+      "working_lf_sha256": "df7f131cf69c1dba9967d8d5d8dbca41506a93631d8ee4c6534bd005e8625661"
+    },
+    "PostProcessForm.pas": {
+      "reference_sha256": "bdbb3d32a361d7bc33b266a05c6ada3274f9f66204268babb2b91ca5acecffa4",
+      "working_sha256": "bdbb3d32a361d7bc33b266a05c6ada3274f9f66204268babb2b91ca5acecffa4",
+      "working_lf_sha256": "988142e8202a6c18ecb2bbdf6efdccafebcedfc1db07a9816752d9e6e1f09f09"
+    },
+    "RaySetupDump.pas": {
+      "reference_sha256": null,
+      "working_sha256": "16b7655f6e0249942ba302f5c72f2e3bcd64764ff30fded4468c5f5b22fa5b43",
+      "working_lf_sha256": "a52a7525a1d5666aa0dee3ad1b5664dae6dc046ea6d2154260c2c3f84f24dba6"
+    },
+    "RegisterM3Pgraphic.pas": {
+      "reference_sha256": "fedc92baaa59034d4220f40fe1eccb46fc7f155eb6c1470311c4087667f9ae2e",
+      "working_sha256": "fedc92baaa59034d4220f40fe1eccb46fc7f155eb6c1470311c4087667f9ae2e",
+      "working_lf_sha256": "501fc8efedda6816b4737e94d0fc057cfe453049a7740d6b84ff9e796cd75bc9"
+    },
+    "SpeedButtonEx.pas": {
+      "reference_sha256": "27a0fc8234faa3aff7892eba5e43e2481fa6d4fe7820e0063382c26cb5ce0466",
+      "working_sha256": "27a0fc8234faa3aff7892eba5e43e2481fa6d4fe7820e0063382c26cb5ce0466",
+      "working_lf_sha256": "6c473c80f05ab907ad2777198d78f08f58aaacc014e9437be2fd442626ec2c0a"
+    },
+    "Streams.pas": {
+      "reference_sha256": "60a3a70b5569b64f3c4075f0c257082edfbaae3d008552f49f335265642883cf",
+      "working_sha256": "60a3a70b5569b64f3c4075f0c257082edfbaae3d008552f49f335265642883cf",
+      "working_lf_sha256": "a2d1c19790a5fd5c50246f7854a6ccf8ca917a9f5a59528e4746efb6eb1ce74b"
+    },
+    "TextBox.lfm": {
+      "reference_sha256": "c3fc9ee26bc26a93b8129908d88518928fc1c66f68981d39f748dea3ce8f59e4",
+      "working_sha256": "c3fc9ee26bc26a93b8129908d88518928fc1c66f68981d39f748dea3ce8f59e4",
+      "working_lf_sha256": "17596f341824137123d0174c3aa93b860dce632dfe2d02f002c68d358952ffde"
+    },
+    "TextBox.pas": {
+      "reference_sha256": "bf3d3c90466f7f3d717f50a71a316bcfa8380a058f900f3e373ba58a36938dfb",
+      "working_sha256": "bf3d3c90466f7f3d717f50a71a316bcfa8380a058f900f3e373ba58a36938dfb",
+      "working_lf_sha256": "20a0860e3ae9fc9a72446f2d6e93f9681b7e0a920084f2752fbe2acb430f8a9b"
+    },
+    "ThreadUtils.pas": {
+      "reference_sha256": "c316cfad037a7ca4d2426541899fea822bd426bae799739b5a5aaef89bf0a360",
+      "working_sha256": "c316cfad037a7ca4d2426541899fea822bd426bae799739b5a5aaef89bf0a360",
+      "working_lf_sha256": "2339c4d79e2f1e1fb0a6be3889c6562d008ec056d8f155fcf1cdf6560ee7255e"
+    },
+    "Tiling.lfm": {
+      "reference_sha256": "20aee152ee4b9769478a39c8d7747a9beea4fd57212c09d22754389873caed2c",
+      "working_sha256": "20aee152ee4b9769478a39c8d7747a9beea4fd57212c09d22754389873caed2c",
+      "working_lf_sha256": "96fd7187b3733914bcd18eacc3c61f26a324948ae1f07472d80101d506bf667d"
+    },
+    "Tiling.pas": {
+      "reference_sha256": "1d9570c3630d0a3f4804905a17909e2b0c4840976d5970cf8c844805e6bea9dd",
+      "working_sha256": "1d9570c3630d0a3f4804905a17909e2b0c4840976d5970cf8c844805e6bea9dd",
+      "working_lf_sha256": "b410fe51e9e84572b3546c81cbb109b25783f049470b5fdbb083bbfb59399dd5"
+    },
+    "TrackBarEx.pas": {
+      "reference_sha256": "ba7e57a2dfb572b90291835b7f9c0bebab33eedf92ef34c44c9ed0c1a4cfdf25",
+      "working_sha256": "ba7e57a2dfb572b90291835b7f9c0bebab33eedf92ef34c44c9ed0c1a4cfdf25",
+      "working_lf_sha256": "17c0eb8838e3bdc425e1ad7840f7ab946e0eb2d1c2624035a9d2d6966a206f01"
+    },
+    "TypeDefinitions.pas": {
+      "reference_sha256": "3a9a5d19fa00ba9cf2ec3562545ed31719a770aaaff71e041eab507bb7535f93",
+      "working_sha256": "3a9a5d19fa00ba9cf2ec3562545ed31719a770aaaff71e041eab507bb7535f93",
+      "working_lf_sha256": "5ef479844d3d5ffac309b141c9f80b62ebf0f9bf8b8782b706d9f451ef096747"
+    },
+    "Undo.pas": {
+      "reference_sha256": "c4a7fb92fe11149cbb7f0f312cfd0056439e3bf54c36a25105af161bf75a1252",
+      "working_sha256": "c4a7fb92fe11149cbb7f0f312cfd0056439e3bf54c36a25105af161bf75a1252",
+      "working_lf_sha256": "34f7e011e1e87eee8a160c8124c76fa37548fd79ccf1c554ba000a61994792d3"
+    },
+    "VoxelExport.lfm": {
+      "reference_sha256": "8bcc6fe6f736a401f8142b1ca8f7e573dbadb05dd035d10ad61d5515d366edbf",
+      "working_sha256": "8bcc6fe6f736a401f8142b1ca8f7e573dbadb05dd035d10ad61d5515d366edbf",
+      "working_lf_sha256": "391f5201a2a250f54496c7e504e57e7d7c1ac81b277d7668c7190729284d3fa1"
+    },
+    "VoxelExport.pas": {
+      "reference_sha256": "fe60d804d0537779941ba69326746efe807dbe681e0725a2a27d44d4a961f864",
+      "working_sha256": "fe60d804d0537779941ba69326746efe807dbe681e0725a2a27d44d4a961f864",
+      "working_lf_sha256": "7d0cbb2767c2752878c274c8c8b02a72c559b8547efdf0bda1b923bd3fde06f1"
+    },
+    "bulbtracer2/BulbTracer2.pas": {
+      "reference_sha256": "0ff5cf544065e85f23d4b19d3a722dc7395eea164fc04bb92b6abfd6830ae98a",
+      "working_sha256": "0ff5cf544065e85f23d4b19d3a722dc7395eea164fc04bb92b6abfd6830ae98a",
+      "working_lf_sha256": "8b798382b473fad92bb18300b8dec073ffce6e3a26dcd38010b99423fa89468c"
+    },
+    "bulbtracer2/BulbTracer2Config.pas": {
+      "reference_sha256": "23fd303b6aff666fbb8bf86ab6c66c39102d79d3e8dbb51ddd138fdb183fb555",
+      "working_sha256": "23fd303b6aff666fbb8bf86ab6c66c39102d79d3e8dbb51ddd138fdb183fb555",
+      "working_lf_sha256": "d6271546d297a4ffac640a087a71d42ca6a7b6897b3da0631ee03fdb342fee28"
+    },
+    "bulbtracer2/BulbTracer2UI.lfm": {
+      "reference_sha256": "737ef75c061824dfdb6493f1a32ad0c74d55ed1a056fd73598d3288600ec75ff",
+      "working_sha256": "737ef75c061824dfdb6493f1a32ad0c74d55ed1a056fd73598d3288600ec75ff",
+      "working_lf_sha256": "4daa8480ed9b980194949263d1417642671aa72ff42a4f8592f8e8a013d40615"
+    },
+    "bulbtracer2/BulbTracer2UI.pas": {
+      "reference_sha256": "d22b1ed94a73a3ada7e92e44f3795d6ee26483c0308d04c8aed82a71486a4010",
+      "working_sha256": "d22b1ed94a73a3ada7e92e44f3795d6ee26483c0308d04c8aed82a71486a4010",
+      "working_lf_sha256": "bb590f8bc6ec85d208f937563c133521a892e02317835e2f305c40effd213af7"
+    },
+    "bulbtracer2/BulbTracerUITools.pas": {
+      "reference_sha256": "241681d984b1e2d196f9a7490c05acf0f4050ccddcccf2f320346df22bd155d7",
+      "working_sha256": "241681d984b1e2d196f9a7490c05acf0f4050ccddcccf2f320346df22bd155d7",
+      "working_lf_sha256": "e8ae9ccb0b5501bf454965d3b6e8b073337e9cfce8f5ecf2584bb97219dcf605"
+    },
+    "bulbtracer2/MeshIOUtil.pas": {
+      "reference_sha256": "f057398f2ba713a5e5ecfd33ba66854c0089e27f59b3c0f09626cb573f388238",
+      "working_sha256": "f057398f2ba713a5e5ecfd33ba66854c0089e27f59b3c0f09626cb573f388238",
+      "working_lf_sha256": "6b416dca0a7ce3c94c9805466111c7a8c1ffd15f16f4690080e325e35320d38f"
+    },
+    "bulbtracer2/MeshReader.pas": {
+      "reference_sha256": "5558ad4255c1be5ebe57356a5c102d4029dd910b73942f10861929ece1e75085",
+      "working_sha256": "5558ad4255c1be5ebe57356a5c102d4029dd910b73942f10861929ece1e75085",
+      "working_lf_sha256": "656c50c0af36d18c56bd13b971e88722d9a8599b64c239b4e0e3b2b7cbbe920f"
+    },
+    "bulbtracer2/MeshWriter.pas": {
+      "reference_sha256": "03e19ef5b94e4c257d71b327e66867ca630f7768447a04221525baceebfa3235",
+      "working_sha256": "03e19ef5b94e4c257d71b327e66867ca630f7768447a04221525baceebfa3235",
+      "working_lf_sha256": "034156f0d22749a588d96d7bbcb38d3e3e6f14f1cabaf36b66d35a32e56b553b"
+    },
+    "bulbtracer2/ObjectScanner2.pas": {
+      "reference_sha256": "0866f618d6347675dae5ca8fa7d71f130238f041fc2516d39870e046a4738634",
+      "working_sha256": "0866f618d6347675dae5ca8fa7d71f130238f041fc2516d39870e046a4738634",
+      "working_lf_sha256": "3cd0a653ac3f3702c911df1ce2bdb93dd279779fa57a54d0595d89214ecc871f"
+    },
+    "bulbtracer2/VectorMath.pas": {
+      "reference_sha256": "8885f58c203582290a2641885ec247fc14755fd6fc5e39d4731d8e74fef4740e",
+      "working_sha256": "8885f58c203582290a2641885ec247fc14755fd6fc5e39d4731d8e74fef4740e",
+      "working_lf_sha256": "9c9040e167adc391ab8435111a2dfcd373400b60f107c13d6a1189bd52b50895"
+    },
+    "bulbtracer2/VertexList.pas": {
+      "reference_sha256": "f835381f4498077d2401b0e4862cd8f3f8de89d96c41a8c1f52e5c3dbb7d1980",
+      "working_sha256": "f835381f4498077d2401b0e4862cd8f3f8de89d96c41a8c1f52e5c3dbb7d1980",
+      "working_lf_sha256": "75a2f5cb0a5375c5ea9dde26d92b636127880caaeb7eb7630084deb16298be0f"
+    },
+    "calcBlocky.pas": {
+      "reference_sha256": "30ecb4d0c0e2333db06977df1798372f29db126f7275b16b2549e0d1b7af5ab7",
+      "working_sha256": "30ecb4d0c0e2333db06977df1798372f29db126f7275b16b2549e0d1b7af5ab7",
+      "working_lf_sha256": "355e490a3afd27914d78ccfc84bb0c139db03087da562f54fe47b66204dd9017"
+    },
+    "facade/MB3DFacade.pas": {
+      "reference_sha256": "0ff4d1a3ed2e4408744e3f20ce034ba79b015032d14c501e77c0946ce5046b47",
+      "working_sha256": "0ff4d1a3ed2e4408744e3f20ce034ba79b015032d14c501e77c0946ce5046b47",
+      "working_lf_sha256": "07bc982fb3f00e108d157e9fa554e2ae38fccc132daff3c13fb498abaa11364c"
+    },
+    "formula/FormulaCompiler.pas": {
+      "reference_sha256": "92117e2d74ed9e6ea93a12e0bcad5221866c3db5033fd2df46b2df8938e24e7a",
+      "working_sha256": "92117e2d74ed9e6ea93a12e0bcad5221866c3db5033fd2df46b2df8938e24e7a",
+      "working_lf_sha256": "7ce0b60c8dd60abfa078e6e23b0463a78e7a0dcf60306b1c7e226e2739530a35"
+    },
+    "formula/FormulaGUI.lfm": {
+      "reference_sha256": "805b6effa8a7d23effddb0945cc553fba430afcccc41decc927acd2f0fd64472",
+      "working_sha256": "805b6effa8a7d23effddb0945cc553fba430afcccc41decc927acd2f0fd64472",
+      "working_lf_sha256": "e45594d2abf142c5415c8b032890502ad2a3878b753ec385654f0839bffaf555"
+    },
+    "formula/FormulaGUI.pas": {
+      "reference_sha256": "8765716293a04d7241ed845b878cac936c1b6fba7c70ea7459dafd1cdeff3c1c",
+      "working_sha256": "8765716293a04d7241ed845b878cac936c1b6fba7c70ea7459dafd1cdeff3c1c",
+      "working_lf_sha256": "2acb6781aaa0488c6102dcf302529ccedd62dca0f179baebd35a4d6367a779a5"
+    },
+    "formula/FormulaNames.pas": {
+      "reference_sha256": "6a972c66fec2c236062f480c50217a4fa4f16d7c26e083d9327c3647ed9e32fb",
+      "working_sha256": "6a972c66fec2c236062f480c50217a4fa4f16d7c26e083d9327c3647ed9e32fb",
+      "working_lf_sha256": "47ec7f1a4320dfa0be7030e9a2495d709136298c9548f963c6d24ea5dfd46028"
+    },
+    "formula/FormulaTranspiler.pas": {
+      "reference_sha256": "8c5bb5b972782124b905c3983578785294bebd18c8d541f7df447c155e833fd6",
+      "working_sha256": "8c5bb5b972782124b905c3983578785294bebd18c8d541f7df447c155e833fd6",
+      "working_lf_sha256": "a8b572e8f7dd205a9ee8ea053c840b2a9f0da7d01a4ffd3c6fe618b74747381e"
+    },
+    "formula/JITFormulaEditGUI.lfm": {
+      "reference_sha256": "9e6f93b28539fa2435083fbc61b977d4382ded75c82603fa0d376f39505cf6b1",
+      "working_sha256": "9e6f93b28539fa2435083fbc61b977d4382ded75c82603fa0d376f39505cf6b1",
+      "working_lf_sha256": "3de1ecedf8076898563c1277783c86ae5e4ad33827132035e29e2b3922ec10fc"
+    },
+    "formula/JITFormulaEditGUI.pas": {
+      "reference_sha256": "6263dd6ff0c6030af734a32366d3c86df3ea6877ddee5485e7b75132e72e691b",
+      "working_sha256": "6263dd6ff0c6030af734a32366d3c86df3ea6877ddee5485e7b75132e72e691b",
+      "working_lf_sha256": "76217e50623f0e87c6bbf72b6f58d4cdde85f3bbe5230bd560e60f7aa4da2ee8"
+    },
+    "formula/JITFormulas.pas": {
+      "reference_sha256": "2d19bb90eab5d54a2c834f155f2e2b31d23aa9e2992dfed35512a61e993cefcd",
+      "working_sha256": "2d19bb90eab5d54a2c834f155f2e2b31d23aa9e2992dfed35512a61e993cefcd",
+      "working_lf_sha256": "154d55879fb54d2dc3602b1c22474a40583352b9a57104b0586ccb79bcc60202"
+    },
+    "formula/ParamValueEditGUI.lfm": {
+      "reference_sha256": "662179a52e9c6dcc82f0cd4e32e5d2f43b64fc5b045a03f68c4ca971f140a72e",
+      "working_sha256": "662179a52e9c6dcc82f0cd4e32e5d2f43b64fc5b045a03f68c4ca971f140a72e",
+      "working_lf_sha256": "aeeb42c14d08781de069b9fc48c20c1fb218066a4c84e90d390b0a8b6bdf7d01"
+    },
+    "formula/ParamValueEditGUI.pas": {
+      "reference_sha256": "e9197175437231ef432385b31aac3876e0ce4d8177c6100234cbe8487c79a099",
+      "working_sha256": "e9197175437231ef432385b31aac3876e0ce4d8177c6100234cbe8487c79a099",
+      "working_lf_sha256": "cb2dec2c92867ff47cfed5447376e6f6ee2f18957fc53e1db6fc5aed446be5e4"
+    },
+    "formulas.pas": {
+      "reference_sha256": "b19507e537d27e78a88219cf6d0f853bb5ab1ee6113a3e15a5cf040522ba548b",
+      "working_sha256": "a442029d3049ad7229656b5468a998975a690ae86ef5ab52f6da19629819c06d",
+      "working_lf_sha256": "fbd03dc307834a7eee3aa2e41c94333aeee8e0965076b0ce76b7459bf36e75de"
+    },
+    "heightmapgen/HeightMapGenPreview.pas": {
+      "reference_sha256": "8c207c95eaab85218b650ad52fa97b3c93ab95606c8676f626649caccfdd3142",
+      "working_sha256": "8c207c95eaab85218b650ad52fa97b3c93ab95606c8676f626649caccfdd3142",
+      "working_lf_sha256": "d12c5abfa9fcdc12b7d6faee28448a7817fa56a52c39304ec8882ae6ff854e8a"
+    },
+    "heightmapgen/HeightMapGenUI.lfm": {
+      "reference_sha256": "964870cf5f0f0b8e169d6fae3f1d01225ed5056494c3e4ebf57eece696b10efd",
+      "working_sha256": "964870cf5f0f0b8e169d6fae3f1d01225ed5056494c3e4ebf57eece696b10efd",
+      "working_lf_sha256": "e7eb71da91792cb7117afa4b1f550c83696b824b17739ddbc46910d8570ecb68"
+    },
+    "heightmapgen/HeightMapGenUI.pas": {
+      "reference_sha256": "e081754cd7ac6ea79cfffc5a5f156d53fa07b2c76eb945252d946cc54e8f9ca2",
+      "working_sha256": "e081754cd7ac6ea79cfffc5a5f156d53fa07b2c76eb945252d946cc54e8f9ca2",
+      "working_lf_sha256": "260ab46ec63fbc3ecf0365c583764d1ed2f099b10b5c0ac0e35127d5df5592c1"
+    },
+    "heightmapgen/PNMReader.pas": {
+      "reference_sha256": "38992a7416660e876cd41c18cc58511a60d2d9170584a39e8a169fd6b67b58c0",
+      "working_sha256": "38992a7416660e876cd41c18cc58511a60d2d9170584a39e8a169fd6b67b58c0",
+      "working_lf_sha256": "7aa02eafa4e6b42c04cc47095c87658a049422ee99551305d0fa539992ea7b18"
+    },
+    "heightmapgen/PNMWriter.pas": {
+      "reference_sha256": "6e21cbea1accc715445190bfa908ee7c5012d3d2ebad47ab2fa115464e8bddfe",
+      "working_sha256": "6e21cbea1accc715445190bfa908ee7c5012d3d2ebad47ab2fa115464e8bddfe",
+      "working_lf_sha256": "84f53334c164dcb0dfa6ee2d3953ef90b26b8c2f70bd5683fbd54b63668d6e26"
+    },
+    "maps/MB3DMaps.pas": {
+      "reference_sha256": "e93e65795fffd55e2e051fe782f0ef5f99c9f981f09f8ad427be75eeaadb334e",
+      "working_sha256": "1e2beacae5c2a3c019f1f03f086610a850bccd4f02fb864737103bef8900c188",
+      "working_lf_sha256": "1e2beacae5c2a3c019f1f03f086610a850bccd4f02fb864737103bef8900c188"
+    },
+    "maps/MapSequences.pas": {
+      "reference_sha256": "7c87f6550b01a76d1b64dae8d5061f9cebd23e0ac9e14a9cf4ce4a049dd81336",
+      "working_sha256": "73a2e55113392cc23000b78f22c0cbd051882970bc07eb6d9d8d9fbeafa71df4",
+      "working_lf_sha256": "7b4d3b37dbc52e4344090e4961dfdbc359f945515df9b5b1d90211452892da34"
+    },
+    "maps/MapSequencesGUI.lfm": {
+      "reference_sha256": "490d634e967e48684161b2cc203886c80db2def75a43e89b46902419130725cd",
+      "working_sha256": "490d634e967e48684161b2cc203886c80db2def75a43e89b46902419130725cd",
+      "working_lf_sha256": "08ac2f8f049c658dcee5472e38cf4e7a40e6be93b72d4109dad8c4e28f516328"
+    },
+    "maps/MapSequencesGUI.pas": {
+      "reference_sha256": "f3d8efc9b947ab80c07b1d25911dcba5eee08028ab9f7e6e32a1064dda4c74d1",
+      "working_sha256": "f3d8efc9b947ab80c07b1d25911dcba5eee08028ab9f7e6e32a1064dda4c74d1",
+      "working_lf_sha256": "d55177d484a810e5aa3d634f3a871a38aad703fd01e3f7c027200b1c19ab43d8"
+    },
+    "mutagen/MutaGen.pas": {
+      "reference_sha256": "648ca79823282ddac0ee46808d8412684d628333381ac4ea3d61fe8e49e9582c",
+      "working_sha256": "648ca79823282ddac0ee46808d8412684d628333381ac4ea3d61fe8e49e9582c",
+      "working_lf_sha256": "1b9968838eedba5e9a11edeaedcb572b7ebf5e0fea88c6da62a7ee5aca40bf6e"
+    },
+    "mutagen/MutaGenGUI.lfm": {
+      "reference_sha256": "27d84919fed2d2ebb1fcbe94585835704e5f2c3c2d44e69c4448e6d411378edb",
+      "working_sha256": "27d84919fed2d2ebb1fcbe94585835704e5f2c3c2d44e69c4448e6d411378edb",
+      "working_lf_sha256": "be6777aae56d98ecfa60b0cd674981afe5c2444600d867bd6d318b0ff952ba62"
+    },
+    "mutagen/MutaGenGUI.pas": {
+      "reference_sha256": "3995d86c148f2c2ece719a99e539558d4e6d8990bb58a7a639f7974d2c93dfec",
+      "working_sha256": "3995d86c148f2c2ece719a99e539558d4e6d8990bb58a7a639f7974d2c93dfec",
+      "working_lf_sha256": "2988610d90c53c8cd7d3722910f78b6519601de789088c47778f633e996bc26e"
+    },
+    "opengl/MeshPreview.pas": {
+      "reference_sha256": "12f623c5274881a26166c30b6a23b1661b8ec1419079f1875572b1f339146b43",
+      "working_sha256": "12f623c5274881a26166c30b6a23b1661b8ec1419079f1875572b1f339146b43",
+      "working_lf_sha256": "b59c79b041932446bb0c8ca4f7589de9fd7586a5335a8179711414df61dfeec3"
+    },
+    "opengl/MeshPreviewUI.lfm": {
+      "reference_sha256": "c2ea9e870482819c6c93fa8857587fbb5f96cde3b1e95832c5f88bbbc2019a0c",
+      "working_sha256": "c2ea9e870482819c6c93fa8857587fbb5f96cde3b1e95832c5f88bbbc2019a0c",
+      "working_lf_sha256": "9c23b0c1766fb43a41d6e61b2e26b657e1226050015ecf557413056a4672bbba"
+    },
+    "opengl/MeshPreviewUI.pas": {
+      "reference_sha256": "7883d984681922391f8d3ecca88e9c852682a99aa3f436828b9a39039fd287f0",
+      "working_sha256": "7883d984681922391f8d3ecca88e9c852682a99aa3f436828b9a39039fd287f0",
+      "working_lf_sha256": "cae163c2f712c9e686cb28c9bc7d0773a979eb2f67d66632aadacb8fa9e48e3e"
+    },
+    "opengl/OpenCLUtil.pas": {
+      "reference_sha256": "b0d8b28cfeaaf36a6235718af78c744f9a205aab08eb51762710fa88efc8eff4",
+      "working_sha256": "b0d8b28cfeaaf36a6235718af78c744f9a205aab08eb51762710fa88efc8eff4",
+      "working_lf_sha256": "dc3b094202bb8c9f18685dda276929cc5fecba947d9a4bc4f7c7c14bb13e9f96"
+    },
+    "opengl/OpenGLPreviewUtil.pas": {
+      "reference_sha256": "c087152bae855573bebf144d69fe645a0d20073dd7a1ccf8a02c552645444ecc",
+      "working_sha256": "c087152bae855573bebf144d69fe645a0d20073dd7a1ccf8a02c552645444ecc",
+      "working_lf_sha256": "0c2a0eba86787613c7bc6827ba9d3fa2e7a097586af75f3a0bd125917ec4dcad"
+    },
+    "opengl/ShaderUtil.pas": {
+      "reference_sha256": "9f8971704163f92943a05a0410eee3239ff40a44a451e0ae9cb5d42b86083111",
+      "working_sha256": "9f8971704163f92943a05a0410eee3239ff40a44a451e0ae9cb5d42b86083111",
+      "working_lf_sha256": "e027a95e0a3ad7a6412cf45f8954ed9c7c9d107879d1b6d2b9d81ff6218c07bc"
+    },
+    "opengl/dglOpenCL.pas": {
+      "reference_sha256": "716e075c03fcf9a2b12143b59cd1f71453ce6fa092b669a1709c4b2e3ca05629",
+      "working_sha256": "716e075c03fcf9a2b12143b59cd1f71453ce6fa092b669a1709c4b2e3ca05629",
+      "working_lf_sha256": "9ee8d86085869812efcd22a0bdcf27527c3b72306831150e32670de79e3a5ab4"
+    },
+    "opengl/dglOpenGL.pas": {
+      "reference_sha256": "4a22c74fc98576049a3bc686f029357a45907bb9336586a6da1ef1b42d3a270e",
+      "working_sha256": "4a22c74fc98576049a3bc686f029357a45907bb9336586a6da1ef1b42d3a270e",
+      "working_lf_sha256": "cc65ede91ea5b86db1058a0d2a8962d96ffa127794148fd86121c04da5561725"
+    },
+    "opengl/opengl12.pas": {
+      "reference_sha256": "2da3e2a98d7bb88dbc08b91b0b7e07f848aa1d19a8d4ca9c87bfa3b446e07c11",
+      "working_sha256": "2da3e2a98d7bb88dbc08b91b0b7e07f848aa1d19a8d4ca9c87bfa3b446e07c11",
+      "working_lf_sha256": "cfabe521de20e79b81f80c835af163075bd1fe255d1c1a57ea282fa8960cb36b"
+    },
+    "prefs/IniDirsForm.lfm": {
+      "reference_sha256": "b6dbaa163ac43151ca62b9ada010fc61ff08c3640c7ae67ec755180c43fe3829",
+      "working_sha256": "b6dbaa163ac43151ca62b9ada010fc61ff08c3640c7ae67ec755180c43fe3829",
+      "working_lf_sha256": "dd1d28cac77ae573c5f5da15b7eae4f64385808426354e7cd98415461eadac2e"
+    },
+    "prefs/IniDirsForm.pas": {
+      "reference_sha256": "068ee4d8c78f9400f43f56909604e9d1b5e20c4a6154d518e23f1b3da4e6a49d",
+      "working_sha256": "068ee4d8c78f9400f43f56909604e9d1b5e20c4a6154d518e23f1b3da4e6a49d",
+      "working_lf_sha256": "79f48bda6e496b767f739c427f239692c17d9b86f9322f14ebea5ded17c635e6"
+    },
+    "prefs/VisualStylesGUI.lfm": {
+      "reference_sha256": "c9e1d4e3c2bb4303146850f05c9ab3a190cf79661bf411d07bb9dea37f81170f",
+      "working_sha256": "c9e1d4e3c2bb4303146850f05c9ab3a190cf79661bf411d07bb9dea37f81170f",
+      "working_lf_sha256": "06be8f620e76b5a8c2e884571fedbb107564680ac9921e381beef30ecc2abdb9"
+    },
+    "prefs/VisualStylesGUI.pas": {
+      "reference_sha256": "e076a17c1c83dc5263e3fb5f6b3de9e7f5fc0e2e982a14d76e89f8d93d13a91c",
+      "working_sha256": "e076a17c1c83dc5263e3fb5f6b3de9e7f5fc0e2e982a14d76e89f8d93d13a91c",
+      "working_lf_sha256": "2bb870c496a547ae1cda28b074e3bf87b27cf8c7e497f4ffb7eb816036edaaab"
+    },
+    "prefs/VisualThemesGUI.lfm": {
+      "reference_sha256": "3b2ed08626774ae74161a56425a7b78bc55561fde87858a310d1ddc1e2e78e0a",
+      "working_sha256": "3b2ed08626774ae74161a56425a7b78bc55561fde87858a310d1ddc1e2e78e0a",
+      "working_lf_sha256": "d37990403b9b285dcb6488c5b71af05d72ae7d32c30f31433b044f0fbcf29d37"
+    },
+    "prefs/VisualThemesGUI.pas": {
+      "reference_sha256": "8dc21bfb21b5653140ede0e42a809d44d656fa6e5c997981ea92159261a168d8",
+      "working_sha256": "8dc21bfb21b5653140ede0e42a809d44d656fa6e5c997981ea92159261a168d8",
+      "working_lf_sha256": "7b2822e4a97df0749edfe212dc957d36aed185d03ea076f8c6070f18cd32f999"
+    },
+    "render/PreviewRenderer.pas": {
+      "reference_sha256": "8a52c0f31ca171a3757a3646d194397b239f88e1f511783c016e22f0b84ce2f6",
+      "working_sha256": "8a52c0f31ca171a3757a3646d194397b239f88e1f511783c016e22f0b84ce2f6",
+      "working_lf_sha256": "4440e0b2205d26383f1605696cca7e0d5a57f5d1b3c93942d3cfd43527151592"
+    },
+    "script/CompilerUtil.pas": {
+      "reference_sha256": "2e9aa1a46ba8f3e444ff8d46921349d0f31eabdfdfa79bf62992601a1f26a1a7",
+      "working_sha256": "2e9aa1a46ba8f3e444ff8d46921349d0f31eabdfdfa79bf62992601a1f26a1a7",
+      "working_lf_sha256": "24b0efc225a952a28dbb11c28b25c73a5832a63e7beb8cbd15fb4525aaf99b43"
+    },
+    "script/ScriptCompiler.pas": {
+      "reference_sha256": "386f9a1b6e41bff3e5ef611d12fb51dfcfc49a44f42805c8d63765dd6f41b84e",
+      "working_sha256": "386f9a1b6e41bff3e5ef611d12fb51dfcfc49a44f42805c8d63765dd6f41b84e",
+      "working_lf_sha256": "b7a58411b5d37c879f377b7587714b0acd6b812976a4e13bca49f1c815bccb41"
+    },
+    "script/ScriptUI.lfm": {
+      "reference_sha256": "8319cd536d5e99f3bf0041fd54cea2ef8679a485a5e8b05956ee4279cff15eae",
+      "working_sha256": "8319cd536d5e99f3bf0041fd54cea2ef8679a485a5e8b05956ee4279cff15eae",
+      "working_lf_sha256": "e939b9259dd88255b1e370d55f83985062502e8d426f6080cbb8c6d43b0e341e"
+    },
+    "script/ScriptUI.pas": {
+      "reference_sha256": "5833ba3c14080dc734bfae0a3f338cf2ff70b0720f5ee0653a4acd5833de713b",
+      "working_sha256": "5833ba3c14080dc734bfae0a3f338cf2ff70b0720f5ee0653a4acd5833de713b",
+      "working_lf_sha256": "0e363e35aad8dfb36fbd58591c86581b091a654790f42a107b71d7fdd3a488a7"
+    },
+    "test_pm.pas": {
+      "reference_sha256": null,
+      "working_sha256": "67f846d845717dd97a7114db8fe8a2156c41b1ad812327c54fefce4af6dbdaca",
+      "working_lf_sha256": "67f846d845717dd97a7114db8fe8a2156c41b1ad812327c54fefce4af6dbdaca"
+    },
+    "uMapCalcWindow.lfm": {
+      "reference_sha256": "7c7963f333cdbe3ae36142db1824bec0acdc0be5bdc4d7fa3c45b5aa7cf52ea3",
+      "working_sha256": "7c7963f333cdbe3ae36142db1824bec0acdc0be5bdc4d7fa3c45b5aa7cf52ea3",
+      "working_lf_sha256": "3f6b97132c303a91861ca7237b2a2d1043570fdfc19229e9d34163ffd2c42bdb"
+    },
+    "uMapCalcWindow.pas": {
+      "reference_sha256": "629164180fc0e6992b43d88b2c4cca3b72a72c24b57c44f667bbe6ffc840d7fe",
+      "working_sha256": "629164180fc0e6992b43d88b2c4cca3b72a72c24b57c44f667bbe6ffc840d7fe",
+      "working_lf_sha256": "a9bbfc543f0068397e8326b6a6c52654a03b0cb26431ad6a3c5a2c365880843f"
+    },
+    "uPicopendialog.pas": {
+      "reference_sha256": "7e4a9cb827cf2d7b36e7bda7b0c01679d733e3463e6dd3deb9cc2cc9a9ff2401",
+      "working_sha256": "7e4a9cb827cf2d7b36e7bda7b0c01679d733e3463e6dd3deb9cc2cc9a9ff2401",
+      "working_lf_sha256": "946e33ba9456cbd16b1281978cb6778156368e4b0af836ab7db9e12f6f875d69"
+    },
+    "zbuf16bit/ZBuf16BitGen.pas": {
+      "reference_sha256": "abbd7ae44b3ad99f5f71ade5be4205c889f96ddf73e500ffddcf69a29574612b",
+      "working_sha256": "abbd7ae44b3ad99f5f71ade5be4205c889f96ddf73e500ffddcf69a29574612b",
+      "working_lf_sha256": "3400fae7b68034ee3b7964a12f753e347634cd7f2682345390b5ed1333fc72e6"
+    },
+    "zbuf16bit/ZBuf16BitGenUI.lfm": {
+      "reference_sha256": "9e09fc917e8058ccc80df3dd7c7909e975c08fd33d06c3d2c8424e06a858be49",
+      "working_sha256": "9e09fc917e8058ccc80df3dd7c7909e975c08fd33d06c3d2c8424e06a858be49",
+      "working_lf_sha256": "213504d45382ccec858a01f7d67060ca088bb1bb4035594fba006574d9ccdbaf"
+    },
+    "zbuf16bit/ZBuf16BitGenUI.pas": {
+      "reference_sha256": "c7c0d9cc6d29c1b5c7b585d62edb047b36573077ac04c7b67a06ff987e0b66a3",
+      "working_sha256": "c7c0d9cc6d29c1b5c7b585d62edb047b36573077ac04c7b67a06ff987e0b66a3",
+      "working_lf_sha256": "ad4eda7d1c2fee57fa903d16d724541c80e8266f6ed38f4196791f929ab3a030"
+    }
+  }
+}

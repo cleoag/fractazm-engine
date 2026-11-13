@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scope": "Offline-compiled, statically specialized Metal feasibility experiment; not the production renderer",
+  "numeric_profile": "EXPERIMENTAL_FP32",
+  "qualified": false,
+  "production_cpu_modified": false,
+  "runtime_shader_compilation": false,
+  "source_contract": "Read actual formula bodies and original M3Formulas metadata. Source comments asserting automatic Metal generation do not qualify this hand-scoped experiment. Formula coordinates, derivatives and distances use FP32 on GPU; original binary64 and x87 behavior is not claimed.",
+  "formulas": [
+    {
+      "name": "SphereIFS",
+      "translated_source": "external_formulas/Formulas/dIFS/SphereIFS.inc",
+      "original_source": "mb3d/M3Formulas/SphereIFS.m3f",
+      "implemented_subset": "Finite positive-scale ellipsoid DE with Scale=1, XYZ adds=0, Apply_scale_add=0, Radius=1, Inside_radius=-1, reciprocal XYZ sizes=(1,0.8,1.25)",
+      "excluded": "Full parameter loading, state/writeback and OTrap coloring; hybrid caller; exceptional inputs",
+      "independent_fixture": null,
+      "independent_analytical_controls": "Sphere DE at (0,0,0), (1,0,0), (2,0,0): -0.8, 0, 0.8. Exact-zero/sign wiring controls and unchanged 2e-12 diagnostic gate."
+    },
+    {
+      "name": "boxIFS",
+      "translated_source": "external_formulas/Formulas/dIFS/boxIFS.inc",
+      "original_source": "mb3d/M3Formulas/boxIFS.m3f",
+      "implemented_subset": "Source transform, twist reflection matrix, ordered Chebyshev maximum, scale correction; synthetic scene halfwidthXYZ=0.8, Scale=1, adds=0, Trapez=0.1, Twist=0.65, Apply=0",
+      "excluded": "x87 extended twist/OTrap arithmetic and negative-zero twist branch; arbitrary exceptional selector conversion; production loader and hybrid caller",
+      "independent_fixture": "tests/fixtures/boxifs_twist_regressions.h",
+      "fixture_comparison": "All rows, seven lanes x/y/z/w/Rout/VaryScale/Dfree1. Fixture inputs and options are narrowed to FP32 for GPU. CPU FP64 libm reference uses original inputs and Single option storage. Existing 2e-12*max(1,abs(expected)) gate is unchanged; failures remain failures and do not determine operational exit status. Aggregate is separated into mutually exclusive finite-original/in-range, x87 FSINCOS out-of-range, and FP32-input-overflow cohorts. The many original NaN distances are genuine out-of-range x87 results, not masked lanes; neither libm reference emulates that stack behavior. Exponent/range incompatibility is reported separately from finite-input rounding."
+    },
+    {
+      "name": "Menger3",
+      "translated_source": "external_formulas/Formulas/3Da/Menger3.inc:execute_formula specialization",
+      "original_source": "mb3d/M3Formulas/Menger3.m3f",
+      "implemented_subset": "Absolute value, source three-comparison sort, Scale=3, CScaleXYZ=1, identity R1/R2, derivative multiplication and strict greater-than Z fold, repeated six times",
+      "synthetic_distance_rule": "(max(abs(finalXYZ))-1)/derivative. This finite-iteration box distance is a probe rule, not the production M3P driver's analytic DE or bailout implementation.",
+      "excluded": "Nonidentity matrix loading/x87 matrix intermediates, full orbit/caller state, production iteration/bailout/DE policy, hybrid combinations",
+      "independent_fixture": null
+    }
+  ],
+  "render_contract": {
+    "gpu_stages": ["camera rays", "formula and DE", "bounded primary raymarch", "six-sample central-difference normal", "bounded hard shadow", "five-sample DE AO", "synthetic color"],
+    "cpu_roles": ["input preparation", "Metal dispatch", "timing", "readback", "diagnostic CPU reference rendering", "image/report encoding"],
+    "cpu_compute_fallback_calls": 0,
+    "unsupported_production_features": ["M3P scenes", "hybrid chains", "maps", "reflections", "transparency", "volume", "DOF", "stereo", "production lighting"],
+    "bounded_pixels": "A primary ray exhausting its step limit has fault bit 2; a shadow ray exhausting its step limit has fault bit 4. Both are counted as unresolved and their image is not declared COMPLETE. Nonfinite outputs, invalid ABI, unwritten output, failed GPU commands and nondeterministic GPU repeats fail operationally."
+  },
+  "reference_contract": "Shared mathematical source compiled for native CPU FP32 and FP64 checks device arithmetic and algorithm differences. It is not an independent original oracle. Original boxIFS x86 fixtures and hardcoded arithmetic/sphere controls provide separate independent evidence. CPU FP64 render results are rounded to the shared FP32 output ABI before image/stage comparison; point diagnostics retain FP64 reference outputs.",
+  "precision_build_flags": ["-fno-fast-math", "-ffp-contract=off"],
+  "no_claims": ["production GPU support", "FP32 numerical compatibility", "full Pascal image parity", "production CPU speedup", "hardware ray-tracing acceleration", "Neural Engine use"],
+  "expected_offline_double_diagnostic_source": "comparison/metal_probe/unsupported_double.metal"
+}

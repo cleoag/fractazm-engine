@@ -1,0 +1,346 @@
+{
+  "scope": "Native unmodified i386 Pascal record conversion and raw read slices; normalized header fields supplied by harness. Separate M3P migration fixtures cover header semantics.",
+  "oracle": "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\m3i-codec-v2\\m3i_codec_oracle.exe",
+  "oracle_sha256": "e9dfcb10e1b1dd72d5e75762e55c84fb4cd3aba071fedcca2562228c72b06b3e",
+  "source_summary": "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\m3i-codec-v2\\summary.json",
+  "cases": [
+    {
+      "id": "v00_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v04_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v07_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v16_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v17_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v18_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v19_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v20_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v35_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v44_records",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v16_hard_shadow",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v18_hard_shadow",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v19_hard_shadow",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v35_dfog",
+      "success": true,
+      "has_image": true,
+      "source_records": 48
+    },
+    {
+      "id": "v44_no_image",
+      "success": true,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v16_old_addon_no_image",
+      "success": true,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v16_truncated_pixel",
+      "success": false,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v16_truncated_image",
+      "success": true,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v16_parameter_only_as_cache",
+      "success": false,
+      "has_image": false,
+      "source_records": 32768
+    },
+    {
+      "id": "v18_truncated_pixel",
+      "success": false,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v18_truncated_image",
+      "success": true,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v18_parameter_only_as_cache",
+      "success": false,
+      "has_image": false,
+      "source_records": 32768
+    },
+    {
+      "id": "v44_truncated_pixel",
+      "success": false,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v44_truncated_image",
+      "success": true,
+      "has_image": false,
+      "source_records": 48
+    },
+    {
+      "id": "v44_parameter_only_as_cache",
+      "success": false,
+      "has_image": false,
+      "source_records": 32768
+    },
+    {
+      "id": "v18_rounding_boundaries",
+      "success": true,
+      "has_image": true,
+      "source_records": 89,
+      "selected_original_indices": [
+        0,
+        1,
+        259,
+        769,
+        1441,
+        1774,
+        1791,
+        2574,
+        2798,
+        3172,
+        3420,
+        3526,
+        3717,
+        3789,
+        5316,
+        5582,
+        5845,
+        6684,
+        6801,
+        7132,
+        7263,
+        7388,
+        8191,
+        8192,
+        8996,
+        9121,
+        9252,
+        9583,
+        9700,
+        10539,
+        10802,
+        11068,
+        12595,
+        12667,
+        12858,
+        12964,
+        13212,
+        13586,
+        13810,
+        14593,
+        14610,
+        14943,
+        15615,
+        16125,
+        16383,
+        16384,
+        16643,
+        17153,
+        17825,
+        18158,
+        18175,
+        18958,
+        19182,
+        19556,
+        19804,
+        19910,
+        20101,
+        20173,
+        21700,
+        21966,
+        22229,
+        23068,
+        23185,
+        23516,
+        23647,
+        23772,
+        24575,
+        24576,
+        25380,
+        25505,
+        25636,
+        25967,
+        26084,
+        26923,
+        27186,
+        27452,
+        28979,
+        29051,
+        29242,
+        29348,
+        29596,
+        29970,
+        30194,
+        30977,
+        30994,
+        31327,
+        31999,
+        32509,
+        32767
+      ]
+    },
+    {
+      "id": "v44_tile_3x2",
+      "success": true,
+      "has_image": true,
+      "source_records": 20
+    },
+    {
+      "id": "v44_tile_1x1",
+      "success": true,
+      "has_image": true,
+      "source_records": 80
+    }
+  ],
+  "files": {
+    "v00_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v00_records.m3i": "a2b644cc391206f2bbc86b3d8615db1902f9b0eed638aefa8b3b3ca8e7454b6b",
+    "v00_records.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v04_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v04_records.m3i": "953f4813028c5694289cc7903aeb71734a570f7533817c20ab04400bbc6e11fe",
+    "v04_records.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v07_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v07_records.m3i": "a8c3ad436ad0a9900988ad1f831bc81d7a32e7396b65b54c36c8249a55f8c126",
+    "v07_records.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v16_hard_shadow.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v16_hard_shadow.m3i": "029435d75dbaf312884a031d9040c473b6728a01dc7635173d06e950dbf6c004",
+    "v16_hard_shadow.silight": "7ae14f8d6183248c503bbd3b9d22ca5a43239f10e45849ff2d279dda47404bba",
+    "v16_old_addon_no_image.m3i": "14b39426cc1ba0a95b823430bdb4188c9285a435bf87873119a8c9a8dc9636cd",
+    "v16_old_addon_no_image.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v16_parameter_only_as_cache.m3i": "ad685b5f842565a9735b81ee17f330f5fde2ef99fb451aafc50347cdae0e927a",
+    "v16_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v16_records.m3i": "2a8ab45682fcbf4b08706a617a1eb8f2be3893ab259a17debac6737865dcd60b",
+    "v16_records.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v16_truncated_image.m3i": "1fa770c26f445b1297c9a08340c264c6a8e89069f1696c335d9434cf56287a3f",
+    "v16_truncated_image.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v16_truncated_pixel.m3i": "255cc4882e4194fe9f917f8810c74ca79bbfd6581f53feaa4228a7221346e8c3",
+    "v17_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v17_records.m3i": "dd410cf72392fea2885126c6efaf888672dfb2a2cb481b80ac4d952b055960eb",
+    "v17_records.silight": "be6421c43f9cdc37d4f48444d6b8569e0477e8c4247e2ad307400c63f10b3b66",
+    "v18_hard_shadow.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v18_hard_shadow.m3i": "d057091a8d94e380138d4bbec177ec03cddca98e780e44d69aa2341822337b72",
+    "v18_hard_shadow.silight": "32ec28518f26770cb7f9e5c034527b8d440f817c3e227dee1b5d2e645a3bb3af",
+    "v18_parameter_only_as_cache.m3i": "f693fd85316e6c4dc5ff9e00df8797961c3d93178b5575217a3ad0092d80db05",
+    "v18_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v18_records.m3i": "95fd2fafff9e009b72a2847b07e6bfc067bfba2f607e2b89d7daf89695a7d5bd",
+    "v18_records.silight": "6edd57eb359e802067cc2e06162fa4b229a66aeb57b1d6bdf3d888cea4a20e45",
+    "v18_rounding_boundaries.image": "3c15d53413773929483968d5702ffa5972b07aa6b1851a76f6381959a963420d",
+    "v18_rounding_boundaries.m3i": "2d677a3c33777697fa1b33685820671fb66f5b3b1409b91674143413bce60052",
+    "v18_rounding_boundaries.silight": "f86154fa2a8cfa231ec8edfe4f2657045469abf611ff9aeecef8e596233e90a5",
+    "v18_truncated_image.m3i": "dfe87446e1a9d11cc47f31461c8842d64f71b88d1022818996e2b0e65f33eb4f",
+    "v18_truncated_image.silight": "6edd57eb359e802067cc2e06162fa4b229a66aeb57b1d6bdf3d888cea4a20e45",
+    "v18_truncated_pixel.m3i": "0a953f6f6ecd56626a9fcf3773944338e4bd023daae94c4fc3c57e7e92806f3e",
+    "v19_hard_shadow.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v19_hard_shadow.m3i": "a784d7aebde7e704e49a68dc25ee464b07923195425bed2a7e576df3c0700a4e",
+    "v19_hard_shadow.silight": "98d2dfe8bb12e517debabc5905dd002d17df5dff52ec321b9014c3513ac35e48",
+    "v19_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v19_records.m3i": "d5e2e44534a0122d7b7d84022dab774d64dc33ecfe3667aef36aa24f88d7aadf",
+    "v19_records.silight": "a26311a5fbb9de497739eb077abab6b262f4c5fff457ab965b8174b49917a5b8",
+    "v20_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v20_records.m3i": "107b651cddb19c59e8adddbb22eb5b997a42693aa625ece12a68e433d4ebc077",
+    "v20_records.silight": "4826df56114ea8365c7babdc68217ebc3111589e9cdd7ce3f92c93b3fdc80236",
+    "v35_dfog.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v35_dfog.m3i": "18c95b3e6058f99e3c111a31657c200c42e17942705c102f2abcc53251a7403a",
+    "v35_dfog.silight": "4115408e870e0475bd2629287aeb0aa0fd390c4183e94118d87eddeabe26b683",
+    "v35_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v35_records.m3i": "581c55aa4b86052a4a54953b8229dea9322c9bad54992d0694715f8c40f1b1f6",
+    "v35_records.silight": "4826df56114ea8365c7babdc68217ebc3111589e9cdd7ce3f92c93b3fdc80236",
+    "v44_no_image.m3i": "57d153e19a5d5ed6afa226a04377d0d6a5c317ad3eb2110918e126d1a4f8549d",
+    "v44_no_image.silight": "4826df56114ea8365c7babdc68217ebc3111589e9cdd7ce3f92c93b3fdc80236",
+    "v44_parameter_only_as_cache.m3i": "663e83f3fcb59bc2cd2dec91eac2351c6b75d0cce7ae33ef5efe76cc8962f3c6",
+    "v44_records.image": "fd1bd1fe595e397167231ac5937b6cb637081bd22967e4e047b04cabfa062698",
+    "v44_records.m3i": "df14b381372e269ba824fd9b2f2d4c3000ee6154aea0f8829fcb2330701cdc5b",
+    "v44_records.silight": "4826df56114ea8365c7babdc68217ebc3111589e9cdd7ce3f92c93b3fdc80236",
+    "v44_truncated_image.m3i": "3ae1a8d69cd3b98989807e76966d55ada1a1f030ec337e79549acdfcd5c126dc",
+    "v44_truncated_image.silight": "4826df56114ea8365c7babdc68217ebc3111589e9cdd7ce3f92c93b3fdc80236",
+    "v44_truncated_pixel.m3i": "ceb847dd11e26033c7ff93e1e172780c726e2a8532c10219e30265bea2182482",
+    "v44_tile_3x2.m3i": "7f278221b1355662ee803da5a9d5ba205b749f5b790da774c9c6e36e79004cfa",
+    "v44_tile_3x2.silight": "95fc2a7bbc44f8357b384073f446abbac49e7e8341b7ff0ccd2c16b8584c636f",
+    "v44_tile_3x2.image": "0a36da0971bba9d7f9c4215662cc64a55c6fcb52caf125b5a2a18f13573aa959",
+    "v44_tile_1x1.m3i": "11f8dda8897638d5193473d4833b67de69c196c14b628bbec9a64e4fe7ec7f6c",
+    "v44_tile_1x1.silight": "2f10f3a9fa55ce9245738a3ced17b39632e745e1519186c20c46d91eff6a6d58",
+    "v44_tile_1x1.image": "62255a23812bfb1031fdc66553dc0d1a3a9f7ac7b35fa2195c74ddd5db4b915e"
+  },
+  "additional_tile_and_clamp_oracle": {
+    "path": "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\m3i-codec-v3\\m3i_codec_oracle.exe",
+    "sha256": "7bba7540c7070daeef8cff5f6a901c1ca963c8d2133f1b30fa55869a297947b2",
+    "summary": "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\m3i-codec-v3\\summary.json",
+    "summary_sha256": "78352644394962452a808f782ab003396a7a8b2c56c287fb2dabbaf2cff90ddf",
+    "generated_permanent_tests": [
+      "v44_width_clamp",
+      "v44_height_clamp"
+    ]
+  }
+}

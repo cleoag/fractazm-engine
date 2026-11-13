@@ -1,0 +1,38 @@
+{
+  "scope": "Vendor independent original real-driver outputs; never generate golden C++ data.",
+  "reference_summary": "comparison\\runs\\reference-gaps-20261018\\manowar\\hybrids-before-fix\\summary.json",
+  "reference_summary_sha256": "665e2baf64b4b0d0d5b1a616caa843af3e5f90c9f020f42ec7053085620e4191",
+  "source_identities": {
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\cpp-build-v2\\manowar_hybrid_probe.exe": "ce204994ecc5d861dc8b80a6c49aa288ea9e3b68a367fb7e3488b1fac74f757c",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\oracle-v2\\manowar_hybrid_oracle.exe": "25219752e7ca6a1260cf46a2e4c7c1a778f36229eb19c7d98271635f772354ef",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\runtime\\Mandelbulb3D_param_dump.exe": "7a4f536592c9d9cfd7e2b44c7d9dc0f7f3a40207423709d2f0041c18c8742fe8",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\hybrid-manifest-v3.json": "5a07532a1cad77bd755153237d83705b6787a940c583c31c1c0d137e35d6c2aa",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\tools\\check_manowar_hybrids.py": "e0cf7bdfc653543522cb0dc869f129ae1c4a1fac9ee83fdc61dcefde7f729e8b",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\ManowarBulb.m3f": "28cfe55025a4efe9236fc0fb84d2ecf0099e6721ed5b9e2c9b953257f8a27639",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\MsltoeSym2.m3f": "aa9c53b67bfc1bcbede04b001eb917c70f1333175a51c2c909c5c1de0c204d6e",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\_Translate.m3f": "9d78243887916a309584388805e10206251ce819c34ebdb228edd1336b2c729a",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\_Rotate.m3f": "cc46f5752e066fd9fce61efd055094417cae2ea045cd71513a47316835b02045",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\MengerKoch.m3f": "8d623f47ef1b550a26998179983cc4501db0334135f0cb3a6f26f46c1e87fa8b",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\CommQuat.m3f": "6576207b370c3c21f3a52e34173157efc3aaeb2701fe9c25e51bc6140965af06",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\ABoxMod4d.m3f": "ae7e88946734e410d858df901194ad8db615ff177d67c1dad50422a68a90bda0"
+  },
+  "files": {
+    "alt_mm.m3p": "6e98c3818d2f40f021d65ed29ab80dcb836aad40c9e9ce38c6275062b22d3647",
+    "alt_ms.m3p": "b6e4698dfc60e88d18f3b31be1fb8c0e14df7d97340c64245f874a8e2ae2a5e4",
+    "alt_mt.m3p": "82ad883ac9404d55aa7fca22691b939539d927df325ec1719d99d8dd46a7b31f",
+    "alt_rm.m3p": "9da0b2972a676711b021511feeeca532a12e89b58074d0d288afefbc0f7b4c9b",
+    "alt_sm.m3p": "0e3388a44e5a233cabfd43ceb816bb6619386bfb21253805d3ec3214f4824a81",
+    "alt_tm.m3p": "8e512096011ace255de4b38e1b02767f5b784ef7cdae8dd25332118102c8e666",
+    "interp_4dde_zero.m3p": "54c7057eb94d5d2e74420f2c021b818492f32220040b3269232be9262535872e",
+    "interp_4d_zero.m3p": "4012a0c8831df1da75f5a966af0fd57bf642999931420513b806dc1028cd8632",
+    "interp_de_zero.m3p": "f272a753fb97db49c934b12f6b9cdcf5217e0c9954fb1e03a2ea73a38159f6dd",
+    "interp_mm.m3p": "aab92dc3b5396c18a4b7741ed611444b6d963dda539fee366d58f168b6b8fa01",
+    "interp_ms.m3p": "446c3e92ce38f52a1bd9d16bedca94a05c0abcd3ed43c1d0fe56eb86c8724125",
+    "interp_sm.m3p": "8b3baf244f068f0f3c3760644ad00abd996ec9f6778250ace7d2db83750f2b9c",
+    "interp_zero.m3p": "a9eaa186d5b5ddf78b814645238edfcc0f97e67d2c41434cfdf9dddf4f3e92e8",
+    "original.bin": "5bd33aac953a5858a10db3b3c5d3c2e7e0e21b9d4d00a2503672124bbd065057"
+  },
+  "cases": 13,
+  "orbits": 1248,
+  "comparison_tolerance": 2e-12
+}

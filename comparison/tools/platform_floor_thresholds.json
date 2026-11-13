@@ -1,0 +1,91 @@
+{
+  "_comment": "Legacy relaxed allowances retained only to classify old deviations. Default image_diff thresholds alone determine PASS. A matching allowance is not evidence that the cause is unavoidable or resolved.",
+  "profiles": {
+    "hiqao_random": {
+      "_why": "Historical allowance for hiqao_random. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 25.0,
+      "p99_abs_delta": 110.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 16.0,
+      "ssim_min": 0.85
+    },
+    "hiqao_variant3": {
+      "_why": "Historical allowance for hiqao_variant3. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 25.0,
+      "p99_abs_delta": 115.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 15.0,
+      "ssim_min": 0.85
+    },
+    "vollight_normal": {
+      "_why": "Historical allowance for vollight_normal. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 3.0,
+      "p99_abs_delta": 40.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 33.0,
+      "ssim_min": 0.99
+    },
+    "vollight_bulbox": {
+      "_why": "Historical allowance for vollight_bulbox. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 120.0,
+      "p99_abs_delta": 225.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 5.0,
+      "ssim_min": 0.75
+    },
+    "decomb_bulbox": {
+      "_why": "Historical allowance for decomb_bulbox. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 3.0,
+      "p99_abs_delta": 50.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 30.0,
+      "ssim_min": 0.98
+    },
+    "julia_realpower": {
+      "_why": "Historical allowance for julia_realpower. Not an acceptance gate; root cause must be established by current traces.",
+      "max_abs_delta": 255.0,
+      "mean_abs_delta": 2.0,
+      "p99_abs_delta": 15.0,
+      "diff_ratio": 1.0,
+      "diff_ratio_threshold": 2,
+      "psnr_min": 37.0,
+      "ssim_min": 0.99
+    }
+  },
+  "scene_patterns": [
+    {
+      "pattern": "^phase3_hiqao_\\w+_random_medium$",
+      "profile": "hiqao_random"
+    },
+    {
+      "pattern": "^phase3_hiqao_\\w+_variant3_medium$",
+      "profile": "hiqao_variant3"
+    },
+    {
+      "pattern": "^phase3_vl_bulbox_medium$",
+      "profile": "vollight_bulbox"
+    },
+    {
+      "pattern": "^phase3_vl_\\w+_medium$",
+      "profile": "vollight_normal"
+    },
+    {
+      "pattern": "^phase3_decomb_intpow-bulbox_v\\d+_medium$",
+      "profile": "decomb_bulbox"
+    },
+    {
+      "pattern": "^phase3_julia_realpower_medium$",
+      "profile": "julia_realpower"
+    }
+  ]
+}

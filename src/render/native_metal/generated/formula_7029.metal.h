@@ -1,0 +1,22 @@
+// Generated from Ads/_HopSqrtX.inc; ARM branch, Native FP32.
+// Qualification: NOT RUN. Do not count source emission as GPU support.
+#pragma once
+namespace mb3d_native { namespace formula_7029 {
+template<uint ID> FormulaVec3 execute_formula(FormulaVec3, FormulaParams, thread float&);
+template<uint ID> FormulaVec3 execute_formula_with_direct_map(FormulaVec3, FormulaParams, thread float&, bool);
+template<uint ID> FormulaVec3 execute_formula_with_sphere_map(FormulaVec3, FormulaParams, thread float&, bool);
+template<uint ID> FormulaVec3 execute_formula_dIFS(FormulaVec3 p, FormulaParams a, thread float& v, thread float& d) { a[60]=v; auto r=execute_formula<ID>(p,a,d); v=a[60]; return r; }
+template<uint ID> FormulaVec3 execute_formula_dIFS_transform(FormulaVec3 p, FormulaParams a, thread float& v) { a[60]=v; float d=v; auto r=execute_formula<ID>(p,a,d); v=a[60]; return r; }
+constant constexpr unsigned int FORMULA__HOPSQRTX = 7029;
+ template < > FormulaVec3 execute_formula < FORMULA__HOPSQRTX > ( FormulaVec3 p , FormulaParams params , thread float & de ) {
+ const float fixX = params [ 0 ];
+ const float fixSq = params [ 1 ];
+ const float Mul = params [ 2 ];
+ const float Div = params [ 3 ];
+ float t = Mul * p . x + fixX;
+ float result = fixSq + sign ( t ) * sqrt ( abs ( t ) ) / Div;
+ return FormulaVec3 ( result , p . y , p . z );
+
+}
+
+}}

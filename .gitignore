@@ -1,0 +1,115 @@
+# Compiled Pascal
+*.o
+*.ppu
+*.exe
+*.lps
+*.bak
+*.rsj
+mb3d/lib/
+
+# Build output
+build/
+build-release/
+/build-release-*/
+build-reltrace/
+build-ubsan/
+build-vs/
+build-vs-release/
+build-vs-*/
+cmake-build-*/
+/build-native-arm64*/
+# Host-local build aliases may be symlinks rather than directories.
+/build-native-arm64*
+/build-main
+/build-qualified-reference
+
+# IDE
+.vscode/
+.idea/
+*.xcworkspace
+*.xcuserdata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MB3D runtime
+mb3d/History/
+mb3d/M3Maps/*.bmp
+mb3d/M3Maps/*.jpg
+mb3d/M3Maps/*.png
+
+# Test output
+*_test_output/
+Testing/
+comparison/.DS_Store
+comparison/trace_compare/
+comparison/renders_cpp/
+comparison/renders_windows/
+comparison/silight_cpp/
+comparison/silight_windows/
+comparison/silight_ext_cpp/
+comparison/silight_ext_windows/
+comparison/tmp_scene_hybrid/
+comparison/tools/__pycache__/
+comparison/tools/windows_workspace.local.json
+comparison/windows_build/
+comparison/windows_build_units/
+comparison/diffs/
+comparison/probe_tmp/
+comparison/renders_ext_cpp/
+comparison/renders_ext_windows/
+comparison/_tmp*/
+comparison/renders_ext_probe*/
+comparison/render_gui/
+comparison/renders_cpp_smoke/
+comparison/renders_ext_cpp_difs/
+comparison/renders_m3param_cpp/
+comparison/renders_m3param_windows/
+comparison/sbs_ext/
+comparison/sbs/
+comparison/sbs_m3param/
+comparison/scenes_ext_tmp*/
+comparison/scenes/*.png
+comparison/*_report*.txt
+comparison/*ready_for_compare.txt
+comparison/tmp_test*.png
+comparison/tmp_*
+comparison/cpp_*
+comparison/pas_*
+comparison/direct_*
+comparison/diag_*
+comparison/part1_*
+comparison/part2_*
+comparison/test1*
+comparison/test20*
+comparison/locked_*
+comparison/sweep_reports/
+comparison/extall_backlog.json
+comparison/extall_backlog.tsv
+comparison/difs_parity_report.txt
+scripts/__pycache__/
+.claude/
+
+# Reproducible verification outputs; compact evidence lives in comparison/results.
+comparison/runs/
+comparison/results/**/*.log
+comparison/scenes*/*.png
+mb3d/M3Parameter_test/*.png
+external_formulas/vendored/portable_math/*.obj
+external_formulas/vendored/portable_math/*.lib
+external_formulas/vendored/portable_math/*.exp
+external_formulas/vendored/portable_math/*.dll
+external_formulas/vendored/portable_math/*.asm
+__pycache__/
+.venv-ordinary/
+
+# Retired research workflow: historical sources live in archive tags, never active inputs.
+/autoresearch/
+# Maintained local CMake builds.
+/build-cpu-x86*/
+/build-consolidated*/
+
+# Application framework output and Swift package build
+/xcframework/
+/swift/.build/

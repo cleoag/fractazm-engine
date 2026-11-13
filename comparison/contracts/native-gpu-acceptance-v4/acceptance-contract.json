@@ -1,0 +1,566 @@
+{
+  "schema": "mb3d.gpu-parallel-plan.v1",
+  "status": "APPROVED_FULL_CONTRACT",
+  "goal": "Parallel Native Metal compute pipeline for every ordinary registered formula; correct reuse; measured whole-render acceleration",
+  "archetype": "build-feature",
+  "terminal_choice": "stop-at-verified",
+  "max_cycles": 50,
+  "formula_count": 467,
+  "ordinary_scene_count": 77,
+  "inventory": "inventory.json",
+  "inventory_sha256": "e92812a0bef6f6145d0111c6f72628e4ba22ad22504bd725c1f4563dbb685246",
+  "phase_order": [
+    "77 ordinary M3Parameter scenes in current queue order",
+    "remaining ordinary formula fixtures and hybrid/parameter stress cases"
+  ],
+  "compute_stages": [
+    "formula_and_distance",
+    "primary_march_and_refinement",
+    "normals",
+    "shadows",
+    "ambient_occlusion",
+    "color_and_fog",
+    "reflections_and_transparency",
+    "volume",
+    "depth_of_field",
+    "final_surface"
+  ],
+  "policies": {
+    "frame_diagnostic_seconds": 180,
+    "frame_hard_stop_seconds": 300,
+    "disk_reserve_gib": 12,
+    "precision": "native GPU FP32; retain CPU native/compatible and separate compatible Metal",
+    "deferred": [
+      "Monte Carlo",
+      "JIT"
+    ],
+    "preserve": [
+      "formulas",
+      "typed integer branches",
+      "hybrid order",
+      "carried state",
+      "RNG consumption",
+      "effects",
+      "pinned original or explicitly user-selected available maps",
+      "guards"
+    ],
+    "no_cpu_pixel_fallback": true,
+    "cpu_role": "file IO, command submission, bounded metadata/resource preparation and validation; no fractal pixel evaluation in a reported Metal render",
+    "ordered_dependencies": "Allowed only with documented dependency proof and adversarial GPU tests; no unknown classification counts as done",
+    "reuse": "Exact input identity plus required incoming state; replay state outputs and logical work, separate physical-work counters; no approximate spatial reuse",
+    "speed_gate": "geometric-mean full-render warm speedup >=1.25 over pinned baseline on matched completed cases; no >5% reproducible full-render regression; report cold separately",
+    "repeat_gate": "3 exact RGB and deterministic logical/work/cache-record repeats under the same declared cache state",
+    "holdout": "separate generated perturbations, state-poisoning cases, mixed chains, cache invalidation and concurrent renders; not used to choose optimizations",
+    "whole_frame_fp32_fallback": {
+      "accepted": true,
+      "requires": "Recorded proof of genuine binary32 overflow, original resources/settings/effects, successful complete Native CPU frame and three exact repeats on final identity. Classification alone is insufficient.",
+      "reported_as": "QUALIFIED_FP32_CPU; never GPU or parity PASS",
+      "other_fallbacks_accepted": false
+    },
+    "selected_available_maps": {
+      "accepted": true,
+      "authority": "Explicit user instruction 2026-10-30: use all available maps",
+      "original_identity_claimed": false,
+      "missing_maps_remain_open": true,
+      "explicit_substitutions": {
+        "1633": 3038
+      }
+    }
+  },
+  "obligations": [
+    "source-bound read/write and initialization analysis for all 467 formulas and their drivers",
+    "GPU scheduling proof per independent unit; preserve necessary recurrence and dependent bounces",
+    "bounded GPU resource/pipeline/result reuse with key invalidation and lifetime tests",
+    "all 77 original-size full scenes with active effects on GPU, or qualified whole-frame Native CPU fallback for proven genuine FP32 overflow only; <=300 seconds each; deferred scenes remain OPEN until speedup demonstrated",
+    "device formula fixtures for every registry identity plus mixed chains and state transitions",
+    "measured baseline/candidate full-render speed and compilation latency",
+    "independent held-out verification, ordinary CPU and compatible Metal regression, negative guards"
+  ],
+  "predicate": {
+    "command": "python3 -B comparison/tools/qualify_gpu_parallel_pipeline.py --contract comparison/contracts/native-gpu-acceptance-v4/acceptance-contract.json --evidence comparison/runs/gpu-parallel-current --output comparison/runs/gpu-parallel-qualification",
+    "expected_output": "PASS remaining=0",
+    "expected_exit": 0,
+    "runner_status": "Concrete passive validators tested; full evidence collection remains OPEN"
+  },
+  "completion_caveat": "Thresholded measurable acceleration is not a claim of a mathematical global maximum; stop conditions also include plateau or 50-cycle ceiling with explicit OPEN results.",
+  "resource_inventory": "original-resources.json",
+  "resource_inventory_sha256": "8d913657eff7d87b7b3434d90be296f3bc5de85a08a451e50fa902e849d3c9ac",
+  "revision": 4,
+  "amendment": {
+    "date": "2026-10-30",
+    "authority": "User explicitly selected: choose an available replacement for map 1633 and record it.",
+    "previous_contract_sha256": "5228ad1ab8167d80cd624f451dfab84b2514a7c88c9127b9e3d396eb06f4532d",
+    "does_not_requalify_historical_evidence": true
+  },
+  "resource_profiles": {
+    "original": {
+      "inventory": "original-resources.json",
+      "sha256": "8d913657eff7d87b7b3434d90be296f3bc5de85a08a451e50fa902e849d3c9ac",
+      "basis": "original",
+      "candidate_map_ids": []
+    },
+    "available": {
+      "inventory": "available-resources.json",
+      "sha256": "b2a426d6441eb5a7d383b818d8114c6ef621f3f873ac69cc3a239a8e49133a48",
+      "basis": "user-selected-available",
+      "candidate_map_ids": [
+        18,
+        24,
+        31,
+        55,
+        71,
+        129
+      ]
+    },
+    "substitute1633": {
+      "inventory": "substitute1633-resources.json",
+      "sha256": "cae6bf3835407d9b0babe8cd061d65ce0091bdaf048829130d2d23d262d91dba",
+      "basis": "user-approved-explicit-substitute",
+      "candidate_map_ids": [
+        18,
+        24,
+        31,
+        55,
+        71,
+        129,
+        1633
+      ],
+      "substitutions": {
+        "1633": {
+          "source_map_id": 3038,
+          "sha256": "d8903d9ed944328c9154b180b3e94f2786efe1809d5d9ffe594a2815d487d294",
+          "original_identity_claimed": false
+        }
+      }
+    }
+  },
+  "scene_required_maps": {
+    "fc2697b43464ec0e": [],
+    "dfb1f8a0ce6563d0": [],
+    "a203b667b15f1e47": [],
+    "c8ef0b59581727b2": [],
+    "6c86d9620df94e35": [],
+    "771bbcd749b60e11": [],
+    "e9da291b87928e39": [],
+    "dad0a4472ff931fd": [],
+    "f10242f9def52135": [],
+    "a2df25a35786fb20": [],
+    "f19096099a40750b": [
+      71
+    ],
+    "9dba1d5a231b0404": [
+      129
+    ],
+    "b4f37e3eb0da4bb4": [],
+    "10980979a30a14d1": [],
+    "14a18905b4bfd622": [],
+    "f7767758d672104d": [],
+    "ec10f03f20e38f14": [],
+    "1877b23c90823c40": [
+      18
+    ],
+    "06738698448b94eb": [],
+    "44efaa24b4f0519d": [],
+    "0beb866ef7fc2563": [],
+    "fb1bdd3b0152e5ec": [],
+    "c21c50e70b303e5f": [],
+    "f8d40ac3477cea4f": [
+      1077
+    ],
+    "1162d0607f556fca": [],
+    "02dfee06f57a576c": [
+      3011
+    ],
+    "0d0ab5af8f92da6e": [],
+    "d7a7ef7c07b19b0a": [],
+    "774daaa48dd1afa3": [],
+    "ee02bf5d7542435b": [],
+    "aa1b8811d98bb6a6": [],
+    "6a3fe9350e082f1c": [],
+    "cd424d38aac27b56": [],
+    "35820014b1fd2ff4": [
+      1031
+    ],
+    "bc7ad65d19d6bde2": [],
+    "2c405d7c532fe8ab": [],
+    "3928f3247e6648dd": [],
+    "4c3988de676d37cc": [],
+    "509340eadfd56ed3": [],
+    "5281288258c7b265": [
+      31
+    ],
+    "6db19217a5496182": [
+      55
+    ],
+    "ecc0b336d49fa5e9": [],
+    "d0950288f49bb6a2": [],
+    "0f258a2abc1002ec": [],
+    "fde3a8424ee1df95": [
+      1633
+    ],
+    "3185ef0bf8701864": [],
+    "77923ebd629a2fb2": [],
+    "33766b6f97258d9a": [],
+    "5f2747de7764cf5f": [],
+    "02d401dfd3ad39fb": [
+      24
+    ],
+    "5100bbf14633a41d": [],
+    "d0d7f7a7afec9f3c": [],
+    "e5b68b964329c5fd": [
+      2
+    ],
+    "d94d68df7a6cca83": [],
+    "ae613f772c231d76": [],
+    "fc455b9e344e9b41": [],
+    "3a36011656f8340a": [],
+    "7e41151ddd058d0a": [],
+    "af37ba167d6fe556": [],
+    "a91da57385a4e6c6": [],
+    "acf6e92974e5c906": [],
+    "dba149af46daf922": [],
+    "d4f55b1147408170": [],
+    "b683d5dbb3d01066": [],
+    "3b99f1ae1fd1ce3b": [],
+    "8da1484b2f5d9ece": [],
+    "02172a5caf339eb5": [
+      3038
+    ],
+    "d5494e757f53dd44": [],
+    "6f535aa3b4257dfa": [],
+    "0ffa637b356f6edc": [
+      1,
+      10,
+      12
+    ],
+    "53465ebd7f8bd8e8": [
+      1,
+      10
+    ],
+    "f145162b4387fbb0": [
+      1,
+      10
+    ],
+    "13ccdce3d11aac7e": [],
+    "c867f4847b365d56": [],
+    "d3dacbabf7f12a55": [
+      8
+    ],
+    "ee9fd3037c41e4a5": [],
+    "9dd5f29c75ae214e": []
+  },
+  "scene_resource_profiles": {
+    "fc2697b43464ec0e": [
+      "original",
+      "available"
+    ],
+    "dfb1f8a0ce6563d0": [
+      "original",
+      "available"
+    ],
+    "a203b667b15f1e47": [
+      "original",
+      "available"
+    ],
+    "c8ef0b59581727b2": [
+      "original",
+      "available"
+    ],
+    "6c86d9620df94e35": [
+      "original",
+      "available"
+    ],
+    "771bbcd749b60e11": [
+      "original",
+      "available"
+    ],
+    "e9da291b87928e39": [
+      "original",
+      "available"
+    ],
+    "dad0a4472ff931fd": [
+      "original",
+      "available"
+    ],
+    "f10242f9def52135": [
+      "original",
+      "available"
+    ],
+    "a2df25a35786fb20": [
+      "original",
+      "available"
+    ],
+    "f19096099a40750b": [
+      "original",
+      "available"
+    ],
+    "9dba1d5a231b0404": [
+      "original",
+      "available"
+    ],
+    "b4f37e3eb0da4bb4": [
+      "original",
+      "available"
+    ],
+    "10980979a30a14d1": [
+      "original",
+      "available"
+    ],
+    "14a18905b4bfd622": [
+      "original",
+      "available"
+    ],
+    "f7767758d672104d": [
+      "original",
+      "available"
+    ],
+    "ec10f03f20e38f14": [
+      "original",
+      "available"
+    ],
+    "1877b23c90823c40": [
+      "original",
+      "available"
+    ],
+    "06738698448b94eb": [
+      "original",
+      "available"
+    ],
+    "44efaa24b4f0519d": [
+      "original",
+      "available"
+    ],
+    "0beb866ef7fc2563": [
+      "original",
+      "available"
+    ],
+    "fb1bdd3b0152e5ec": [
+      "original",
+      "available"
+    ],
+    "c21c50e70b303e5f": [
+      "original",
+      "available"
+    ],
+    "f8d40ac3477cea4f": [
+      "original",
+      "available"
+    ],
+    "1162d0607f556fca": [
+      "original",
+      "available"
+    ],
+    "02dfee06f57a576c": [
+      "original",
+      "available"
+    ],
+    "0d0ab5af8f92da6e": [
+      "original",
+      "available"
+    ],
+    "d7a7ef7c07b19b0a": [
+      "original",
+      "available"
+    ],
+    "774daaa48dd1afa3": [
+      "original",
+      "available"
+    ],
+    "ee02bf5d7542435b": [
+      "original",
+      "available"
+    ],
+    "aa1b8811d98bb6a6": [
+      "original",
+      "available"
+    ],
+    "6a3fe9350e082f1c": [
+      "original",
+      "available"
+    ],
+    "cd424d38aac27b56": [
+      "original",
+      "available"
+    ],
+    "35820014b1fd2ff4": [
+      "original",
+      "available"
+    ],
+    "bc7ad65d19d6bde2": [
+      "original",
+      "available"
+    ],
+    "2c405d7c532fe8ab": [
+      "original",
+      "available"
+    ],
+    "3928f3247e6648dd": [
+      "original",
+      "available"
+    ],
+    "4c3988de676d37cc": [
+      "original",
+      "available"
+    ],
+    "509340eadfd56ed3": [
+      "original",
+      "available"
+    ],
+    "5281288258c7b265": [
+      "original",
+      "available"
+    ],
+    "6db19217a5496182": [
+      "original",
+      "available"
+    ],
+    "ecc0b336d49fa5e9": [
+      "original",
+      "available"
+    ],
+    "d0950288f49bb6a2": [
+      "original",
+      "available"
+    ],
+    "0f258a2abc1002ec": [
+      "original",
+      "available"
+    ],
+    "fde3a8424ee1df95": [
+      "original",
+      "available",
+      "substitute1633"
+    ],
+    "3185ef0bf8701864": [
+      "original",
+      "available"
+    ],
+    "77923ebd629a2fb2": [
+      "original",
+      "available"
+    ],
+    "33766b6f97258d9a": [
+      "original",
+      "available"
+    ],
+    "5f2747de7764cf5f": [
+      "original",
+      "available"
+    ],
+    "02d401dfd3ad39fb": [
+      "original",
+      "available"
+    ],
+    "5100bbf14633a41d": [
+      "original",
+      "available"
+    ],
+    "d0d7f7a7afec9f3c": [
+      "original",
+      "available"
+    ],
+    "e5b68b964329c5fd": [
+      "original",
+      "available"
+    ],
+    "d94d68df7a6cca83": [
+      "original",
+      "available"
+    ],
+    "ae613f772c231d76": [
+      "original",
+      "available"
+    ],
+    "fc455b9e344e9b41": [
+      "original",
+      "available"
+    ],
+    "3a36011656f8340a": [
+      "original",
+      "available"
+    ],
+    "7e41151ddd058d0a": [
+      "original",
+      "available"
+    ],
+    "af37ba167d6fe556": [
+      "original",
+      "available"
+    ],
+    "a91da57385a4e6c6": [
+      "original",
+      "available"
+    ],
+    "acf6e92974e5c906": [
+      "original",
+      "available"
+    ],
+    "dba149af46daf922": [
+      "original",
+      "available"
+    ],
+    "d4f55b1147408170": [
+      "original",
+      "available"
+    ],
+    "b683d5dbb3d01066": [
+      "original",
+      "available"
+    ],
+    "3b99f1ae1fd1ce3b": [
+      "original",
+      "available"
+    ],
+    "8da1484b2f5d9ece": [
+      "original",
+      "available"
+    ],
+    "02172a5caf339eb5": [
+      "original",
+      "available"
+    ],
+    "d5494e757f53dd44": [
+      "original",
+      "available"
+    ],
+    "6f535aa3b4257dfa": [
+      "original",
+      "available"
+    ],
+    "0ffa637b356f6edc": [
+      "original",
+      "available"
+    ],
+    "53465ebd7f8bd8e8": [
+      "original",
+      "available"
+    ],
+    "f145162b4387fbb0": [
+      "original",
+      "available"
+    ],
+    "13ccdce3d11aac7e": [
+      "original",
+      "available"
+    ],
+    "c867f4847b365d56": [
+      "original",
+      "available"
+    ],
+    "d3dacbabf7f12a55": [
+      "original",
+      "available"
+    ],
+    "ee9fd3037c41e4a5": [
+      "original",
+      "available"
+    ],
+    "9dd5f29c75ae214e": [
+      "original",
+      "available"
+    ]
+  },
+  "preferred_scene_resource_profiles": {
+    "fde3a8424ee1df95": "substitute1633"
+  }
+}

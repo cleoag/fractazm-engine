@@ -1,0 +1,234 @@
+{
+  "schema": "mb3d.gallery-benchmark-selection.v1",
+  "name": "gallery32",
+  "description": "Exact final 32 preset IDs in the retained 1024x768 C++ gallery. ducksIFS and gnarlyIFS were replaced by tritgrid2IFS and YinYangIFS at user request. No historical image or timing result is a benchmark reference.",
+  "origin_source_commit": "5d2ed53a3aa21fd5b4adefee1482d079a1d2ffbb",
+  "expected_count": 32,
+  "assets": [],
+  "scenes": [
+    {
+      "id": "extall_dIFS_tritgrid2IFS",
+      "name": "tritgrid2IFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_tritgrid2IFS.m3p",
+      "scene_sha256": "db8181edc7d2bb7cbbd565af93f06c87ee0b19fc28ae827a56b70c48dab75512"
+    },
+    {
+      "id": "extall_3Da_ABoxVSShapes",
+      "name": "ABoxVSShapes",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_ABoxVSShapes.m3p",
+      "scene_sha256": "ea685dfc18ab4b3f97e0049bb9d3340a777e61928094c40604f4b276051f759a"
+    },
+    {
+      "id": "extall_3D_TetraFolding_Pow2",
+      "name": "TetraFolding_Pow2",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_TetraFolding_Pow2.m3p",
+      "scene_sha256": "842242fa08c86347e12653e34eff1f8e11b5565fa032ea16f8310b472376cbf5"
+    },
+    {
+      "id": "extall_4D__coordvspow",
+      "name": "_coordvspow",
+      "category": "4D",
+      "scene_path": "comparison/scenes/extall_4D__coordvspow.m3p",
+      "scene_sha256": "6666b25d5a1254ba86122caf44e25fad61ab6ca29947df40d0802dcfe2f02ec5"
+    },
+    {
+      "id": "extall_dIFS_YinYangIFS",
+      "name": "YinYangIFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_YinYangIFS.m3p",
+      "scene_sha256": "919d8b373c30f7ede814046dc7b88cd5ec5dcd7ebab14677a1444c63d87677ab"
+    },
+    {
+      "id": "extall_3D_BristorBrot",
+      "name": "BristorBrot",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_BristorBrot.m3p",
+      "scene_sha256": "f43f9498579339b14d04379496580c6b155b14149e56bd15ab819ec26e8dd0a6"
+    },
+    {
+      "id": "extall_3D_Benesi1Pow2",
+      "name": "Benesi1Pow2",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_Benesi1Pow2.m3p",
+      "scene_sha256": "bab0fa7efbc624c2fb8c396cc81739a606d626b1009d39a9dda26ebbcf88abbb"
+    },
+    {
+      "id": "extall_3D_CosinePow8",
+      "name": "CosinePow8",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_CosinePow8.m3p",
+      "scene_sha256": "48b33336fb3cf6cb76ecd1613a98d55717f5a9abd1fff2266936f5f43ae5c5d2"
+    },
+    {
+      "id": "extall_3D_TalisTpx",
+      "name": "TalisTpx",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_TalisTpx.m3p",
+      "scene_sha256": "815a805be8cbc670749cb703db1f90304a3da509257dee86f722aea7b85d7839"
+    },
+    {
+      "id": "extall_3D_Ruckerbulb",
+      "name": "Ruckerbulb",
+      "category": "3D",
+      "scene_path": "comparison/scenes/extall_3D_Ruckerbulb.m3p",
+      "scene_sha256": "0f4f213e1ed15b4a9be97e351e15b9e96996a821e37eb05efa3c5a9046958998"
+    },
+    {
+      "id": "extall_3Da_Amazing_Surf",
+      "name": "Amazing_Surf",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_Amazing_Surf.m3p",
+      "scene_sha256": "3c360c77b2fe15b299dee3e48867ea8b7e2e1e0b046dde435c509a323651820a"
+    },
+    {
+      "id": "extall_3Da_Menger3",
+      "name": "Menger3",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_Menger3.m3p",
+      "scene_sha256": "85508f93ae18a139aec9b92024730aa2878d5218f8cccc90d92e4a3acfd9d687"
+    },
+    {
+      "id": "extall_3Da_DodecahedronIFS",
+      "name": "DodecahedronIFS",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_DodecahedronIFS.m3p",
+      "scene_sha256": "85cc432342dbe609b27e343a44a558531970db980ec8875aee1bc085d1c5dead"
+    },
+    {
+      "id": "extall_3Da_IcosahedronIFS",
+      "name": "IcosahedronIFS",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_IcosahedronIFS.m3p",
+      "scene_sha256": "035abc06ef18e0ccd3cb266cb3bcce238ef9705be924e47cbd29c2cf2847958e"
+    },
+    {
+      "id": "extall_3Da_ABoxSmoothFold",
+      "name": "ABoxSmoothFold",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_ABoxSmoothFold.m3p",
+      "scene_sha256": "07b0e20a128dd0edc24bb25e96e52f5e2bf9c01310ded2297a8d9586bc48aa8d"
+    },
+    {
+      "id": "extall_3Da_MengerKochV2",
+      "name": "MengerKochV2",
+      "category": "3Da",
+      "scene_path": "comparison/scenes/extall_3Da_MengerKochV2.m3p",
+      "scene_sha256": "9f4694c23c6bb31ceb1076fd0b4e405914cf2e3b71e6eca2d08d664828c04814"
+    },
+    {
+      "id": "extall_4D_Aexion1",
+      "name": "Aexion1",
+      "category": "4D",
+      "scene_path": "comparison/scenes/extall_4D_Aexion1.m3p",
+      "scene_sha256": "f6947ddfbecc83a845544c65067fa776077ce7af517ba87f351e73c833f4c10e"
+    },
+    {
+      "id": "extall_4D_Magnet4D",
+      "name": "Magnet4D",
+      "category": "4D",
+      "scene_path": "comparison/scenes/extall_4D_Magnet4D.m3p",
+      "scene_sha256": "b9bad2ec3830933db8ae7f99c91ded7513506a1d3e226028f0bad3f36c14b4e7"
+    },
+    {
+      "id": "extall_4D_QuatPow",
+      "name": "QuatPow",
+      "category": "4D",
+      "scene_path": "comparison/scenes/extall_4D_QuatPow.m3p",
+      "scene_sha256": "fc42007c456b1a60c7f56ba3b31aa02d17323a0209e829565fd8527d2e0f809a"
+    },
+    {
+      "id": "extall_4Da_ABoxMod4d",
+      "name": "ABoxMod4d",
+      "category": "4Da",
+      "scene_path": "comparison/scenes/extall_4Da_ABoxMod4d.m3p",
+      "scene_sha256": "1f8518f6c6fb54887ec63da3f13c812ecc548c61a953ae49b6c5282f3b1de0e4"
+    },
+    {
+      "id": "extall_4Da_Menger4",
+      "name": "Menger4",
+      "category": "4Da",
+      "scene_path": "comparison/scenes/extall_4Da_Menger4.m3p",
+      "scene_sha256": "c7dc709685ec1bcde37e566377c853e649824f83c686c830cab05939eec05c5e"
+    },
+    {
+      "id": "extall_4Da_Sierpinski4",
+      "name": "Sierpinski4",
+      "category": "4Da",
+      "scene_path": "comparison/scenes/extall_4Da_Sierpinski4.m3p",
+      "scene_sha256": "621ab4f4a010db939fe1224acafac0a83f1b873f93bf3b4cf67c20a51d848caa"
+    },
+    {
+      "id": "extall_dIFS_DevilIFS",
+      "name": "DevilIFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_DevilIFS.m3p",
+      "scene_sha256": "1e06699ff23b74bbe508064829c9cddc661c75962b008258835e3940a323bfb8"
+    },
+    {
+      "id": "extall_dIFS_CitrusIFS",
+      "name": "CitrusIFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_CitrusIFS.m3p",
+      "scene_sha256": "1f95acfb0058657cdd885ded30fb7bb820129fd14f1d226d7a69ff47027c25a9"
+    },
+    {
+      "id": "extall_dIFS_loxodrome2IFS",
+      "name": "loxodrome2IFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_loxodrome2IFS.m3p",
+      "scene_sha256": "67caa467760b7d639e5ba73fef1c96bffc9046c4bef001d5e1f2981a18682afc"
+    },
+    {
+      "id": "extall_dIFS_logspIFS",
+      "name": "logspIFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_logspIFS.m3p",
+      "scene_sha256": "a5d2fe8757fa7284a04a9c141c570590e6dac658a8c5baf05e6a824a6db640d4"
+    },
+    {
+      "id": "extall_dIFS_Seashell",
+      "name": "Seashell",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_Seashell.m3p",
+      "scene_sha256": "e33a580434653ae89b0ea3926a325dece9f7c16f979164f10441f5d4163aa6f7"
+    },
+    {
+      "id": "extall_dIFS_TorusIFS",
+      "name": "TorusIFS",
+      "category": "dIFS",
+      "scene_path": "comparison/scenes/extall_dIFS_TorusIFS.m3p",
+      "scene_sha256": "4df3945fd3b42c6ba1b0f96a03a410123774c8ed93972d772ad68ee22cb8222f"
+    },
+    {
+      "id": "extall_dIFSa_Apollo3D_IFS",
+      "name": "Apollo3D_IFS",
+      "category": "dIFSa",
+      "scene_path": "comparison/scenes/extall_dIFSa_Apollo3D_IFS.m3p",
+      "scene_sha256": "3b5dae02afff7ba144bf01bc3212a793207295b4db0a32ab643a2fcadb178b3a"
+    },
+    {
+      "id": "extall_dIFSa_PolyFoldIFS",
+      "name": "PolyFoldIFS",
+      "category": "dIFSa",
+      "scene_path": "comparison/scenes/extall_dIFSa_PolyFoldIFS.m3p",
+      "scene_sha256": "7bb10a652698a43879b0da5f86510660a0875f12b1228bb3068156780a24cccf"
+    },
+    {
+      "id": "extall_Ads__Folding1",
+      "name": "_Folding1",
+      "category": "Ads",
+      "scene_path": "comparison/scenes/extall_Ads__Folding1.m3p",
+      "scene_sha256": "b49ad66dadb31c8d45224b1a232d655a0d50bfedb0098a8fc4764f0652800463"
+    },
+    {
+      "id": "extall_Ads__Rotate",
+      "name": "_Rotate",
+      "category": "Ads",
+      "scene_path": "comparison/scenes/extall_Ads__Rotate.m3p",
+      "scene_sha256": "e75a122a5aedfcaf7d37d2a9ed5e087236079759ab7219280d8c2efba22c974d"
+    }
+  ]
+}

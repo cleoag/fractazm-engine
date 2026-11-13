@@ -1,0 +1,404 @@
+{
+  "scope": "Independent original GUI readback provenance for explicit file-only mode, optics and volume assertions in test_legacy_loader.cpp. Direct core semantics are separate.",
+  "reports": [
+    {
+      "report": "comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\summary.json",
+      "report_sha256": "fcd3004335fd791b28e14a9a3bc3ef8cb61ae91736ee3a875c15511e7a1a6d6a",
+      "pascal_sha256": "55cf825fb9726d1530bc653f3d971e4955f9901fb676beb8ba33eb6f0e092890",
+      "results": [
+        {
+          "id": "mode0_loaded",
+          "raw_mode": 0,
+          "after_makeheader": false,
+          "effective_mode": 0,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_0.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "efce5d76fb3151650a6309775383eeea8ef543833d3f6813f6456d51b3753aed",
+          "dump_sha256": "8a7265502f87deecde95e0933f713e8f7e21fc80727035e73ab9eaa5943cd997",
+          "exit_code": 0
+        },
+        {
+          "id": "mode0_readback",
+          "raw_mode": 0,
+          "after_makeheader": true,
+          "effective_mode": 0,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_0.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "efce5d76fb3151650a6309775383eeea8ef543833d3f6813f6456d51b3753aed",
+          "dump_sha256": "8a7265502f87deecde95e0933f713e8f7e21fc80727035e73ab9eaa5943cd997",
+          "exit_code": 0
+        },
+        {
+          "id": "mode3_loaded",
+          "raw_mode": 3,
+          "after_makeheader": false,
+          "effective_mode": 3,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_3.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "a74f1b8aa6c5f5abeae4b1be7488243732615aa8b83e24099fea682d9b501082",
+          "dump_sha256": "9a7af504496b138ead1310c48041ce1021ce6f86f8fc7d08b9144fe09d76476d",
+          "exit_code": 0
+        },
+        {
+          "id": "mode3_readback",
+          "raw_mode": 3,
+          "after_makeheader": true,
+          "effective_mode": 0,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_3.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "a74f1b8aa6c5f5abeae4b1be7488243732615aa8b83e24099fea682d9b501082",
+          "dump_sha256": "8a7265502f87deecde95e0933f713e8f7e21fc80727035e73ab9eaa5943cd997",
+          "exit_code": 0
+        },
+        {
+          "id": "mode7_loaded",
+          "raw_mode": 7,
+          "after_makeheader": false,
+          "effective_mode": 7,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_7.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "d7d3fded8bd1ea5b278e08b29d903c4d412b05b7923ec0ec2619c929c10ded84",
+          "dump_sha256": "6d33b781ef7aab25f8e064c508b98e659d706190dc2c5d3b7daafd34d4aec9c4",
+          "exit_code": 0
+        },
+        {
+          "id": "mode7_readback",
+          "raw_mode": 7,
+          "after_makeheader": true,
+          "effective_mode": 4,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_7.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "d7d3fded8bd1ea5b278e08b29d903c4d412b05b7923ec0ec2619c929c10ded84",
+          "dump_sha256": "6282f600625bbbe0e8047324daa81e035ceedf1d99103f2a063d006895c12386",
+          "exit_code": 0
+        },
+        {
+          "id": "mode255_loaded",
+          "raw_mode": 255,
+          "after_makeheader": false,
+          "effective_mode": 255,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_255.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "786a97339cd828b22843e3a888daca499ae2f6dc58e442b859fb4b6a35f047a9",
+          "dump_sha256": "4af69c31e76d8b3c7dde869d7446543dac48474f98d1e71f2dc6246cb42e2285",
+          "exit_code": 0
+        },
+        {
+          "id": "mode255_readback",
+          "raw_mode": 255,
+          "after_makeheader": true,
+          "effective_mode": 252,
+          "hyb1": 0,
+          "hyb2": 273,
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\hybrid_255.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\file-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "scene_sha256": "786a97339cd828b22843e3a888daca499ae2f6dc58e442b859fb4b6a35f047a9",
+          "dump_sha256": "0458548aa22d049e7b88ab9b33f5a998c01ff1bf853ee427b80114fbbf622630",
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "report": "comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\summary.json",
+      "report_sha256": "412d5b970d48c6784c38a1b5af6610a24d8c8a983e7a9ab1af2dfb3a68610b41",
+      "pascal_sha256": "55cf825fb9726d1530bc653f3d971e4955f9901fb676beb8ba33eb6f0e092890",
+      "results": [
+        {
+          "id": "optic0",
+          "raw": {
+            "148": 0
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic0.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "02684d8a8d4a6f92de29c9ac1d6fbe14c3c7654581f84e582558f631c6cdad5d",
+          "effective": {
+            "148": 0
+          },
+          "dump_sha256": "042b7aa33b4d2424192cbf1d8926fa7b2cb511adbb8cc79e4e7cbf423826bfb4"
+        },
+        {
+          "id": "optic1",
+          "raw": {
+            "148": 1
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic1.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "5f3b41f82384779518c368084e72ab30a708c94204e619b4878f87632918ae38",
+          "effective": {
+            "148": 1
+          },
+          "dump_sha256": "f2f5537a6120791fc6dad0384895069f6d96e1915fa22182001bbe4f632ed718"
+        },
+        {
+          "id": "optic2",
+          "raw": {
+            "148": 2
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic2.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "4a7b53511cc1faaf8b49da14296ea2e425a10448755d58cd5f24c03f4d3fdf94",
+          "effective": {
+            "148": 2
+          },
+          "dump_sha256": "8f702cb0388479e0fb6307c30f4bf727e754474f9f21c641ada0aa5c56d08ac0"
+        },
+        {
+          "id": "optic3",
+          "raw": {
+            "148": 3
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic3.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 1,
+          "scene_sha256": "2403874f9a53dfd2043d1d8d533dd2c723fbf62eb7b80741c256794e11aa8e2a"
+        },
+        {
+          "id": "optic6",
+          "raw": {
+            "148": 6
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic6.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 1,
+          "scene_sha256": "58b8e15653220cc7ba6c538fae54212e8d2a9b03e15a011c3973e5e9ee98ad45"
+        },
+        {
+          "id": "optic255",
+          "raw": {
+            "148": 255
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\optic255.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 1,
+          "scene_sha256": "069fff7a4d0f2a49eb510189d1ff84cee3a21839b20183784fc3657575c2b45f"
+        },
+        {
+          "id": "inside3",
+          "raw": {
+            "842": 6
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\inside3.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "c786042b897dcad82eddf91c3e64d4fb6fb8ec2aef78d7246bb246d251660368",
+          "effective": {
+            "842": 0
+          },
+          "dump_sha256": "042b7aa33b4d2424192cbf1d8926fa7b2cb511adbb8cc79e4e7cbf423826bfb4"
+        },
+        {
+          "id": "volume7",
+          "raw": {
+            "343": 39
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\volume7.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "c233b03c9933363e232294a1e89478abe9592158ee0fd62b8d150a0adcbc28fa",
+          "effective": {
+            "343": 38
+          },
+          "dump_sha256": "3eeebc1da02ffe677e0b2732ab175b6c649536cf60b31a7d57a8406209dff44b"
+        },
+        {
+          "id": "visible10",
+          "raw": {
+            "500": 12,
+            "501": 181
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\visible10.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "24274bb5dc1afbb4d4e5f5d488a67dae7d83d36c5e507e315c2c2093f93af847",
+          "effective": {
+            "500": 12,
+            "501": 181
+          },
+          "dump_sha256": "a06721a1089708044fb1944ef79a1e4846f6ff17e9f5526be3b6ad0676ef7558"
+        },
+        {
+          "id": "visible12",
+          "raw": {
+            "500": 20,
+            "501": 181
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\visible12.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "6946910ced747117f724c05478e9db6f0afc42a16042601ff90a6deb94fafbfb",
+          "effective": {
+            "500": 20,
+            "501": 181
+          },
+          "dump_sha256": "424a51c390faa1dc0e9af0d6aade9678fb4e3ecfd5fb7896f69184eaf379149e"
+        },
+        {
+          "id": "visible14",
+          "raw": {
+            "500": 28,
+            "501": 181
+          },
+          "command": [
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\windows_build\\Mandelbulb3D_header_readback_audit.exe",
+            "--render",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\visible14.m3p",
+            "--output",
+            "C:\\work\\_c\\mb3d_cpp_port\\comparison\\results\\stage-a-20261018\\direct-header-contract-v1\\reserved-readback\\unused.png",
+            "--threads",
+            "1"
+          ],
+          "exit_code": 0,
+          "scene_sha256": "f4f200033a31885838ac2d4941bb03fc924ea791b51ec2ce665ac69e6bbd543b",
+          "effective": {
+            "500": 28,
+            "501": 181
+          },
+          "dump_sha256": "39bc7ed9c2335440252a929fc697d91a205f1db04a36a7a1b1af6904ab0cee92"
+        }
+      ]
+    }
+  ]
+}

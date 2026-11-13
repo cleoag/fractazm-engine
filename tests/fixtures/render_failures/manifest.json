@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "purpose": "Self-contained native render failure and recovery regression inputs. Source paths are provenance only; tests consume these checked-in copies.",
+  "files": [
+    {
+      "file": "challenge_Knots2IFS_early.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_Knots2IFS_early.m3p",
+      "sha256": "df1acf929fe178e94dba9e322b12b7c92930cb383155baf06a5ea66c88fa3e3c",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_TrifoxComplexAngles_early.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_TrifoxComplexAngles_early.m3p",
+      "sha256": "a763c9bdedd22249b4d5ac8ef1cb0697fee7ab8b261c024e4a862ebb177eb75b",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_TrifoxComplexAngles_p0_zero.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_TrifoxComplexAngles_p0_zero.m3p",
+      "sha256": "e8dc88ee34a9b7c6f004a81f43669cf0efe72bef44e09b653f0f1615dc8e6271",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_TrifoxComplexAngles_p3_zero.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_TrifoxComplexAngles_p3_zero.m3p",
+      "sha256": "9638949d4e53de4805cfd19315cb300d19258f87d3eeec72dba3e35816e29c51",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge__GenCWarp_early.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge__GenCWarp_early.m3p",
+      "sha256": "0b85600bd62c017342ffb294a6367852dec71319f94f653653fcd3345f6a1728",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_ducksIFS_p8_alternate.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_ducksIFS_p8_alternate.m3p",
+      "sha256": "4151acdb27e0c1b354a4706caa66ce0bee015acdbea76baff422ca6e4756d535",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_gnarly2IFS_p8_alternate.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_gnarly2IFS_p8_alternate.m3p",
+      "sha256": "937a1b177d1c5462169a3a836911c7ae7c918e48a8b1a4b4703c298251cfeeeb",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_gnarly3IFS_p8_alternate.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_gnarly3IFS_p8_alternate.m3p",
+      "sha256": "ab82c9bdeb7f014c2bb156ba05e3fe9d040727333d834e011f7df2b204313680",
+      "bytes": 1976
+    },
+    {
+      "file": "challenge_gnarlyIFS_p8_alternate.m3p",
+      "source": "comparison/runs/external-complete/challenges-v4/challenge_gnarlyIFS_p8_alternate.m3p",
+      "sha256": "a8fe44d29dc22e0603bbdbec0ef79a205db4bf50731f10626623252911815061",
+      "bytes": 1976
+    }
+  ]
+}

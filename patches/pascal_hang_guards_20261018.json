@@ -1,0 +1,23 @@
+{
+  "base_commit": "14f82cba984258c26d68caa3dd0fb1ec8a927bd6",
+  "commit": "3a21222da88b68a59e9335513aebe3211426db16",
+  "patch": "patches\\pascal_hang_guards_20261018.patch",
+  "patch_sha256": "99ce6a983eec49c17dad2f3179349f15bcd71f3059539e53331e4296dd307ca9",
+  "source_files": {
+    "CalcAmbShadowDE.pas": "7f11fe4ee1bcbb76b025699e978ea7109e4e1f2acc8ab27cd114a56687b109e8",
+    "CalcHardShadow.pas": "d5b6a836fb0a67f3364fda5759a63e684a78181b6284e96b18d83251326aaac5",
+    "CalcSR.pas": "21e6cdd3d1f658af78fadbc3ceaaae818fd8d177638024a7b1931ee9b4f6c65e",
+    "CalcThread.pas": "4bfd9955ac8fc396c811b52bbd79c2491a43863398fe6c051a4d01d53db9ae97",
+    "CalcThread2D.pas": "2cc0c0723980b21f211b329ee91e203a6614cb842cd5f06f4ac262dc0f593af3",
+    "CustomFormulas.pas": "da32f7b82cdaa73a108ec88d7c44cf7bdd4ef923f9f740771626470f370949d4",
+    "FormulaExecutionGuard.pas": "196068ec347ea786a51b5ab40f83ad4d5d3548daaea2d64ba76b702d773189c0",
+    "HeadlessRender.pas": "c4673a6c792e3db6c39733050670ac8cce592d579b697587d81b0884c5aa1d21",
+    "KnownFormulaCodeBytes.inc": "346bb55a34273c1dedab4154e1e725bbcc6c0f438aa0f150aa4fff73145f4db0",
+    "KnownFormulaCodeGuard.pas": "863f35f9bd611924637cefc2a2bc3a81f209422ad5fa049239dfe83d27ffedd6",
+    "Mand.pas": "0b8504d4d82f2215242a5ee1cd154ae892c33a4996d500cbffa325ed248a61ab",
+    "OTrapDEcalc.pas": "33ca392edc250246485a18d7a268f867191c1d33cc5d5ff9a6115efb3b14046d",
+    "formulas.pas": "e9041b51e752eb03b02da747ac8458b7e7febefaa5070ac0815a347028140834",
+    "maps/MB3DMaps.pas": "adf5b9fea299daafa993ee275b03e29536c934754ae15f36a2a0715b512cdfaa"
+  },
+  "executable_sha256": "e1b3720a633fc903a6f69f1dfe6e56832361a302bd96b92a82eab9db913e144b"
+}

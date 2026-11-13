@@ -1,0 +1,763 @@
+{
+  "schema": "mb3d.ordinary-scene-queue.v1",
+  "status": "ACTIVE",
+  "contract_sha256": "0973f2de90ff31d69f939e1b08fdc7fbdf61ea74b3cd4340fedb2d73fbff5bac",
+  "ordinary_scenes": 77,
+  "frame_diagnostic_seconds": 180,
+  "frame_stop_seconds": 300,
+  "full77": "OPEN",
+  "next_package_started": true,
+  "rows": [
+    {
+      "rank": 1,
+      "id": "fc2697b43464ec0e",
+      "scene": "mb3d/M3Parameter/0Encrypted0 - ABoxSOff4d example.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 2,
+      "id": "dfb1f8a0ce6563d0",
+      "scene": "mb3d/M3Parameter/6 AM - Torii temple.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 3,
+      "id": "a203b667b15f1e47",
+      "scene": "mb3d/M3Parameter/ABoxPartlyJuliaRoff.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 4,
+      "id": "c8ef0b59581727b2",
+      "scene": "mb3d/M3Parameter/ABoxScale2Start.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 5,
+      "id": "6c86d9620df94e35",
+      "scene": "mb3d/M3Parameter/ABoxScale3Start.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 6,
+      "id": "771bbcd749b60e11",
+      "scene": "mb3d/M3Parameter/Abominog-Ua - 12.06.2014.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 7,
+      "id": "e9da291b87928e39",
+      "scene": "mb3d/M3Parameter/AboxShapes-Misty.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU",
+      "current_diagnostic": "GPU candidate: original-size exact old/new and three measured repeats at 100.78 s warm median. CPU reference reached the unchanged 300 s hard stop; retain deferred tail and do not retry without a demonstrated CPU improvement.",
+      "cpu_reference_stop_record": "comparison/runs/native-misty-cpu-reference-20261031/report.json"
+    },
+    {
+      "rank": 8,
+      "id": "dad0a4472ff931fd",
+      "scene": "mb3d/M3Parameter/Aexion 10bulbs.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 9,
+      "id": "f10242f9def52135",
+      "scene": "mb3d/M3Parameter/AkuraPare - 463b.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 10,
+      "id": "a2df25a35786fb20",
+      "scene": "mb3d/M3Parameter/ApolloBalloons dIFS.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 11,
+      "id": "f19096099a40750b",
+      "scene": "mb3d/M3Parameter/AureliusCat - Bamboo.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 12,
+      "id": "9dba1d5a231b0404",
+      "scene": "mb3d/M3Parameter/BatJorge - Pong 703 - Swirls.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 13,
+      "id": "b4f37e3eb0da4bb4",
+      "scene": "mb3d/M3Parameter/Bill-Snowzell - Tweak - Canyon.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 14,
+      "id": "10980979a30a14d1",
+      "scene": "mb3d/M3Parameter/Blood on the dancefloor.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 15,
+      "id": "14a18905b4bfd622",
+      "scene": "mb3d/M3Parameter/BulboxCut.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 16,
+      "id": "f7767758d672104d",
+      "scene": "mb3d/M3Parameter/Chrystal.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 17,
+      "id": "ec10f03f20e38f14",
+      "scene": "mb3d/M3Parameter/DEcomb1.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 18,
+      "id": "1877b23c90823c40",
+      "scene": "mb3d/M3Parameter/Dainbramage - Home of the Ancients.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 19,
+      "id": "06738698448b94eb",
+      "scene": "mb3d/M3Parameter/Dainbramage - Hydra.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 20,
+      "id": "44efaa24b4f0519d",
+      "scene": "mb3d/M3Parameter/Dainbramage - Nothing left but bones.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 21,
+      "id": "0beb866ef7fc2563",
+      "scene": "mb3d/M3Parameter/Dodeca Torus mix.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 22,
+      "id": "fb1bdd3b0152e5ec",
+      "scene": "mb3d/M3Parameter/DsyneGrafix - Getting Loopy.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "qualification_evidence": "comparison/results/gpu-parallel-package15-20261026/checkpoint.json",
+      "quality_limitation": "Native FP32 lighting grain relative to CPU remains; no CPU/x87 parity claim.",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 23,
+      "id": "c21c50e70b303e5f",
+      "scene": "mb3d/M3Parameter/Ellarien - Embellished.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 24,
+      "id": "f8d40ac3477cea4f",
+      "scene": "mb3d/M3Parameter/Ellarien - Shrooms are coming.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 25,
+      "id": "1162d0607f556fca",
+      "scene": "mb3d/M3Parameter/ExcludeBulbMeng.m3p",
+      "priority": "normal",
+      "full_qualification": "QUALIFIED_FP32_CPU",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "FP32_RANGE",
+      "qualification_evidence": "comparison/results/native-fp32-acceptance-20261030/checks.json",
+      "qualification_renderer_sha256": "3f4da8845e4060d9817258f558d0b60966e212f862a9b70dba1e64bb7d652341",
+      "qualification_library_sha256": "da67f4414c7d4486a1c69b9bdfc266c7e76b8b63527f25ad016db5ee932c68fb"
+    },
+    {
+      "rank": 26,
+      "id": "02dfee06f57a576c",
+      "scene": "mb3d/M3Parameter/Fishbowl.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 27,
+      "id": "0d0ab5af8f92da6e",
+      "scene": "mb3d/M3Parameter/Fractales75 - Kiosk.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 28,
+      "id": "d7a7ef7c07b19b0a",
+      "scene": "mb3d/M3Parameter/Genetic Menger.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 29,
+      "id": "774daaa48dd1afa3",
+      "scene": "mb3d/M3Parameter/Hal-Tenny-Resistance (slow).m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 30,
+      "id": "ee02bf5d7542435b",
+      "scene": "mb3d/M3Parameter/HalTenny - Freak Of Nature.m3p",
+      "priority": "normal",
+      "full_qualification": "QUALIFIED_FP32_CPU",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "FP32_RANGE",
+      "qualification_evidence": "comparison/results/native-fp32-acceptance-20261030/checks.json",
+      "qualification_renderer_sha256": "3f4da8845e4060d9817258f558d0b60966e212f862a9b70dba1e64bb7d652341",
+      "qualification_library_sha256": "da67f4414c7d4486a1c69b9bdfc266c7e76b8b63527f25ad016db5ee932c68fb"
+    },
+    {
+      "rank": 31,
+      "id": "aa1b8811d98bb6a6",
+      "scene": "mb3d/M3Parameter/Hyperben2 - Ozosphere tweak.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 32,
+      "id": "6a3fe9350e082f1c",
+      "scene": "mb3d/M3Parameter/ImpossibleWorld dIFS.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU",
+      "deferred_reason": "Current original-size GPU frame 210.691 s; reflections 160.823 s dominate. No further full repeats before smaller diagnosis and demonstrated improvement."
+    },
+    {
+      "rank": 33,
+      "id": "cd424d38aac27b56",
+      "scene": "mb3d/M3Parameter/InAndOutside box.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 34,
+      "id": "35820014b1fd2ff4",
+      "scene": "mb3d/M3Parameter/Insect Menger.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 35,
+      "id": "bc7ad65d19d6bde2",
+      "scene": "mb3d/M3Parameter/Jost1 - Tweak - New tiny temple.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 36,
+      "id": "2c405d7c532fe8ab",
+      "scene": "mb3d/M3Parameter/JuliaSetSample.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 37,
+      "id": "3928f3247e6648dd",
+      "scene": "mb3d/M3Parameter/KentPress - Parameter 3 tweak fogits.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 38,
+      "id": "4c3988de676d37cc",
+      "scene": "mb3d/M3Parameter/KochSurf Sample 6.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 39,
+      "id": "509340eadfd56ed3",
+      "scene": "mb3d/M3Parameter/Lenord - ASurf 2.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 40,
+      "id": "5281288258c7b265",
+      "scene": "mb3d/M3Parameter/Lenord - Between Dark and Light.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 41,
+      "id": "6db19217a5496182",
+      "scene": "mb3d/M3Parameter/Lenord - The Beanstalk.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 42,
+      "id": "ecc0b336d49fa5e9",
+      "scene": "mb3d/M3Parameter/LightBulbMoon - A Fabulous Excuse.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 43,
+      "id": "d0950288f49bb6a2",
+      "scene": "mb3d/M3Parameter/LightBulbMoon - No, Never.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 44,
+      "id": "0f258a2abc1002ec",
+      "scene": "mb3d/M3Parameter/Mandelwerk - Makin seashell.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 45,
+      "id": "fde3a8424ee1df95",
+      "scene": "mb3d/M3Parameter/Mandelwerk - TgladTetra inner spirals.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 46,
+      "id": "3185ef0bf8701864",
+      "scene": "mb3d/M3Parameter/MarkJayBee - Curvichrome.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 47,
+      "id": "77923ebd629a2fb2",
+      "scene": "mb3d/M3Parameter/Melting spot bloxx.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 48,
+      "id": "33766b6f97258d9a",
+      "scene": "mb3d/M3Parameter/MengerTrees.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 49,
+      "id": "5f2747de7764cf5f",
+      "scene": "mb3d/M3Parameter/Oxnot - Flexing.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 50,
+      "id": "02d401dfd3ad39fb",
+      "scene": "mb3d/M3Parameter/Oxnot - Shells.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "FP32_RANGE"
+    },
+    {
+      "rank": 51,
+      "id": "5100bbf14633a41d",
+      "scene": "mb3d/M3Parameter/PaMonk - Ringlets.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 52,
+      "id": "d0d7f7a7afec9f3c",
+      "scene": "mb3d/M3Parameter/QuatP4hybridJulia.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 53,
+      "id": "e5b68b964329c5fd",
+      "scene": "mb3d/M3Parameter/Rama - Elysium.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 54,
+      "id": "d94d68df7a6cca83",
+      "scene": "mb3d/M3Parameter/Recycledrelatives - Fractal Fan.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 55,
+      "id": "ae613f772c231d76",
+      "scene": "mb3d/M3Parameter/Recycledrelatives - Test for SurfMod.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 56,
+      "id": "3a36011656f8340a",
+      "scene": "mb3d/M3Parameter/Sabine62 - Housing problem.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU",
+      "deferred_reason": "160x120 diagnostic on frozen 9c7806ad: ordered GPU state, 74.017 s excluding preparation; area-only full estimate 1850.4 s. Do not launch full GPU frames before state/ownership improvement.",
+      "diagnostic_record": "comparison/results/native-combined-state-diagnostic-20261031/report.json"
+    },
+    {
+      "rank": 57,
+      "id": "7e41151ddd058d0a",
+      "scene": "mb3d/M3Parameter/Surreal shell.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 58,
+      "id": "af37ba167d6fe556",
+      "scene": "mb3d/M3Parameter/ThePearl dIFS.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 59,
+      "id": "a91da57385a4e6c6",
+      "scene": "mb3d/M3Parameter/Theli-At - Black Mandelbulb.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 60,
+      "id": "acf6e92974e5c906",
+      "scene": "mb3d/M3Parameter/Theli-At - Bone Menger using MH.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 61,
+      "id": "dba149af46daf922",
+      "scene": "mb3d/M3Parameter/Theli-At - MengerSpheres.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 62,
+      "id": "d4f55b1147408170",
+      "scene": "mb3d/M3Parameter/TimeMachine.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 63,
+      "id": "b683d5dbb3d01066",
+      "scene": "mb3d/M3Parameter/TreePlanet.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 64,
+      "id": "3b99f1ae1fd1ce3b",
+      "scene": "mb3d/M3Parameter/UndeadAcademy tweak - Peacock in blue.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 65,
+      "id": "8da1484b2f5d9ece",
+      "scene": "mb3d/M3Parameter/Virtual tubes world (UndeadAcademy style).m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 66,
+      "id": "02172a5caf339eb5",
+      "scene": "mb3d/M3Parameter/Wada basin - Reflect test.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 67,
+      "id": "d5494e757f53dd44",
+      "scene": "mb3d/M3Parameter/Waste-and-tragedy - Mandalex.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 68,
+      "id": "6f535aa3b4257dfa",
+      "scene": "mb3d/M3Parameter/cutted sphere over carpet.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU",
+      "deferred_reason": "160x120 diagnostic on frozen 9c7806ad: ordered GPU state, 17.130 s excluding preparation; area-only full estimate 963.6 s. Do not launch full GPU frames before state/ownership improvement.",
+      "diagnostic_record": "comparison/results/native-combined-state-diagnostic-20261031/report.json"
+    },
+    {
+      "rank": 69,
+      "id": "0ffa637b356f6edc",
+      "scene": "mb3d/M3Parameter/dIFS heart shrub otrap.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 70,
+      "id": "13ccdce3d11aac7e",
+      "scene": "mb3d/M3Parameter/genQuat helix mix.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU",
+      "deferred_reason": "160x120 diagnostic on frozen 9c7806ad: ordered GPU state, 23.708 s excluding preparation; area-only full estimate 592.7 s. Do not launch full GPU frames before state/ownership improvement.",
+      "diagnostic_record": "comparison/results/native-combined-state-diagnostic-20261031/report.json"
+    },
+    {
+      "rank": 71,
+      "id": "c867f4847b365d56",
+      "scene": "mb3d/M3Parameter/julia on box.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 72,
+      "id": "d3dacbabf7f12a55",
+      "scene": "mb3d/M3Parameter/material colors.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 74,
+      "id": "9dd5f29c75ae214e",
+      "scene": "mb3d/M3Parameter/toricaleggs.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 75,
+      "id": "fc455b9e344e9b41",
+      "scene": "mb3d/M3Parameter/Rowratty - Spirals.m3p",
+      "priority": "normal",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "diagnostic_evidence": "comparison/runs/gpu-parallel-package14-primary48/spirals-first/0/profile.json",
+      "qualification_evidence": "comparison/results/gpu-parallel-package15-20261026/checkpoint.json",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 76,
+      "id": "53465ebd7f8bd8e8",
+      "scene": "mb3d/M3Parameter/dIFS heart shrub.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 77,
+      "id": "f145162b4387fbb0",
+      "scene": "mb3d/M3Parameter/dIFS shrub.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_ACCEPTED",
+      "latest_preview_status": "GPU"
+    },
+    {
+      "rank": 73,
+      "id": "ee9fd3037c41e4a5",
+      "scene": "mb3d/M3Parameter/spineJulia.m3p",
+      "priority": "deferred_slow_tail",
+      "full_qualification": "OPEN_CURRENT_IDENTITY",
+      "historical_admission": "PREPARATION_REJECTED",
+      "latest_preview_status": "FP32_RANGE"
+    }
+  ],
+  "deferred_evidence": {
+    "53465ebd7f8bd8e8": {
+      "full_metal_seconds": [
+        489.096652541,
+        490.249363792,
+        488.047431041
+      ],
+      "exact_full_repeats": 3,
+      "cpu_seconds": 4.991495166,
+      "reason": "Full frame exceeds 300 seconds; preserve completed evidence, no more slow repeats"
+    },
+    "f145162b4387fbb0": {
+      "full_qualification": "OPEN",
+      "prior_timeout_seconds": 1800.041932625,
+      "latest_attempt": "CANCELLED_BY_USER_POLICY",
+      "reason": "Full frame too slow; no completed original-size Metal image"
+    },
+    "ee9fd3037c41e4a5": {
+      "full_qualification": "OPEN",
+      "latest_attempt": "RENDER_FRAME_TIMEOUT",
+      "seconds": 300.18888337501267,
+      "record": "comparison/results/native-range-diagnosis-20261030/REPORT.md",
+      "reason": "Original 2000x2000 stopped at 300 s; no additional full repeats; diagnose with small square frames first"
+    }
+  },
+  "active_package": "Two original FP32 CPU scenes qualified; resource-blocked and slow-tail cases remain OPEN",
+  "historical_admission_evidence": "comparison/runs/gpu-parallel-package15-soft49/admission/result.json",
+  "coverage_evidence": {
+    "path": "comparison/runs/native-gpu-map-outline-20261029/corpus/coverage.json",
+    "sha256": "2e6e938232c0112326c940749e952d5b0456ed1e47907af8dc7540d77f68fc69",
+    "binary_sha256": "aeedf257c92c1ff15ab0d82e9c3b96ed9f7a714c1fc3b1a3b01c101fbe4df4ab",
+    "library_sha256": "561c48866f6907a4f10eeb3c28880202f3adfa913ff3a1c58ee4c290eb2290b3",
+    "size": [
+      160,
+      120
+    ],
+    "qualification": false,
+    "note": "Historical evidence uses its original queue hash; scene ordering unchanged."
+  }
+}

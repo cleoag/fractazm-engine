@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "purpose": "Pinned corpus identities and schemas only. Historical outcomes are never current-candidate evidence.",
+  "reports": {
+    "selector_points": {
+      "path": "comparison/runs/stage-a-20261018/final-selector-points-v20/summary.json",
+      "sha256": "9a2d2c9fe6fd42184e9cf3a8fe405bf7013864b02b447e555b359a41cfb79341",
+      "expected_rows": 591
+    },
+    "integer_boundaries": {
+      "path": "comparison/runs/stage-a-20261018/integer-boundaries-v20/summary.json",
+      "sha256": "73f79ccf1a4638938de06f187c9a062d333f89f6a98f58b5af5fc06c0dc0baf2",
+      "expected_rows": 166
+    },
+    "selector287_images": {
+      "path": "comparison/runs/stage-a-20261018/selector287-candidate-v20/combined-summary.json",
+      "sha256": "dae3cd1ae83b9f581d012867bf93cd8f1c82b3e63d41492f674eb4900fcec7f9",
+      "expected_rows": 287
+    },
+    "selector31_images": {
+      "path": "comparison/runs/stage-a-20261018/final-selector31-images-v20/summary.json",
+      "sha256": "467bdb67c685982ed70cd5dcc3ad7f50b2e93e03c451b59831247c580db71357",
+      "expected_rows": 31
+    },
+    "finite_matrices": {
+      "path": "comparison/runs/stage-a-20261018/finite-matrices-candidate-v20/summary.json",
+      "sha256": "22967dd66740662351684c48430ed95a3293856e566c3e6a1ba0dd783f963cb4",
+      "expected_rows": 151,
+      "children": {
+        "additional31": "8cd1677733e400ca99d7339b9298f3c4944b0d851e8ccd38961dc0a2ee83189b",
+        "effective42": "dfd4dc35ce2dbdc144d3e29e323c64400b8b843a010158e72897db01d1b55a75",
+        "mix6": "574022f84bc830757a42fe044a276330f4df3ddf9759714fee502bde41560ef5",
+        "lighting30": "3c2b5972a066f9c70265660c836cab90e000c78f81a567a076a9f13fcb0deb00",
+        "visible10": "eff0a128399e640dbdcd45d09f7fa1a64b88d879051d96d33cc25da9cabf69ef",
+        "maps18": "23bbef78aa72e114744f67d9d44d8196eda132f4edd450004140e7580be2c519",
+        "preprocess8": "0eb234bc08af37256f2f1e4b65483d1ec114bb658b4f46e722ee702be1503380",
+        "heightmap4": "6735773a8833550955d9eb338f80f9a1579e06d9ac017a2c56ff476027e15a9b",
+        "interpolation2": "d5208e55686d679ee3a5c3567e79a541470433e78ab6bdc8585419b75e1408ba"
+      }
+    },
+    "live_controls": {
+      "path": "comparison/runs/stage-a-20261018/live-controls-candidate-v20/summary.json",
+      "sha256": "57a7a34115f8e845995ab41bd30cef5164143e75938a49e6ce0d07d8bf2bec9a",
+      "expected_rows": 5
+    },
+    "volume_images": {
+      "path": "comparison/runs/stage-a-20261018/volume-sampling-candidate-v20/summary.json",
+      "sha256": "a1e61151c9b5f0c2edf3f3715fb4d3303e367a2a4f799a964ceef851b2aed23e",
+      "expected_rows": 8
+    },
+    "transmission_images": {
+      "path": "comparison/results/stage-a-20261018/transmission-couplings-fresh-v20/candidate-v20/summary.json",
+      "sha256": "cf6cecc9f49569b1c379e2f07a4b978add842ef0ca3b186164edfa63714ac4eb",
+      "expected_rows": 8
+    },
+    "transmission_zero": {
+      "path": "comparison/results/stage-a-20261018/transmission-zero-power-fresh-v20/candidate-v20/summary.json",
+      "sha256": "a1c97e8c7671d52588bfb07c7ef4053135989df162e27712a08be26293c87e77",
+      "expected_rows": 3
+    },
+    "transmission_controls": {
+      "path": "comparison/results/stage-a-20261018/transmission-controls-fresh-v20/candidate-v20/summary.json",
+      "sha256": "fc9af8d0e3638222646f77622206d4e78681c8efc348d23165105fde969880c8",
+      "expected_rows": 2
+    },
+    "dof_images": {
+      "path": "comparison/results/stage-a-20261018/dof-couplings-fresh-v20/candidate-v20/summary.json",
+      "sha256": "539c737f7ccd4c4751281da3f21d02ed67274dd7d6d6068ebb34db519639c1a6",
+      "expected_rows": 13
+    },
+    "ao_lanes": {
+      "path": "comparison/runs/stage-a-20261018/ao-wavelet-lanes-candidate-v20/summary.json",
+      "sha256": "f1eae7a7de6c321fc5b8d3640dd75b70f2b021a66efab685cd17b1bb3c00c0d4",
+      "expected_rows": 8
+    },
+    "ao_pano_lanes": {
+      "path": "comparison/runs/stage-a-20261018/ao-wavelet-pano-lanes-candidate-v20/summary.json",
+      "sha256": "5c90e6ce5dd301c67603e429b2572328c3b4dba9d6d97f539567d7ac91afd221",
+      "expected_rows": 8
+    },
+    "ao_threshold": {
+      "path": "comparison/runs/stage-a-20261018/threshold-ao-boundaries-candidate-v20/summary.json",
+      "sha256": "f8364bb60d4f1d034aef286097e963238d3665da854a74b7d80c3357d4f1f1d6",
+      "expected_rows": 8
+    },
+    "tiles": {
+      "path": "comparison/runs/stage-a-20261018/tiles-candidate-v20/summary.json",
+      "sha256": "23f5aa6491be778451f83d6a4171bd6eba8f2bf542dfad33ca9fce6e635924b5",
+      "expected_rows": 21
+    },
+    "diagnostics_cpp": {
+      "path": "comparison/runs/stage-a-20261018/diagnostics-candidate-v20/summary.json",
+      "sha256": "3749105f1c0f88fefe9f34acd0d8a09353b32e404d6519970486955f8aa41b2f",
+      "expected_rows": 24
+    },
+    "diagnostics_pascal": {
+      "path": "comparison/runs/stage-a-20261018/diagnostics-candidate-v20/summary.json",
+      "sha256": "3749105f1c0f88fefe9f34acd0d8a09353b32e404d6519970486955f8aa41b2f",
+      "expected_rows": 24
+    },
+    "input_validation": {
+      "path": "comparison/runs/stage-a-20261018/input-contract-candidate-v20/summary.json",
+      "sha256": "851b793ba7246524dd8ae0f0379ab36cb5db64708d164704766d66db77fb472a",
+      "expected_rows": 22
+    },
+    "hang_app": {
+      "path": "comparison/runs/hang-fixes-20261018/scene-guards-v2/summary.json",
+      "sha256": "71b40954d66c8f0244e21628cf00e406b00c62fe68d1f9d87a265bcc6a98a56c",
+      "expected_rows": 108
+    },
+    "guarded_cpp_finite": {
+      "path": "comparison/runs/hang-fixes-20261018/cpp-guarded/finite-qualification.json",
+      "sha256": "70e07fc32fff608aeb47bff9c103949b2d4b4df50fb1915b9aa929a8008dad99",
+      "expected_rows": 65
+    },
+    "guarded_pascal_finite": {
+      "path": "comparison/runs/hang-fixes-20261018/pascal-finite-v2/summary.json",
+      "sha256": "99efd3fb52e47da33094f0e11936a66729edc9188e24d66d68f90f9bf8ec6610",
+      "expected_rows": 65
+    },
+    "legacy_loader": {
+      "path": "comparison/results/stage-a-20261018/legacy-loader-qualification-v20.json",
+      "sha256": "169d5dfb9407054e283c764dc1e1ad4b293d5286badf0869888ac63d1bb0aa99",
+      "expected_rows": 121
+    },
+    "file_readback": {
+      "path": "comparison/runs/stage-a-20261018/file-readback-candidate-v20/summary.json",
+      "sha256": "1ab039f82cd762718a64d180d191e798455ed28824b6c5e1e8bff0547e2b6659",
+      "expected_rows": 15
+    },
+    "m3i_codec": {
+      "path": "comparison/runs/stage-a-20261018/m3i-codec-candidate-v20/summary.json",
+      "sha256": "f9a9f28b1ff31a7992310d47389fba1e9c673ade50c5a7fa3e44aa8da9622c38",
+      "expected_rows": 30
+    }
+  },
+  "manowar_layouts": {
+    "path": "comparison/runs/external-complete/manowar-layouts-v2/summary.json",
+    "sha256": "4ac06150664c6e587d79f0652f448fe6b8d43fdd1e2371711b8404e2b7071b9b"
+  },
+  "manowar_manifest": {
+    "path": "comparison/runs/external-complete/challenges-v4/manifest.json",
+    "sha256": "a7aa92f572655391150fae0184a960ef672a8adbc991cf24191ece15e3b2272a"
+  }
+}

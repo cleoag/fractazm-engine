@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "profile": "integer-ieee-binary64-rne-value-only-v1",
+  "implementation": "soft_double.h",
+  "origin": "Project implementation of normalized integer significands, guard/round/sticky rounding, schoolbook 32-bit product, verified radix division and base-four restoring square root. Binary64 division and sqrt use hardware binary32 estimates only after exact integer quotient/remainder or root-prefix checks. No NVIDIA source code was copied.",
+  "sqrt_prefix_contract": "Fallback 24-bit prefix: for normalized radicand H*2^64+L with H<2^48, accept q only if q^2<=H and H-q^2<2*q+1, equivalently q^2<=H<(q+1)^2. Initialize the original restoring state with q and H-q^2, then consume the remaining 32 base-four digits. At most four hint corrections; a rejected hint uses all 56 original restoring digits. Neither correctness nor final rounding depends on hardware hint accuracy.",
+  "wide_sqrt_prefix_contract": "Production 32-bit prefix: for the normalized radicand R=sig*2^58, H=R>>48=sig*2^10 fits U64 and the low 48 bits are zero. Reject seeds at or above 2^32 before squaring. Refine using a guarded binary32 residual correction of at most 1024 integer units; clamp its untrusted positive proposal to 2^32-1, then allow at most four exact unit corrections. Accept only q^2<=H and H-q^2<2*q+1; this is the exact upper-square bracket without overflowing its 2^64 endpoint. An accepted prefix continues with 24 original restoring zero digits and unchanged rounding. Any rejected hint uses the verified 24-bit prefix fallback. Approximation accuracy never determines a result bit.",
+  "wide_sqrt_prefix_verification": "Native tests compare production and diagnostic-entry values to volatile hardware binary64 sqrt across every exponent, subnormal leading position, signed exceptional value, rounding-transition neighborhood and random encodings. Independent unsigned-128 binary search checks prefix root, remainder and the mathematical upper square, including UINT64_MAX. The exact_sqrt_wide_seed_controls kernel and sqrt_gpu_checks.h check zero, 2^32 and larger seeds, residual-correction bounds, rootMax clamping, nearby/far estimates, fallback and complete sqrt results against the independent native oracles; the wrapper requires their sqrt_wide_seed_controls report. The scene gate separately requires unchanged CPU/GPU geometry, packed stages and final RGB.",
+  "power_two_multiply_contract": "After the unchanged NaN, infinity and zero cases, a normalized significand equal to 2^52 identifies an exact finite power-of-two factor, including subnormal powers. Pass the other normalized significand shifted left three bits and the sum of exponents to the existing round_pack; all other products retain the original wide multiplication. This preserves nearest-even gradual underflow, overflow and XOR sign in both operand orders without a separate identity shortcut.",
+  "power_two_multiply_verification": "Native and GPU hardware-binary64 comparisons cover every representable signed power from 2^-1074 to 2^1023, both operand positions, all sign combinations, boundary significands and NaN/Inf/zero. Native directed cases also place products at underflow/normal/overflow transitions and halfway boundaries for every subnormal rounding shift.",
+  "reviewed_reference": {
+    "project": "Berkeley SoftFloat Release 3e",
+    "local_manifest": "external_formulas/vendored/softfloat/UPSTREAM.json",
+    "commit": "a0c6494cdc11865811dec815d5c0049fba9d82a8",
+    "notes": "The existing upstream roundPack and integer-product sources were inspected. No upstream source text is incorporated in this header. The algorithms here are independently expressed."
+  },
+  "operations": [
+    "add",
+    "subtract",
+    "multiply",
+    "divide",
+    "sqrt",
+    "ordered comparisons",
+    "binary32 conversion",
+    "int32 conversion",
+    "fused multiply-add"
+  ],
+  "rounding": "nearest-even with gradual underflow",
+  "nan_policy": "All arithmetic NaNs canonicalize to positive quiet NaN 0x7ff8000000000000; comparisons are unordered. Value classification is checked independently; NaN payloads, signs and exception flags are not certified.",
+  "exclusions": [
+    "alternate rounding modes",
+    "floating exception flags",
+    "NaN payload preservation",
+    "transcendentals other than the explicitly gated Apple ARM64 log compatibility profile"
+  ],
+  "verification": "test_soft_double.cpp compares non-NaN results bit for bit against native Apple ARM64 hardware binary64 with contraction/fast-math disabled; actual Metal checks execute identical vectors through kernels.metal.",
+  "extended_implementation": "soft_extended.h",
+  "extended_profile": "64-significand extended format, nearest-even, canonical encodings only; plus/minus/multiply/divide/sqrt and direct Double/Single/int32 stores",
+  "extended_verification": "test_soft_extended.cpp and extended_gpu_checks.h compare raw extended bits and destination stores to the pinned upstream SoftFloat implementation. GPU includes ray position and DE-stop refinement chains.",
+  "single_implementation": "soft_single.h",
+  "single_profile": "binary32 nearest-even value operations with explicit stores via integer binary64; gradual underflow and signed zero; canonical NaN classification, no payload/flags",
+  "single_verification": "test_soft_single.cpp and single_gpu_checks.h compare arithmetic, conversion and int32 results against native Apple ARM64 binary32 with fast-math and contraction disabled; random, edge, cancellation, exponent-boundary and subnormal power-of-two vectors.",
+  "fma_implementation": "soft_fma.h",
+  "fma_contract": "Independent 128-bit aligned product/addend accumulator; exact cancellation, distant sticky bits, one nearest-even store including gradual underflow. No native double or uint128 in device implementation.",
+  "log_implementation": "soft_log.h",
+  "log_profile": "Native Apple ARM64 libsystem_m log compatibility, not a portable correctly-rounded logarithm specification. Numerical table constants and operation order checked against the installed native library; no executable machine code embedded. Factored polynomial and table reduction use software fused multiply-add.",
+  "log_verification": "test_soft_log.cpp and log_gpu_checks.h compare every finite/infinite/signed-zero output bit to the running host std::log/std::fma; NaN class only. The full-scene wrapper requires this GPU gate before acceptance. Includes all normal exponents, subnormal leading positions, all table midpoint neighborhoods, near-one cancellation, product cancellation and random bit encodings. A different host libm result is a hard failure, not a tolerance adjustment.",
+  "division_contract": "After unchanged special-value and power-of-two cases, normalize A/D into [1,2). A binary32 reciprocal proposes three radix digits with fractional widths 18,19,18. Each digit accepts only the exact integer bracket N=q*D+r, 0<=r<D after at most two unit corrections; reject arbitrary out-of-domain hints before integer conversion. The resulting quotient is floor((A*2^55)/D), exactly the original restoring quotient, with the final remainder reduced to the same sticky bit. Any rejected digit uses the retained original 55-step algorithm. Correctness does not depend on reciprocal accuracy. Metal function constant 4 preserves the restoring A/B path in the same offline library.",
+  "division_verification": "Native tests compare verified, restoring and injected-reciprocal results bit for bit to volatile ARM64 hardware division, across every exponent, both signs, special values, quotient underflow/normal/overflow transitions and random operands. Independent unsigned-128 division checks exact radix digits, +/-1 and +/-2 corrections, rejected +/-3 and out-of-domain hints, remainder carries and invalid domains. The exact_division_seed_controls GPU kernel independently checks 175152 records (700608 checks), including 48 invalid-domain controls, against hardware binary64 and unsigned-128 oracles. No tolerance changes.",
+  "normal_arithmetic_contract": "Exact addition admits two normal operands with larger biased exponent 54..2045: at most 53 bits of cancellation leaves a normal nonzero result, while the greatest admitted same-sign sum remains finite. Exact multiplication admits two normal operands with biased product exponent 1..2044: normalization and rounding can each add at most one exponent, so the result remains normal and finite. Integer alignment, product, guard/round/sticky bits and nearest-even rounding are unchanged. Packing includes the hidden bit in an integer addition to absorb any rounding carry. Exact zero and power-of-two products retain their signs. All other operands use the unchanged general implementations; no formula expression is reassociated.",
+  "normal_arithmetic_verification": "normal_arithmetic_vectors.h supplies shared native and GPU add/subtract/multiply boundary inputs covering all binary64 exponent encodings, signs, operand orders, cancellation, alignment gaps, normal-domain endpoints, underflow/overflow, and explicit multiplication halfway cases. test_soft_double.cpp and exact_arithmetic compare with volatile native ARM64 hardware operations, not the optimized software implementation. Report validation requires exact boundary denominators and complete per-operation coverage; existing arithmetic, formula, full-record and RGB gates remain mandatory. Fresh baseline/candidate binary identities and raw-stage hashes establish unchanged scene behavior."
+}

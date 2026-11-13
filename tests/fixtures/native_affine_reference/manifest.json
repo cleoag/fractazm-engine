@@ -1,0 +1,165 @@
+{
+  "schema": "mb3d.native-affine-original-audit.v1",
+  "qualification": false,
+  "scope": "Independent original-code binary32 model fixtures only; no device result or full-scene credit.",
+  "sources": {
+    "mb3d/TypeDefinitions.pas": {
+      "lf_sha256": "5ef479844d3d5ffac309b141c9f80b62ebf0f9bf8b8782b706d9f451ef096747",
+      "crlf_sha256": "3a9a5d19fa00ba9cf2ec3562545ed31719a770aaaff71e041eab507bb7535f93"
+    },
+    "mb3d/formulas.pas": {
+      "lf_sha256": "3fefcd04fe6726831f3a7904f151cc3cc192610f4532f2889b9771e5953775bd",
+      "crlf_sha256": "b19507e537d27e78a88219cf6d0f853bb5ab1ee6113a3e15a5cf040522ba548b"
+    },
+    "mb3d/M3Formulas/_Translate.m3f": {
+      "lf_sha256": "3acdcb61881b9007cd1a66a33887d8a13ae7541bd3120472b582e2ac9a09b706",
+      "crlf_sha256": "9d78243887916a309584388805e10206251ce819c34ebdb228edd1336b2c729a"
+    },
+    "mb3d/M3Formulas/_TranslateC4d.m3f": {
+      "lf_sha256": "aca72cf8b072cce46646ddcc4f0710787b34f3c669c746add7042c94e195505e",
+      "crlf_sha256": "e8ec449a90ef8025bf57b73fa51023b8282e0f612e95fb5041a6e3fb5cca1d02"
+    },
+    "mb3d/M3Formulas/_scaleC.m3f": {
+      "lf_sha256": "e1d6898c8786942a79f0350afed1af7c38bfc8468b998198de6ad36d87a651ba",
+      "crlf_sha256": "f891bf0362b4e60fc328dd879b670b40a5da9bf726d46b79afbeb470c0c31881"
+    },
+    "mb3d/M3Formulas/_ScaleC4d.m3f": {
+      "lf_sha256": "8477ca02273adf254dd957dd1deac3c073187d66638abb2854feb61808a8bf1c",
+      "crlf_sha256": "653c3952fb4f6c263fa18602a23456b3c45ab7c9a4731f10ebc2b45b45e51f69"
+    },
+    "mb3d/Math3D.pas": {
+      "lf_sha256": "0b03d5d982be1285839831dfc36b2532725f5d679e2891b474d00d750b7b6727",
+      "crlf_sha256": "ad03ae11af6907a7b6edd6e7f95d46b889a47de084906652ef65bd242d7cd557"
+    }
+  },
+  "formulas": [
+    {
+      "name": "_Translate",
+      "code_sha256": "69ddf3b24e9496a4f136773bc69c1879958c82129e1cde6143fbda234b1b2e95",
+      "code_bytes": 36,
+      "original_fpu_instructions": [
+        "000a: fld qword ptr [ecx]",
+        "000c: fld qword ptr [edx]",
+        "000e: fld qword ptr [eax]",
+        "0010: fadd qword ptr [esi - 0x10]",
+        "0013: fstp qword ptr [eax]",
+        "0015: fadd qword ptr [esi - 0x18]",
+        "0018: fstp qword ptr [edx]",
+        "001a: fadd qword ptr [esi - 0x20]",
+        "001d: fstp qword ptr [ecx]"
+      ]
+    },
+    {
+      "name": "_TranslateC4d",
+      "code_sha256": "4932bcd4b96573dad22f96a30cfbf0b6f42e089e23059148583c4504322d6569",
+      "code_bytes": 83,
+      "original_fpu_instructions": [
+        "000b: fld qword ptr [ecx + 8]",
+        "000e: fld qword ptr [ecx]",
+        "0010: fld qword ptr [edx]",
+        "0012: fld qword ptr [eax]",
+        "0014: fadd qword ptr [edi - 0x10]",
+        "0017: fstp qword ptr [eax]",
+        "0019: fadd qword ptr [edi - 0x18]",
+        "001c: fstp qword ptr [edx]",
+        "001e: fadd qword ptr [edi - 0x20]",
+        "0021: fstp qword ptr [ecx]",
+        "0023: fadd qword ptr [edi - 0x28]",
+        "0026: fstp qword ptr [ecx + 8]",
+        "0029: fld qword ptr [esi - 0x38]",
+        "002c: fld qword ptr [esi + 0x28]",
+        "002f: fld qword ptr [esi + 0x20]",
+        "0032: fld qword ptr [esi + 0x18]",
+        "0035: fadd qword ptr [edi - 0x30]",
+        "0038: fstp qword ptr [esi + 0x18]",
+        "003b: fadd qword ptr [edi - 0x38]",
+        "003e: fstp qword ptr [esi + 0x20]",
+        "0041: fadd qword ptr [edi - 0x40]",
+        "0044: fstp qword ptr [esi + 0x28]",
+        "0047: fadd qword ptr [edi - 0x48]",
+        "004a: fstp qword ptr [esi - 0x38]"
+      ]
+    },
+    {
+      "name": "_scaleC",
+      "code_sha256": "aa7a74b61a9f5e03aaa15a19bdddde58d50954e9291943a369a925d480579f2e",
+      "code_bytes": 44,
+      "original_fpu_instructions": [
+        "000b: fld qword ptr [esi + 0x18]",
+        "000e: fmul qword ptr [edi - 0x10]",
+        "0011: fstp qword ptr [esi + 0x18]",
+        "0014: fld qword ptr [esi + 0x20]",
+        "0017: fmul qword ptr [edi - 0x18]",
+        "001a: fstp qword ptr [esi + 0x20]",
+        "001d: fld qword ptr [esi + 0x28]",
+        "0020: fmul qword ptr [edi - 0x20]",
+        "0023: fstp qword ptr [esi + 0x28]"
+      ]
+    },
+    {
+      "name": "_ScaleC4d",
+      "code_sha256": "6d197dcd907cd7187da523baa7305fc8c518343ea78a21595d42a49046781f71",
+      "code_bytes": 81,
+      "original_fpu_instructions": [
+        "000b: fld qword ptr [ecx + 8]",
+        "000e: fld qword ptr [ecx]",
+        "0010: fld qword ptr [edx]",
+        "0012: fld qword ptr [eax]",
+        "0014: fld qword ptr [edi - 0x10]",
+        "0017: fmul st(4), st(0)",
+        "0019: fmul st(3), st(0)",
+        "001b: fmul st(2), st(0)",
+        "001d: fmulp st(1)",
+        "001f: fstp qword ptr [eax]",
+        "0021: fstp qword ptr [edx]",
+        "0023: fstp qword ptr [ecx]",
+        "0025: fstp qword ptr [ecx + 8]",
+        "0028: fld qword ptr [esi - 0x38]",
+        "002b: fld qword ptr [esi + 0x28]",
+        "002e: fld qword ptr [esi + 0x20]",
+        "0031: fld qword ptr [esi + 0x18]",
+        "0034: fld qword ptr [edi - 0x18]",
+        "0037: fmul st(4), st(0)",
+        "0039: fmul st(3), st(0)",
+        "003b: fmul st(2), st(0)",
+        "003d: fmulp st(1)",
+        "003f: fstp qword ptr [esi + 0x18]",
+        "0042: fstp qword ptr [esi + 0x20]",
+        "0045: fstp qword ptr [esi + 0x28]",
+        "0048: fstp qword ptr [esi - 0x38]"
+      ]
+    }
+  ],
+  "abi_mapping": {
+    "eax/edx/ecx": "xyz[0]/xyz[1]/xyz[2]",
+    "ecx+8": "xyz[3]",
+    "esi+0x18/+0x20/+0x28": "j[0]/j[1]/j[2], not immutable c[]",
+    "esi-0x38": "j[3]",
+    "PVar-0x10-8*i": "parameter i; PVar-8 is fixed0.5"
+  },
+  "caller_subset": {
+    "source": "mb3d/formulas.pas doHybridPasDE / doHybrid4DDEPas; mb3d/Math3D.pas Rotate4Dex/mCopyVec",
+    "rotation": "identity 4D; input C4 is zero by Pascal contract",
+    "hybrid": "one enabled slot; positive counts1/2/3; max_iterations4/5; early radius escape at1 and strict-threshold controls",
+    "julia": "both false and true",
+    "state_width": "47 exact uint32 words; unmodified sentinels remain byte-identical",
+    "excluded": [
+      "smoothing",
+      "interpolation",
+      "dIFS",
+      "DE combination",
+      "nonfinite inputs",
+      "distance scalar qualification",
+      "MC",
+      "JIT"
+    ]
+  },
+  "reference_notes": [
+    "Round original scalar additions/multiplications independently to binary32 RN-even, not x87 precision.",
+    "Do not reproduce translated subtract-C/add-C cancellation as an oracle operation.",
+    "Point fixtures include signed zero, ties, large-C cancellation and extreme untouched integer counters.",
+    "Orbit data have exact dyadic radius operations, so FMA contraction cannot change the expected radius.",
+    "Runtime reference has no capstone dependency; instructions here were independently decoded using capstone5.0.6.",
+    "Identity Rotate4Dex still executes zero products and sums; all-negative input exposes preserved negative W/J4 zero."
+  ]
+}

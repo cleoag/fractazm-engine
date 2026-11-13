@@ -1,0 +1,580 @@
+{
+  "$comment": "Stage and field inventory for Pascal/C++ schema traces. See docs/PARITY_TRACE.md for the contract and current validator limitations. Extend alongside both emitters.",
+  "version": 2,
+  "hash_algorithm": "fnv1a64",
+  "field_types": {
+    "double12": "12-significant-digit textual form plus paired <name>_bits hex64",
+    "double17": "17-significant-digit textual form plus paired <name>_bits hex64",
+    "int": "plain decimal integer",
+    "bool_neg1": "-1 for true, 0 for false",
+    "hex64": "0x-prefixed 16 uppercase hex digits",
+    "string": "ASCII, no whitespace, no quoting",
+    "checksum": "fnv1a64 output as hex64"
+  },
+  "checkpoint_mode": {
+    "$comment": "Hash follows emitter call order. A floating field contributes name=0xBITS and name_bits=0xBITS as two lines. Other fields contribute one name=text line. Join with LF; no trailing LF. stages_order is a pipeline inventory, not a grammar; stages repeat during marching and AO.",
+    "hash_input_format": "name=0xBITS\nname_bits=0xBITS\ninteger=value"
+  },
+  "stages": {
+    "_canary": {
+      "description": "Pre-render format and computed portable-math self-test. Mismatch may indicate serialization, floating-point state or math drift. C++ emits checksum only; Pascal includes payload in detailed mode.",
+      "pre_render": true,
+      "fields": [
+        {
+          "name": "pi",
+          "type": "double12",
+          "fixed_value": 3.141592653589793
+        },
+        {
+          "name": "one_third",
+          "type": "double12",
+          "fixed_value": 0.3333333333333333
+        },
+        {
+          "name": "tenth",
+          "type": "double12",
+          "fixed_value": 0.1
+        },
+        {
+          "name": "neg_zero",
+          "type": "double12",
+          "fixed_value": -0.0
+        },
+        {
+          "name": "nan_sample",
+          "type": "double12",
+          "fixed_value": "nan"
+        },
+        {
+          "name": "neg_inf",
+          "type": "double12",
+          "fixed_value": "-inf"
+        },
+        {
+          "name": "bool_true",
+          "type": "bool_neg1",
+          "fixed_value": true
+        },
+        {
+          "name": "bool_false",
+          "type": "bool_neg1",
+          "fixed_value": false
+        },
+        {
+          "name": "pm_sin_test",
+          "type": "double12",
+          "computed_expression": "pm_sin(1.23456789)"
+        },
+        {
+          "name": "pm_cos_test",
+          "type": "double12",
+          "computed_expression": "pm_cos(1.23456789)"
+        },
+        {
+          "name": "pm_log_test",
+          "type": "double12",
+          "computed_expression": "pm_log(2.718281828)"
+        }
+      ]
+    },
+    "ray_ready": {
+      "description": "Primary ray prepared at pixel (x,y), before CalcDE is called",
+      "pre_render": false,
+      "fields": [
+        {
+          "name": "mZZ",
+          "type": "double12",
+          "source_pascal": "CalcThread.pas mZZ local",
+          "source_cpp": "ray_marcher.cpp ray_ready emission"
+        },
+        {
+          "name": "CAFX",
+          "type": "double12"
+        },
+        {
+          "name": "CAFY",
+          "type": "double12"
+        }
+      ]
+    },
+    "calcde_enter": {
+      "description": "Entry to CalcDEfull - input state before any iteration",
+      "pre_render": false,
+      "fields": [
+        {
+          "name": "C1",
+          "type": "double12"
+        },
+        {
+          "name": "C2",
+          "type": "double12"
+        },
+        {
+          "name": "C3",
+          "type": "double12"
+        },
+        {
+          "name": "RStop",
+          "type": "double12"
+        },
+        {
+          "name": "maxIt",
+          "type": "int"
+        },
+        {
+          "name": "DEoption",
+          "type": "int"
+        },
+        {
+          "name": "bInsideRendering",
+          "type": "bool_neg1"
+        },
+        {
+          "name": "dDEscale",
+          "type": "double12"
+        },
+        {
+          "name": "mctDEoffset",
+          "type": "double12"
+        }
+      ]
+    },
+    "calcde_after_orbit": {
+      "description": "SmoothItD is canonical NaN while CalcSIT=0 (inactive state).",
+      "pre_render": false,
+      "fields": [
+        {
+          "name": "ItResultI",
+          "type": "int"
+        },
+        {
+          "name": "Rout",
+          "type": "double12"
+        },
+        {
+          "name": "OTrap",
+          "type": "double12"
+        },
+        {
+          "name": "SmoothItD",
+          "type": "double12"
+        },
+        {
+          "name": "bCalcInside",
+          "type": "bool_neg1"
+        },
+        {
+          "name": "CalcSIT",
+          "type": "bool_neg1"
+        }
+      ]
+    },
+    "calcde_result": {
+      "description": "Final distance estimate after clamping/combination. Unclamped numerical DE and gradient norm are emitted in calcde_gradient.",
+      "pre_render": false,
+      "fields": [
+        {
+          "name": "bufRout",
+          "type": "double12"
+        },
+        {
+          "name": "final_de",
+          "type": "double12"
+        },
+        {
+          "name": "ItResultI",
+          "type": "int"
+        },
+        {
+          "name": "DEoptionResult",
+          "type": "int"
+        }
+      ]
+    },
+    "normals_raw": {
+      "description": "Surface normals computed from DE gradient, before any smoothing. Pascal stores these as integers in PsiLight5.NormalX/Y/Z; C++ mirrors that storage.",
+      "pre_render": false,
+      "fields": [
+        {
+          "name": "nx",
+          "type": "int"
+        },
+        {
+          "name": "ny",
+          "type": "int"
+        },
+        {
+          "name": "nz",
+          "type": "int"
+        }
+      ]
+    },
+    "ao_hiq_r_begin": {
+      "description": "Random HiQ AO level input",
+      "pre_render": false,
+      "source_cpp": "src/core/ambient_occlusion.cpp",
+      "source_pascal": "AmbHiQ.pas in patched working copy",
+      "fields": [
+        {
+          "name": "currentLevel",
+          "type": "int"
+        },
+        {
+          "name": "bSummUp",
+          "type": "int",
+          "description": "Current mismatch: Pascal emits 0/-1, C++ 0/1. Normalize emitters before claiming checksum equivalence."
+        },
+        {
+          "name": "zp0",
+          "type": "int"
+        },
+        {
+          "name": "sit",
+          "type": "double12"
+        },
+        {
+          "name": "sZRT",
+          "type": "double12"
+        },
+        {
+          "name": "sMul",
+          "type": "double12"
+        },
+        {
+          "name": "iStep",
+          "type": "int"
+        },
+        {
+          "name": "sMinRad",
+          "type": "double12"
+        },
+        {
+          "name": "stepCount",
+          "type": "int"
+        },
+        {
+          "name": "iand",
+          "type": "int"
+        },
+        {
+          "name": "WLo",
+          "type": "int"
+        },
+        {
+          "name": "WHi",
+          "type": "int"
+        },
+        {
+          "name": "HLo",
+          "type": "int"
+        },
+        {
+          "name": "HHi",
+          "type": "int"
+        }
+      ]
+    },
+    "ao_hiq_r_dir0_step": {
+      "description": "First-direction sample before border handling",
+      "pre_render": false,
+      "source_cpp": "src/core/ambient_occlusion.cpp",
+      "source_pascal": "AmbHiQ.pas in patched working copy",
+      "fields": [
+        {
+          "name": "currentLevel",
+          "type": "int"
+        },
+        {
+          "name": "iDir",
+          "type": "int"
+        },
+        {
+          "name": "sc",
+          "type": "int"
+        },
+        {
+          "name": "seed",
+          "type": "string"
+        },
+        {
+          "name": "sx",
+          "type": "double12"
+        },
+        {
+          "name": "sy",
+          "type": "double12"
+        },
+        {
+          "name": "x2pre",
+          "type": "int"
+        },
+        {
+          "name": "y2pre",
+          "type": "int"
+        },
+        {
+          "name": "distSqr",
+          "type": "double12"
+        },
+        {
+          "name": "prev",
+          "type": "int"
+        }
+      ]
+    },
+    "ao_hiq_r_dir0_eval": {
+      "description": "First-direction sampled depth and angle",
+      "pre_render": false,
+      "source_cpp": "src/core/ambient_occlusion.cpp",
+      "source_pascal": "AmbHiQ.pas in patched working copy",
+      "fields": [
+        {
+          "name": "currentLevel",
+          "type": "int"
+        },
+        {
+          "name": "iDir",
+          "type": "int"
+        },
+        {
+          "name": "sc",
+          "type": "int"
+        },
+        {
+          "name": "x2",
+          "type": "int"
+        },
+        {
+          "name": "y2",
+          "type": "int"
+        },
+        {
+          "name": "at",
+          "type": "int"
+        },
+        {
+          "name": "zp",
+          "type": "int"
+        },
+        {
+          "name": "st",
+          "type": "double12"
+        },
+        {
+          "name": "it",
+          "type": "int"
+        }
+      ]
+    },
+    "ao_hiq_r_sum": {
+      "description": "Accumulated directional horizon values",
+      "pre_render": false,
+      "source_cpp": "src/core/ambient_occlusion.cpp",
+      "source_pascal": "AmbHiQ.pas in patched working copy",
+      "fields": [
+        {
+          "name": "currentLevel",
+          "type": "int"
+        },
+        {
+          "name": "stSum",
+          "type": "double12"
+        },
+        {
+          "name": "p0",
+          "type": "int"
+        },
+        {
+          "name": "p1",
+          "type": "int"
+        },
+        {
+          "name": "p2",
+          "type": "int"
+        },
+        {
+          "name": "p3",
+          "type": "int"
+        },
+        {
+          "name": "p4",
+          "type": "int"
+        },
+        {
+          "name": "p5",
+          "type": "int"
+        },
+        {
+          "name": "p6",
+          "type": "int"
+        },
+        {
+          "name": "p7",
+          "type": "int"
+        },
+        {
+          "name": "p8",
+          "type": "int"
+        },
+        {
+          "name": "p9",
+          "type": "int"
+        },
+        {
+          "name": "p10",
+          "type": "int"
+        },
+        {
+          "name": "p11",
+          "type": "int"
+        },
+        {
+          "name": "p12",
+          "type": "int"
+        },
+        {
+          "name": "p13",
+          "type": "int"
+        },
+        {
+          "name": "p14",
+          "type": "int"
+        },
+        {
+          "name": "p15",
+          "type": "int"
+        },
+        {
+          "name": "p16",
+          "type": "int"
+        },
+        {
+          "name": "p17",
+          "type": "int"
+        },
+        {
+          "name": "p18",
+          "type": "int"
+        },
+        {
+          "name": "p19",
+          "type": "int"
+        },
+        {
+          "name": "p20",
+          "type": "int"
+        },
+        {
+          "name": "p21",
+          "type": "int"
+        },
+        {
+          "name": "p22",
+          "type": "int"
+        },
+        {
+          "name": "p23",
+          "type": "int"
+        },
+        {
+          "name": "p24",
+          "type": "int"
+        },
+        {
+          "name": "p25",
+          "type": "int"
+        },
+        {
+          "name": "p26",
+          "type": "int"
+        },
+        {
+          "name": "p27",
+          "type": "int"
+        },
+        {
+          "name": "p28",
+          "type": "int"
+        },
+        {
+          "name": "p29",
+          "type": "int"
+        },
+        {
+          "name": "p30",
+          "type": "int"
+        },
+        {
+          "name": "p31",
+          "type": "int"
+        }
+      ]
+    },
+    "ao_hiq_r_finish": {
+      "description": "Encoded ambient shadow after accumulation",
+      "pre_render": false,
+      "source_cpp": "src/core/ambient_occlusion.cpp",
+      "source_pascal": "AmbHiQ.pas in patched working copy",
+      "fields": [
+        {
+          "name": "currentLevel",
+          "type": "int"
+        },
+        {
+          "name": "AmbShadow",
+          "type": "int"
+        }
+      ]
+    },
+    "calcde_gradient": {
+      "description": "Numerical DE finite-difference squares and unclamped result, emitted only when evaluated. Analytic DE has no gradient stage.",
+      "fields": [
+        {
+          "name": "bufRout",
+          "type": "double17"
+        },
+        {
+          "name": "dx2",
+          "type": "double17"
+        },
+        {
+          "name": "dy2",
+          "type": "double17"
+        },
+        {
+          "name": "dz2",
+          "type": "double17"
+        },
+        {
+          "name": "sqrt_sum",
+          "type": "double17"
+        },
+        {
+          "name": "scale",
+          "type": "double17"
+        },
+        {
+          "name": "offset",
+          "type": "double17"
+        },
+        {
+          "name": "raw_de",
+          "type": "double17"
+        }
+      ]
+    }
+  },
+  "stages_order": [
+    "_canary",
+    "ray_ready",
+    "calcde_enter",
+    "calcde_after_orbit",
+    "calcde_result",
+    "normals_raw",
+    "ao_hiq_r_begin",
+    "ao_hiq_r_dir0_step",
+    "ao_hiq_r_dir0_eval",
+    "ao_hiq_r_sum",
+    "ao_hiq_r_finish"
+  ]
+}

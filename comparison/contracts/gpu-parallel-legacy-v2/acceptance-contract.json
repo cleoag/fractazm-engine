@@ -1,0 +1,86 @@
+{
+  "schema": "mb3d.gpu-parallel-plan.v1",
+  "status": "APPROVED_FULL_CONTRACT",
+  "goal": "Parallel Native Metal compute pipeline for every ordinary registered formula; correct reuse; measured whole-render acceleration",
+  "archetype": "build-feature",
+  "terminal_choice": "stop-at-verified",
+  "max_cycles": 50,
+  "formula_count": 467,
+  "ordinary_scene_count": 77,
+  "inventory": "inventory.json",
+  "inventory_sha256": "e92812a0bef6f6145d0111c6f72628e4ba22ad22504bd725c1f4563dbb685246",
+  "phase_order": [
+    "77 ordinary M3Parameter scenes in current queue order",
+    "remaining ordinary formula fixtures and hybrid/parameter stress cases"
+  ],
+  "compute_stages": [
+    "formula_and_distance",
+    "primary_march_and_refinement",
+    "normals",
+    "shadows",
+    "ambient_occlusion",
+    "color_and_fog",
+    "reflections_and_transparency",
+    "volume",
+    "depth_of_field",
+    "final_surface"
+  ],
+  "policies": {
+    "frame_diagnostic_seconds": 180,
+    "frame_hard_stop_seconds": 300,
+    "disk_reserve_gib": 12,
+    "precision": "native GPU FP32; retain CPU native/compatible and separate compatible Metal",
+    "deferred": [
+      "Monte Carlo",
+      "JIT"
+    ],
+    "preserve": [
+      "formulas",
+      "typed integer branches",
+      "hybrid order",
+      "carried state",
+      "RNG consumption",
+      "effects",
+      "maps",
+      "guards"
+    ],
+    "no_cpu_pixel_fallback": true,
+    "cpu_role": "file IO, command submission, bounded metadata/resource preparation and validation; no fractal pixel evaluation in a reported Metal render",
+    "ordered_dependencies": "Allowed only with documented dependency proof and adversarial GPU tests; no unknown classification counts as done",
+    "reuse": "Exact input identity plus required incoming state; replay state outputs and logical work, separate physical-work counters; no approximate spatial reuse",
+    "speed_gate": "geometric-mean full-render warm speedup >=1.25 over pinned baseline on matched completed cases; no >5% reproducible full-render regression; report cold separately",
+    "repeat_gate": "3 exact RGB and deterministic logical/work/cache-record repeats under the same declared cache state",
+    "holdout": "separate generated perturbations, state-poisoning cases, mixed chains, cache invalidation and concurrent renders; not used to choose optimizations",
+    "whole_frame_fp32_fallback": {
+      "accepted": true,
+      "requires": "Recorded proof of genuine binary32 overflow, original resources/settings/effects, successful complete Native CPU frame and three exact repeats on final identity. Classification alone is insufficient.",
+      "reported_as": "QUALIFIED_FP32_CPU; never GPU or parity PASS",
+      "other_fallbacks_accepted": false
+    }
+  },
+  "obligations": [
+    "source-bound read/write and initialization analysis for all 467 formulas and their drivers",
+    "GPU scheduling proof per independent unit; preserve necessary recurrence and dependent bounces",
+    "bounded GPU resource/pipeline/result reuse with key invalidation and lifetime tests",
+    "all 77 original-size full scenes with active effects on GPU, or qualified whole-frame Native CPU fallback for proven genuine FP32 overflow only; <=300 seconds each; deferred scenes remain OPEN until speedup demonstrated",
+    "device formula fixtures for every registry identity plus mixed chains and state transitions",
+    "measured baseline/candidate full-render speed and compilation latency",
+    "independent held-out verification, ordinary CPU and compatible Metal regression, negative guards"
+  ],
+  "predicate": {
+    "command": "python3 -B comparison/tools/qualify_gpu_parallel_pipeline.py --contract autoresearch/orchestrator-261025-1350/acceptance-contract.json --evidence comparison/runs/gpu-parallel-current --output comparison/runs/gpu-parallel-qualification",
+    "expected_output": "PASS remaining=0",
+    "expected_exit": 0,
+    "runner_status": "ROUND0_PARTIAL_SELF_TESTED; full proof adapters OPEN_VALIDATOR after independent critique; not acceptance-ready"
+  },
+  "completion_caveat": "Thresholded measurable acceleration is not a claim of a mathematical global maximum; stop conditions also include plateau or 50-cycle ceiling with explicit OPEN results.",
+  "resource_inventory": "resource-inventory.json",
+  "resource_inventory_sha256": "de7e228ed5d6cc367a5ae4f09e6b2e4a6ce171f5c091ddc6f6132e04da429125",
+  "revision": 2,
+  "amendment": {
+    "date": "2026-10-30",
+    "authority": "Explicit user approval: real FP32 overflow may render the whole frame on Native CPU; continue autonomously.",
+    "previous_contract_sha256": "d214aa8415d9a04739a755d4c62fca622f68d0e0bd256fa668e34a4ea6093cce",
+    "does_not_requalify_historical_evidence": true
+  }
+}

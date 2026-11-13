@@ -1,0 +1,15 @@
+// Generated ordinary formula family; not qualified.
+#pragma once
+#include "formula_3857.metal.h"
+#include "formula_9525.metal.h"
+#include "formula_10324.metal.h"
+#include "formula_10325.metal.h"
+#include "formula_10342.metal.h"
+#include "formula_10343.metal.h"
+#include "formula_10344.metal.h"
+#include "formula_10345.metal.h"
+#include "formula_10346.metal.h"
+#include "formula_10347.metal.h"
+#include "formula_10348.metal.h"
+#include "formula_10349.metal.h"
+#include "formula_10350.metal.h"

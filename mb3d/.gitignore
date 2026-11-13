@@ -1,0 +1,16 @@
+*.dcu
+History/*
+**/__history/*
+*.exe
+*.zip
+Mandelbulb3D.ini
+*.dsk
+*.~dsk
+*.local
+*.identcache
+color_preset*
+x64/*
+lib/
+*.exe
+.worktrees/
+diag_output/

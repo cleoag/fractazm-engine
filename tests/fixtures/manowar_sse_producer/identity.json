@@ -1,0 +1,38 @@
+{
+  "scope": "Vendor independent original real-driver outputs; never generate golden C++ data.",
+  "reference_summary": "comparison\\runs\\reference-gaps-20261018\\manowar\\sse-producer-branches-before\\summary.json",
+  "reference_summary_sha256": "f13fa4581bda8e764ec19bcac6bf7c23450153f0260ea30e408a0953e5d7543f",
+  "source_identities": {
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\candidate\\manowar_hybrid_probe.exe": "7feb386c9ea7cae9cb3306acc8b8849f5b2f6af1ef1ad191c6aa13eee5d0ee78",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\oracle-v2\\manowar_hybrid_oracle.exe": "25219752e7ca6a1260cf46a2e4c7c1a778f36229eb19c7d98271635f772354ef",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\runtime\\Mandelbulb3D_param_dump.exe": "7a4f536592c9d9cfd7e2b44c7d9dc0f7f3a40207423709d2f0041c18c8742fe8",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\runs\\reference-gaps-20261018\\manowar\\sse-producer-branches-manifest.json": "85310e395c53a93cba4fc0c596aeb7b22be10547b0119f513c80c83ee98cf5fd",
+    "C:\\work\\_c\\mb3d_cpp_port\\comparison\\tools\\check_manowar_hybrids.py": "8735faf1aeb6dbaefa76f7f84ebf37dee7af943ee2abf4c8504e25d5cc310432",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\_IntPowRotateC.m3f": "4116d16cb7292d7b06e4159d2e4f7b163ebb5e1dac452f027b3d5858f52bdbf1",
+    "C:\\work\\_c\\mb3d_cpp_port\\mb3d\\M3Formulas\\ManowarBulb.m3f": "28cfe55025a4efe9236fc0fb84d2ecf0099e6721ed5b9e2c9b953257f8a27639"
+  },
+  "files": {
+    "alt_ipm.m3p": "c4d898221a42565d9acfc4e92ff5c45c7dedea8cd358c0fd79f1cb4bc91c0d8c",
+    "alt_ipm_intmax.m3p": "4315bee1c940d2c3212b394ac6f3d61aac11e1833b7821d5bc9b48ec83702e32",
+    "alt_ipm_intmin.m3p": "6ac7ea3c5766277923bc50383de7248e2ab1c0e833a7e127083fe06b753c801a",
+    "alt_ipm_negative.m3p": "835ae10ed904cd34757dfaaaaa8668cae3f9d9bfa417f2d60a849f1dfce9464a",
+    "alt_ipm_third.m3p": "f42be6a84ebcc61b94bbce1fd30d0fafe7a9d8be4ddaf1bc04f2c7d69a868a9a",
+    "alt_ipm_type0.m3p": "a8ea17462e8da88b1885b5fd400bc9e4dd191c63ec363c727eac78d393eb91f9",
+    "alt_ipm_type1.m3p": "3fc886261ff5c99e9d6dcb571d12774f6a7c0924abdab2c27b098d3ecec8e5fb",
+    "alt_ipm_type10.m3p": "241acc2233961ad7f4564c8eb7fe8cb990cdfdf599d24c2b7bd8042695667366",
+    "alt_ipm_type11.m3p": "c794af38a6223f80ba2e2da77066ee145cf69874b2e40955d8c2eb0466f189eb",
+    "alt_ipm_type2.m3p": "1636af0f340b6ff0d018fff66f2b20efe53dfc9b1d286412ba37954942fd6c40",
+    "alt_ipm_type3.m3p": "97aeec1ee95a4d6ca86b8f1aeee591952d6d93c10e602b189faca7a1c515f4b6",
+    "alt_ipm_type4.m3p": "e7b0c37dad51f67687816567acaf1e8e6fd85ed018c263297cc7cbac667bfe4b",
+    "alt_ipm_type5.m3p": "990d6b5d2098bd47662d2d67b0a0489af69a11a32c3bc0c4116c625afbc309fd",
+    "alt_ipm_type6.m3p": "33d13134ae89254dc138d9fd0a6697829f5aab42d7232bb9b4f755ff051d8777",
+    "alt_ipm_type7.m3p": "2f5a2c5181afdda6041e9d56ffb10ca424bff85af6b51355004c6b91ca651f43",
+    "alt_ipm_type8.m3p": "8af5d720ae48d7cc7754c072c0c18ad69cb827b0c101360818cb28a907ad4bd4",
+    "alt_ipm_type9.m3p": "c9e5468e5cf30d514f1f29eb53a85d670d3f097fe358bdec7c125711d5846936",
+    "alt_mip.m3p": "6c6de27aa3f1108c57b1ff547f885aede89ac7e59dcf86909b8fa32e2a2423ca",
+    "original.bin": "8164d8cdfe410a44b7ac66d780135e25da8cd49cf6e7a7cb9979b18c2ccf2ce4"
+  },
+  "cases": 18,
+  "orbits": 1728,
+  "comparison_tolerance": 2e-12
+}

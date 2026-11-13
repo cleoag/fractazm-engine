@@ -1,0 +1,1234 @@
+{
+  "scope": "Vendor unchanged independent Pascal loader inputs/records into permanent tests.",
+  "references": [
+    {
+      "path": "comparison\\runs\\stage-a-20261018\\scene-loader-v1\\checks\\summary.json",
+      "sha256": "d7982b1350f2f39f8a3e3e36f8a87b5aef8a7c35939b2bd3c79eda3eb603ecc8",
+      "pascal_sha256": "b9cd0e578f6f41dcdd648d094c1ee3b6ff29a284985f62ea5bf566b57af7cf99"
+    },
+    {
+      "path": "comparison\\results\\stage-a-20261018\\legacy-default-tail-v1\\summary.json",
+      "sha256": "c29466a493904e42a3a4009db02695e0e03e2c771de83774c78db9bf2681e77f",
+      "pascal_sha256": "b9cd0e578f6f41dcdd648d094c1ee3b6ff29a284985f62ea5bf566b57af7cf99"
+    },
+    {
+      "path": "comparison\\results\\stage-a-20261018\\legacy-cache-offsets-v1\\summary.json",
+      "sha256": "235aa2d7823e095b9fa91f90aab35a0530f255270eebb71adc6ade47f4793a29",
+      "pascal_sha256": "b9cd0e578f6f41dcdd648d094c1ee3b6ff29a284985f62ea5bf566b57af7cf99"
+    }
+  ],
+  "results": [
+    {
+      "id": "version_00",
+      "scene_sha256": "8487e99f82b4fef523fe645d1a7e4a960f3598524e0b3600ea6487860298dc38",
+      "expected_sha256": "45033a6a803573214d39efeb2b912e1ac992f7626e03a6bc87353e3f582562ab",
+      "source_mand_id": 0,
+      "scene_fnv1a64": 4413938760628974459,
+      "expected_fnv1a64": 14940835861026864643,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_01",
+      "scene_sha256": "85430b0356cb529408d44bb206991af9dfa8a4c4a706c01210f64c76ee076870",
+      "expected_sha256": "ac010835cfee6674ec5a6a91018ef091a5766cc79caabb93c31901a89b4bebbc",
+      "source_mand_id": 1,
+      "scene_fnv1a64": 10238991735172148278,
+      "expected_fnv1a64": 645750558484630306,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_02",
+      "scene_sha256": "8470a1371a9c2a39262a14cfd65072b2e5d6938557e625213740e6c06b3394f5",
+      "expected_sha256": "916522ba585c2950567e338e5aa7acd491f92147fbde1c4694104a56fe76f376",
+      "source_mand_id": 2,
+      "scene_fnv1a64": 9221818701370920785,
+      "expected_fnv1a64": 8081139973905368669,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_03",
+      "scene_sha256": "28e59c8b5c050b6ea39511f872ac9f27607cb370f866d90fa2a492667199c334",
+      "expected_sha256": "87eae083441412606221b649783dc3a75028ca0a3ecec84e78e0157881d203ae",
+      "source_mand_id": 3,
+      "scene_fnv1a64": 13235601350031347484,
+      "expected_fnv1a64": 12651940893119509548,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_04",
+      "scene_sha256": "fffc4b9a04a8ad60831391578f2cd8dcb0c9f7e9e4b3447cd863dd7002ce39fc",
+      "expected_sha256": "99d9114c691f461d04594fd7afec03930e505e2e9a1bd3f3b98781c915b1fc09",
+      "source_mand_id": 4,
+      "scene_fnv1a64": 10234588562077890633,
+      "expected_fnv1a64": 6706228708528753140,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_05",
+      "scene_sha256": "927826deb721611e4419ed91b82fda72da0a8c5673b603ac3145b30e5d87b1b0",
+      "expected_sha256": "306313a05455d202b6dba3c7d55b6a533feb7281e0f617e745a3cecbdb74d1f3",
+      "source_mand_id": 5,
+      "scene_fnv1a64": 4980094032038755408,
+      "expected_fnv1a64": 8815792392881521125,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_06",
+      "scene_sha256": "d11aaca5144ca0f44b7463154f23fc6fe6bcbf0bc0bfb826c1df50c63de27e71",
+      "expected_sha256": "2994892f2eaf940251e0c1d8b7287357e7702266c7d14996a43ebbc840965f10",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 3293016993433043031,
+      "expected_fnv1a64": 5015535605726075294,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_07",
+      "scene_sha256": "4980219a216a6f89099f13e96211af24fa017faa0bba6bad13df08a7ff992597",
+      "expected_sha256": "b99634968cda712814b9e0beb51d04c857075ef1269552c4b677e9e59a102cab",
+      "source_mand_id": 7,
+      "scene_fnv1a64": 9033475388275008512,
+      "expected_fnv1a64": 14771254010980476347,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_08",
+      "scene_sha256": "55ecd4ac84694a231c025f561605e50bc156f851f37c5a6212aacd4368291d30",
+      "expected_sha256": "d5b64dd2d54aef3c004f3f261ae1989477cedace0299078b884b05d35a08863f",
+      "source_mand_id": 8,
+      "scene_fnv1a64": 16680569304118018264,
+      "expected_fnv1a64": 16732136521224998128,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_09",
+      "scene_sha256": "94467c5e548e23d46419d17c7d2b35ec772c0e75b274a9da7012c9dc2f0f1e93",
+      "expected_sha256": "cf7addffdb2fdc1c142dfc0730c54ebb572b769f9076c2dfce773837f3aea220",
+      "source_mand_id": 9,
+      "scene_fnv1a64": 6114019140489373333,
+      "expected_fnv1a64": 6817079055209931945,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_10",
+      "scene_sha256": "4c86486bafd26a8a788addb1187ab82bfb14bdf6cb2519a2f66e568ea8ca5017",
+      "expected_sha256": "15d7d83ab7f1079884cb96133d8d8d42ef21a3f01ac965620f705e6e2d3645c2",
+      "source_mand_id": 10,
+      "scene_fnv1a64": 14385038750838511782,
+      "expected_fnv1a64": 16665287430646817750,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_11",
+      "scene_sha256": "b2a52d4d89704938adcf6f9e070d4f64ad99f79322c79fb3baf86a7e855353a6",
+      "expected_sha256": "1a058ef28e1e1a2244e0b98ab461ad97517f96be856bfd3ac0f02603fa79c82e",
+      "source_mand_id": 11,
+      "scene_fnv1a64": 9931020412640735323,
+      "expected_fnv1a64": 15807912932554503263,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_12",
+      "scene_sha256": "baa60d0d27279d90b5fd0b230acd2854776b8387d19d2578fc815e8e2003ef6d",
+      "expected_sha256": "9427d2ef5635f90b8ce8cc876cc7dff9624ea3b88b82f0d472605818ae23fc7d",
+      "source_mand_id": 12,
+      "scene_fnv1a64": 17329318872901748596,
+      "expected_fnv1a64": 11039699608656466509,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_13",
+      "scene_sha256": "37b306f969c331e56ee65775506ce63a5b97f73c05b4ee3935a877e46bc42e7a",
+      "expected_sha256": "c73e9f59da55a3f702d45416dccdc01621856e4f693a040bd1171f44a21729b8",
+      "source_mand_id": 13,
+      "scene_fnv1a64": 16685638573044712129,
+      "expected_fnv1a64": 5062909761097867172,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_14",
+      "scene_sha256": "db752f545e838f1b6020e4e9d0ee3a7c78944fecb7b0fb08c4344a8c3cec4583",
+      "expected_sha256": "7c46db25732b0fa06b21d10640df9737d6b329e045beef873aedfa46a1706fc8",
+      "source_mand_id": 14,
+      "scene_fnv1a64": 4018958469073623106,
+      "expected_fnv1a64": 12168109953528414703,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_15",
+      "scene_sha256": "c6981ce445b3ccba4b265cfcbb1914d5e4193cd080ce9a7143394be18e4032ff",
+      "expected_sha256": "5624e92c87507a763259acbc02e1f40288aef4c7e1dc5c898a2b09e63b0fc003",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 5146974058684105783,
+      "expected_fnv1a64": 2087479861312714300,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_16",
+      "scene_sha256": "35828abafdcbcdc84b6f15d2a84490b410098a5493aa109fb9c5542864112666",
+      "expected_sha256": "e51970d6974fcae1c70bb92071ec3c41c70f05c32f2b3d6d27101d0a3e926c91",
+      "source_mand_id": 16,
+      "scene_fnv1a64": 4326382128171759471,
+      "expected_fnv1a64": 14114011696600872947,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_17",
+      "scene_sha256": "fcbe5d957f2e0ff51970ff67cd2887cceeb6f99c65bd9f71a1cfdfe78e030207",
+      "expected_sha256": "8b3b87c808eb6a810c68d6a9be1cd9d436856d3b6fcdf1d7a006c00c97557e95",
+      "source_mand_id": 17,
+      "scene_fnv1a64": 15719868310456524060,
+      "expected_fnv1a64": 4592474076800849288,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_18",
+      "scene_sha256": "5d11490e2e7b121669f9468b1ce344cfee3a763dec99b654d6542fcb2cd66bb3",
+      "expected_sha256": "75050943e95643273d948a874b74c24e7455734ae64b7e0cd3f2beca5e20d361",
+      "source_mand_id": 18,
+      "scene_fnv1a64": 3377150910905402339,
+      "expected_fnv1a64": 7702883051268379119,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_19",
+      "scene_sha256": "06bb46e64df09d6e822562b90efad61ece6eb1e994c50fdb368ed12730d04dc3",
+      "expected_sha256": "2d136dba8001fb445ab323e9b97981b26736d1035e53bf0e4ff0a6a91c8a6cde",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 4393733795131333402,
+      "expected_fnv1a64": 8114343773215816978,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_20",
+      "scene_sha256": "e480bc67354590ce7e386212a910dec15d078054058b6d766eb433e1db69044c",
+      "expected_sha256": "f5db5d403a95f4727981c5de5cc6e03093157c0166484e04c03c360f692c79d5",
+      "source_mand_id": 20,
+      "scene_fnv1a64": 7981270059558478417,
+      "expected_fnv1a64": 16042213639151428667,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_21",
+      "scene_sha256": "db9851b09e60725dbfbbe25f96a1c2b4c97b54fad39b52f2f54e45e753944b7b",
+      "expected_sha256": "a285f83f063e1a5d81d34b7077962c7d8e63956ee2f622939cd252919dd816ec",
+      "source_mand_id": 21,
+      "scene_fnv1a64": 3356796941119109036,
+      "expected_fnv1a64": 1536548792377973726,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_22",
+      "scene_sha256": "24138ae278f3f62a7d0e7294a7ccdb340a79c4aa829cffd69144370c535aebc0",
+      "expected_sha256": "f110bf13995bbecc30140564558fe103f6077e70166c8c7e3bc8fdc4b14e5ebb",
+      "source_mand_id": 22,
+      "scene_fnv1a64": 2547469482012243811,
+      "expected_fnv1a64": 13291325157279002229,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_23",
+      "scene_sha256": "3762a236a1fd1c1194561c9acebe50050569b93925f5a5cd6b72d40afada0cb0",
+      "expected_sha256": "d4eacd5c76f9aedd85897c006a01dcfa150ad36e8e30216657951ca81fea1e15",
+      "source_mand_id": 23,
+      "scene_fnv1a64": 4197042219631945966,
+      "expected_fnv1a64": 15816632641781896448,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_24",
+      "scene_sha256": "d1c61f453f90a5a4b9fd286d3ada35676bddbdb1f297705280c676e8941632c9",
+      "expected_sha256": "8b6391708f2c6ef071a542dd4f84f7807229cf818c321baddfd883fc3488a7f4",
+      "source_mand_id": 24,
+      "scene_fnv1a64": 11617583193738946205,
+      "expected_fnv1a64": 3669212690391415663,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_25",
+      "scene_sha256": "6b5d2b77c4ec385e5e8a94fde1c4375ea4787416a67234fd6a1d15fea84383a6",
+      "expected_sha256": "dc24d145779c830cde66ba52e45003cbce88f3936765bc81c81a0cb990ac46bb",
+      "source_mand_id": 25,
+      "scene_fnv1a64": 8297846557497830808,
+      "expected_fnv1a64": 6878188142218122962,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_26",
+      "scene_sha256": "f2ad554bf4e22ed5aa4deee90966c2cd8d16e840e0b0cf76335a5ca02dceabe4",
+      "expected_sha256": "78afce48c4935c5e8c7a4a58802a3cbb337fc0e3d91f31cb6386ce4f9a3c104a",
+      "source_mand_id": 26,
+      "scene_fnv1a64": 17246340151548649759,
+      "expected_fnv1a64": 6712315206480658529,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_27",
+      "scene_sha256": "d1c5c19f4a08d9bf216df052a4c45b0f2f016170fc26ccde3247b6bdd1462360",
+      "expected_sha256": "8c83369c230c9a6b749799baff3efbefdf5ed9e2db612abc8f534dbc4cb3916d",
+      "source_mand_id": 27,
+      "scene_fnv1a64": 580345929180223562,
+      "expected_fnv1a64": 4530411772886599004,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_28",
+      "scene_sha256": "eeafb659f6e4c22c1adc9a57d7eb72e4098836a7ff0b5d89983713471ee0033e",
+      "expected_sha256": "4ddc4d7e56506cf7c2c5a5c1925d58cb4edbd02f89eb0b5e5c509168b1e9c82b",
+      "source_mand_id": 28,
+      "scene_fnv1a64": 976281684543090137,
+      "expected_fnv1a64": 6893626653538415255,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_29",
+      "scene_sha256": "a33b786af83b3330f4151e6bb054c140eff907227b397d2ece0623eef60c9c75",
+      "expected_sha256": "07a5079481899dcb039ad9376a07439638c6155d6fe9a47d5758dc6ff817c15b",
+      "source_mand_id": 29,
+      "scene_fnv1a64": 11852339369005633844,
+      "expected_fnv1a64": 7471339844865258386,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_30",
+      "scene_sha256": "9b964fc1288381c0527944e374b4b53e64c5772379a90a3ca48739a8c1ae3a2b",
+      "expected_sha256": "73e104155fb6a80c708ba40857664de61e3481b46a0e7577c587ae584c392ac7",
+      "source_mand_id": 30,
+      "scene_fnv1a64": 6402251972278471019,
+      "expected_fnv1a64": 13152066620513368509,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_31",
+      "scene_sha256": "73719ec90cdc23f3475d9ab2ccb5f2792ae540ee2e09cf6f24d8c471f9e5f9fd",
+      "expected_sha256": "615594378f5bfe35c0923d6c21bd7e2c5913f4e0fbc188e67a21267665300fc7",
+      "source_mand_id": 31,
+      "scene_fnv1a64": 5469357019698463766,
+      "expected_fnv1a64": 5910879142800750280,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_32",
+      "scene_sha256": "b896b712757ba5c15cf3e561a5eb2603f5d7b3277da9602436ff67bb8453bbf2",
+      "expected_sha256": "13e5abe6078a78629a43dc006d7e21134f5886c1e82881d796459c0c5f5e737c",
+      "source_mand_id": 32,
+      "scene_fnv1a64": 2648415459113899845,
+      "expected_fnv1a64": 12824328163930967715,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_33",
+      "scene_sha256": "35935c2501a859d4b0dfb62e3212ba1d425c1eaf0a09ceba5814affbb997cae9",
+      "expected_sha256": "d0850a7e24663d3f6c025c7edd822d144fbc14156f58a94a276af40c60ced14d",
+      "source_mand_id": 33,
+      "scene_fnv1a64": 10452897978690753408,
+      "expected_fnv1a64": 701020513418862110,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_34",
+      "scene_sha256": "e7b7db7d62a656abe03bcd4ce6f0d805e6716bc596db1b6812ddd397f84bbe3b",
+      "expected_sha256": "6511db6af49682091fa96cc0a23e6e48ec65c9adac26bc03d69f7133d1d2bf38",
+      "source_mand_id": 34,
+      "scene_fnv1a64": 635843695783130727,
+      "expected_fnv1a64": 8642251478880879497,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_35",
+      "scene_sha256": "95784a4ab866f06ff569864a23ba0f6f8d5ac7191999d1c4f1dd7ff39e88c09b",
+      "expected_sha256": "6861d25176b48fd97fbe8169c161fb99e9a8f330e7778fddeaea47294c294fb7",
+      "source_mand_id": 35,
+      "scene_fnv1a64": 700389815304552050,
+      "expected_fnv1a64": 11107468954357585012,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_36",
+      "scene_sha256": "42da62788b8a11441db1c382ebe11e3389a84447297f7d040b2b91732577d609",
+      "expected_sha256": "2a89b7a95f44a3bbe1a04eb7c47931d20ac62fbff67c13613920be1aed43f733",
+      "source_mand_id": 36,
+      "scene_fnv1a64": 7079414740790200193,
+      "expected_fnv1a64": 5341692908781812999,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_37",
+      "scene_sha256": "6e098147ad1cbf4f0edb9c5bbeefbe97147411760be2c7efdeb4ec8453abb0e3",
+      "expected_sha256": "c94d9b8c5a742985b5907fceba6d1717271eadf17357f30a93fe7bb4baa410e1",
+      "source_mand_id": 37,
+      "scene_fnv1a64": 17536181203430307996,
+      "expected_fnv1a64": 4971202305408923362,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_38",
+      "scene_sha256": "82b18791bbac0d0b7e5b18ca8a43627bc3ad5790ffccde07883c31380c5a2b5f",
+      "expected_sha256": "63a39db87b16c73c574a70660e3815889848ade350ea8e192c747fbf13e347ab",
+      "source_mand_id": 38,
+      "scene_fnv1a64": 7405339766070431379,
+      "expected_fnv1a64": 2950589739593869485,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_39",
+      "scene_sha256": "de4b9fe9c84a4f697dd565f2ff5f448fc1459f4774092425d2312f054260456a",
+      "expected_sha256": "fd00e4366e025636016ff35b5f1f2613ffb19aefa4730fa354cbc0eed28bb7b2",
+      "source_mand_id": 39,
+      "scene_fnv1a64": 14127319679281535966,
+      "expected_fnv1a64": 16040080068256634376,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_40",
+      "scene_sha256": "bf1a45c6c16d06b2f787ac95e0969fd606a4ae5174c536a8c511cc14e89bf568",
+      "expected_sha256": "a3b75414d02ee50143639691d758cb76209ff2b55fa747a9408de6c15f54ce8e",
+      "source_mand_id": 40,
+      "scene_fnv1a64": 8793288170104119053,
+      "expected_fnv1a64": 9440008343230129069,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_41",
+      "scene_sha256": "c5037477c292ec27a1cf8ea93b2a5b45ab22334fc687912f0a3219b6c2d6e4ef",
+      "expected_sha256": "2276f2069acdc940174fdec9d0cea1daaf2bc0e9c7aaf52de74e7d7579e3d384",
+      "source_mand_id": 41,
+      "scene_fnv1a64": 99051081645758664,
+      "expected_fnv1a64": 5491682160868282152,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_42",
+      "scene_sha256": "03d4b07edfbfad667c63109617d537c8913bcbf9257f8c317084da0b92de3943",
+      "expected_sha256": "03d4b07edfbfad667c63109617d537c8913bcbf9257f8c317084da0b92de3943",
+      "source_mand_id": 42,
+      "scene_fnv1a64": 2576531249524412879,
+      "expected_fnv1a64": 2576531249524412879,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_43",
+      "scene_sha256": "9ff650e36e66c65e345be4ec6a3dcf454e255888253b44e3090088d48f4b503b",
+      "expected_sha256": "9ff650e36e66c65e345be4ec6a3dcf454e255888253b44e3090088d48f4b503b",
+      "source_mand_id": 43,
+      "scene_fnv1a64": 9258138953768721786,
+      "expected_fnv1a64": 9258138953768721786,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "version_44",
+      "scene_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 3217395326874252425,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_01",
+      "scene_sha256": "dfd32a15d6c18c1ee1c1abd91c7c86dec5ea3c4a4c01a88ddf1569ef2456b4a0",
+      "expected_sha256": "cece1bbc1966553948236daf539b468c2717b9b57e0315b919ad0f73968530bf",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 13586973315065202406,
+      "expected_fnv1a64": 10752680886616120350,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_02",
+      "scene_sha256": "07feaf22f96ae57582e4105c8295aa54ea53030f89c1f612e792d1d0f4a8c873",
+      "expected_sha256": "073de43a38bc143ab4e15037153ee9f1b162511e2a4817ab4440ebb1db6df8b6",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 3873802163206461193,
+      "expected_fnv1a64": 17845680994068377154,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_03",
+      "scene_sha256": "afa06ba365d70fc846eed4e6cabbab00facec505a3418767c92ea02b327a661b",
+      "expected_sha256": "58db0f9638660273494066dbfe5252e04997698c4571aaf0ab380e26c06f70bb",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 2413680310837051120,
+      "expected_fnv1a64": 11106414436814326466,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_04",
+      "scene_sha256": "7842631432023f4f39de65941b0b8121db8bedc86910e13160a6fd5dba6975e9",
+      "expected_sha256": "fb0eaec58111324d06c9bdfcda85bc72f3cebe458bb88c86bcb7f82a7d578726",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 13984497452002580755,
+      "expected_fnv1a64": 3197673143067172613,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_05",
+      "scene_sha256": "a13cf1f6ba150cb6c226f2ce1c7876e4de6e8d5250af55ed89cbcf424281101f",
+      "expected_sha256": "fb0eaec58111324d06c9bdfcda85bc72f3cebe458bb88c86bcb7f82a7d578726",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 7117987332613654914,
+      "expected_fnv1a64": 3197673143067172613,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_06",
+      "scene_sha256": "a3dfd1bbba9b5ae1a9863c6fd943240b4722da7e7915d6e8717c0db1491d7941",
+      "expected_sha256": "8a30088cb9ad9c2a3367a33e119fe280bfa2c2769370c9bd85ebf21a21930c60",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 3548388337506457413,
+      "expected_fnv1a64": 3709211487554621485,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_07",
+      "scene_sha256": "aca8aaa6e495642f89a576a94833f2fcd25e3d27d20347d7f43cce56b44cf853",
+      "expected_sha256": "856293cf0e2ce7071c9a460d68b5d8ee2df7a046b8bca63fb9502278fd0b69e6",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 691174324628502284,
+      "expected_fnv1a64": 13691424479752001912,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_08",
+      "scene_sha256": "fcc2d612a9a8522977c5988c6856377a77b6d06490c75395b56a3ed9875767fb",
+      "expected_sha256": "f93e65c129b3501762dc1300b470eec5631fe5e85fb361137db739e8c891b517",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 7962419916067498271,
+      "expected_fnv1a64": 18284345930749715682,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_09",
+      "scene_sha256": "a5846b1c6c691af2fa154f7a9e28d708d1445cc15731f42a403d7a1c2392b372",
+      "expected_sha256": "d4b031936bb04100d8c5aa59c71bbfcc76492fa5eba665c65e9ce44dbb286e44",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 17901131415177788078,
+      "expected_fnv1a64": 13778303961766605092,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_10",
+      "scene_sha256": "ef782006aae166f34dd26c13c39750ff2f7eac97c099a84223463c7c7f77ad63",
+      "expected_sha256": "1ee024dc912f81eed7618e657441e7223ff9a0596b5493cc151d0df51b3b3df0",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 10105506603165011601,
+      "expected_fnv1a64": 16865233717195731642,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_11",
+      "scene_sha256": "696f327ad4cf148ea4dd10c785ba9e6681977c74bf85e70713a5e8dec3b9471b",
+      "expected_sha256": "02dc9fd962d2a09078354abe08df8009e7a73bb64e1f9a07acd54d5173520a90",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 17640130806690187192,
+      "expected_fnv1a64": 8145290714892040936,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_12",
+      "scene_sha256": "bd04dbae061412e00ace0b01dd8e477aa9fa8d6ae916eb2860851bea8414db11",
+      "expected_sha256": "3d89d0ead581fc7d7f4185d7c20603ff116df2c8ca90ee171e3cf52dec6a819f",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 15298731179639436475,
+      "expected_fnv1a64": 15688382351038138032,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v06_formula_13",
+      "scene_sha256": "e2772ec86a378993c84ba9dfc5f1e24becf47a1cf0167a8dac2249e34934411c",
+      "expected_sha256": "a20400570f89e31aa6e8ef4bc24c59a3b5eff5201ee02909aa2e4286bd49552c",
+      "source_mand_id": 6,
+      "scene_fnv1a64": 10102165872201869738,
+      "expected_fnv1a64": 1914884944421839383,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v00_reverse",
+      "scene_sha256": "144e0036c57a2f137d25fc146c01939637cf8f75d255c27c60c13f2a5bbd63e4",
+      "expected_sha256": "da397f2f97530834e9ea3b00c1cbe5739aa13d2fb827601558161f4aeb4a6fc0",
+      "source_mand_id": 0,
+      "scene_fnv1a64": 15103427818310885421,
+      "expected_fnv1a64": 3444561959854762491,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v04_reverse",
+      "scene_sha256": "2b7c913ccba4126e34a343e9531f3cd0b431a6150a0a20a6c57a6b4fc2e88515",
+      "expected_sha256": "8962af0fa71511c084dcb317770ec0ef3fcf83174a98b3efa83e79a491a67217",
+      "source_mand_id": 4,
+      "scene_fnv1a64": 7767805157953032811,
+      "expected_fnv1a64": 3551905223004321128,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v19_light1",
+      "scene_sha256": "34253bb755e3c5294d168f722b982d79620ba9bdf58ffcfcd91c3c017864b860",
+      "expected_sha256": "6de5f490f84db45c765b44e369b440e9700c9d5ab87289273c425186b4eb8880",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 2827635638522996970,
+      "expected_fnv1a64": 11202501475737438823,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v19_light2",
+      "scene_sha256": "2aed45260dc30f015933bb69a8b30fa8ce9174287e3b122ad77665ce1d6d91a4",
+      "expected_sha256": "521bb82033727f6972a53a030c3d3fa6fd75b1b28c2026f4d64dededdcf89704",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 7335312143048121402,
+      "expected_fnv1a64": 10085485597702049261,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v08_hybrid_0",
+      "scene_sha256": "b5bf6eac7201280057c3338fefa4c544a7e8ea63919ba218f33826fa91c6c558",
+      "expected_sha256": "b9e1f75163538729121dc17a9589b5782dfe3f123f68d26ea95cef76b3a6eb37",
+      "source_mand_id": 8,
+      "scene_fnv1a64": 16122252060731830203,
+      "expected_fnv1a64": 11958105987195927271,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v08_hybrid_1",
+      "scene_sha256": "f0871c0e954752dc564255bccc1eafef36c697fef55a4499d405827c573e91a1",
+      "expected_sha256": "cd05023d6dff1942f41e9d3460e2ecb56752f5b393fb458d124e53e71385ec2c",
+      "source_mand_id": 8,
+      "scene_fnv1a64": 16190722116256243140,
+      "expected_fnv1a64": 991266584698498167,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v08_hybrid_2",
+      "scene_sha256": "35beed3f554cb2def50032502620de599feed22198b22a8d10055b0d91396b6c",
+      "expected_sha256": "4fe274d1d2a46be482f38182a40e9f64678220f8a57767231a177de399497e62",
+      "source_mand_id": 8,
+      "scene_fnv1a64": 9398634826090672746,
+      "expected_fnv1a64": 11856831004773773759,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v09_hybrid_0",
+      "scene_sha256": "1b8c8f4b2c4c9629d63d268baf4481cf90ea6bf9c5ffe76b43cd6785cbccbd23",
+      "expected_sha256": "75302034274112901f410fe84e8a81e35905c2fc89b315bfda41158eb79bc911",
+      "source_mand_id": 9,
+      "scene_fnv1a64": 9765862847499501608,
+      "expected_fnv1a64": 14248522284222360070,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v09_hybrid_1",
+      "scene_sha256": "bfd0b6f9d0a23cf187889dc5fdf1f7af75a3cda23765a4913bfe12fedcea8168",
+      "expected_sha256": "6c67e9162ab71b261143f2292e00e52826d0d23c01e66c64ca62c32206569300",
+      "source_mand_id": 9,
+      "scene_fnv1a64": 5529313154174293903,
+      "expected_fnv1a64": 13142918705319046130,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v09_hybrid_2",
+      "scene_sha256": "e5397ae299a4ce4abf114ab5dedfc7860c0af1a4cd37de44bab72263686c1459",
+      "expected_sha256": "797e5a445ae4c0467032bc6276a6c77734d7d11909d678b0133435302af0b0bd",
+      "source_mand_id": 9,
+      "scene_fnv1a64": 14798630674593706973,
+      "expected_fnv1a64": 15400542681002525266,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_hybrid_0",
+      "scene_sha256": "976ace7f04b49e08855f8a3b758bf7daaa494b92becb516c53d7f7bdfcf69ad7",
+      "expected_sha256": "88a9c0d0dd848987cecb3b266338cf611d6bf2e7703e2138ebdbb4c39b053a34",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 10526490593063173546,
+      "expected_fnv1a64": 14955169408829146905,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_hybrid_1",
+      "scene_sha256": "bc01c19ddf6e4b2bad3a3196afc68aa4aa7ec6fe6202b09fe6e99f11239a9bfd",
+      "expected_sha256": "41db2f9a3818a53797e8ee0bac35f0d48240418cf4fc73ef6e2b837ab1283499",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 13031556960221077817,
+      "expected_fnv1a64": 17674776106589606321,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_hybrid_2",
+      "scene_sha256": "0d75ecbefe9b9a9f285db75804492861520f30461a6526bf62496e8c6de14175",
+      "expected_sha256": "193f4557587d4949b4cb0c6e592c4392f2608a6535982a6b34777af9e1f07433",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 17108196326160188868,
+      "expected_fnv1a64": 175546247736672545,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v05_formula10_opt0",
+      "scene_sha256": "b65788c648ca4d263b6781a6eb482cc7a0a1f4df8be95d08f712505777dc2875",
+      "expected_sha256": "b48c15913770871ba1249936b3bec8311578c42ff566803c4817e6f254f4de0c",
+      "source_mand_id": 5,
+      "scene_fnv1a64": 2658673227051862158,
+      "expected_fnv1a64": 11280606752529993837,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v05_formula10_opt1",
+      "scene_sha256": "1df273fd4082e0b259340c78fc894c98d9ffe315f3270e3d75cc059488cfaf09",
+      "expected_sha256": "b13de14a182b7f37dbea60b7b22b739d5601f43475db30b0f91150f8a785b0be",
+      "source_mand_id": 5,
+      "scene_fnv1a64": 10576346806498535274,
+      "expected_fnv1a64": 1378599798085668632,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v05_formula10_opt3",
+      "scene_sha256": "f806e5e0dd25ef43453990b6ad7780ec1bfd2ce295176c9a854e086665daf680",
+      "expected_sha256": "0a7c8fc5a1032235821f64ca59008323a2bfe2c9c1c09af0defe6271d6a2469a",
+      "source_mand_id": 5,
+      "scene_fnv1a64": 1963744680277674754,
+      "expected_fnv1a64": 14249454216475260613,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_named__SinePow2",
+      "scene_sha256": "3fed0258674a797368fdb0531d437a6af3241b77a6de8aea621b60f2cd6349a3",
+      "expected_sha256": "7f8e64944ec9647ec3ce9a28cb1042343ae45d8f76970b04915add5568593661",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 3600492571080303492,
+      "expected_fnv1a64": 18239330906214424275,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_named_Riemann",
+      "scene_sha256": "eee4e459350d72a11c4a8c7d8f050ad39b8229f2b943aea971dfda38ba4e743c",
+      "expected_sha256": "b1aa3c08521f598481201bb61e06fb3f0fe16627060a8b19a35c110331bb4cc1",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 9916982484807956826,
+      "expected_fnv1a64": 15866139946009161554,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_named_Fuzzy",
+      "scene_sha256": "d7710b9ca5ef1911b14ff418fee743673cd935711245e306093b22ec694647e4",
+      "expected_sha256": "a5ca0e122adf8d419f8941bfda00cdde9bc32112676ebd6d4d4edcf37e8b630b",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 7451697457715953968,
+      "expected_fnv1a64": 14047091479221466075,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version0",
+      "scene_sha256": "657b2d9ccab6d94240c1d8cc495988913b98305ccacc902a8b825abb5078cca1",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 194595980260157657,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version1",
+      "scene_sha256": "294ddb1cf1457fb2e6f920bd042166524f42fea1fd6b7a0cc8ba1e39c051019f",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 2444130527865360745,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version2",
+      "scene_sha256": "39f725638a90ea098171d8f2d05140dd150128713fb0d86396001e969cfcb464",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 3867170882985323449,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version3",
+      "scene_sha256": "521bf9aa966b00a63b30150715952c008354791e10fea5c9187f4f20f81c9ef3",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 9621888711906973385,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version4",
+      "scene_sha256": "0f439874dc1b49e76c99760db4118405812dd2160253c1a2a9920227b7147c46",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 4374451165155594393,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version5",
+      "scene_sha256": "f72618a2f04138cb938346709cdc946827f6fb330b47b56772a3bf6587aebbec",
+      "expected_sha256": "640a61a62872a5bfa15cd23ba7cd67e4f8b0296bcdbea3d3f8033f316fd9d9a3",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 8105359397376100905,
+      "expected_fnv1a64": 5367982064431909897,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version6",
+      "scene_sha256": "99c61109370fec5674da4305aa4d886a570ddc7f258366fbfb4a2490aa1ae621",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 11544344393496913017,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_version7",
+      "scene_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 3217395326874252425,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended0",
+      "scene_sha256": "b0af141808173d6b755a19fccc6e63877507244ae372e5a2911f93b7624979ba",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 15469369944383551409,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended1",
+      "scene_sha256": "585d587b833936518cce3f9c8564078fb24206dbf81475fb8a41f14f733a1b48",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 4880242704200487500,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended2",
+      "scene_sha256": "836f7c9755bbf90ed49218513872295988bb232e3734a35edd0a9b97fc978509",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 15627897467965554831,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended3",
+      "scene_sha256": "e6d9df275d25be4f7d63714f6552ec9c1660c7489fbb4c675a7e9aa95ebad714",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 18013497931537116098,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended4",
+      "scene_sha256": "21d4782dd9e31fd7d35671cedc05b90e6c28974147b8c4f2859b855a43c367b6",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 15441715867032390045,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended5",
+      "scene_sha256": "89daa27571e09eab32fc408b80790d350867d559b4117de8e194be70b0edf7c0",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 8450597699644407864,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended6",
+      "scene_sha256": "b0e7e3e5c587e848a30df83ba57f0b0eb71d33a500cb567298105e4786004015",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 6481883958227392811,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended7",
+      "scene_sha256": "57b60b5270ea48e64fb8154dcfb5cd7d6783abf3c7d686d7159060a3611e0293",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 15580227437315671342,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_extended8",
+      "scene_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 3217395326874252425,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_half_tie",
+      "scene_sha256": "a173c283973380b646ecf92d9e97b7b2b5155969ee39d692e8df9525b5759253",
+      "expected_sha256": "738761476634aeddc48d6248aec0862a9fd7154da96e405c8b6af8353cdca1eb",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 2169880215866949121,
+      "expected_fnv1a64": 11242986846175920099,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_negative_position_fine0",
+      "scene_sha256": "a582b5ec0419c006c031649bd04a9ba0f29ddef80a825ee3c8acb68ae1549a27",
+      "expected_sha256": "4ae1756019c1dec435699cba758b61f08663cde36382eaca8a8ff03c3f431eb8",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 7947737134747142340,
+      "expected_fnv1a64": 14460255955639302560,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "light_negative_position_fine1",
+      "scene_sha256": "5274f8c7d4a6d4c7d9a16eb6ba907cbaa050a79037c91503c6035162cd15bd64",
+      "expected_sha256": "4709cde9b232ccc2b03d52c414c21ee0750f356d5fde3679b94e61dcf7389114",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 8729329667484235537,
+      "expected_fnv1a64": 4882353135213352115,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v16_pixel_cache",
+      "scene_sha256": "d08c90db99f63812c1a33a3b42715514521520214132e784dff6c218006fc4f2",
+      "expected_sha256": "e51970d6974fcae1c70bb92071ec3c41c70f05c32f2b3d6d27101d0a3e926c91",
+      "source_mand_id": 16,
+      "scene_fnv1a64": 3369965877835220847,
+      "expected_fnv1a64": 14114011696600872947,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v16_old_addon",
+      "scene_sha256": "815d26941939947fbb138cc1338318fc5b8109529a2c80d90186f722685d0080",
+      "expected_sha256": "2e098c728e07bf31f90aa34fe78809dd9ae72bafa7d7915aba642d29e9c1068d",
+      "source_mand_id": 16,
+      "scene_fnv1a64": 3708142430479364860,
+      "expected_fnv1a64": 17934367230296497223,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v17_pixel_cache",
+      "scene_sha256": "feb079452b855d00f0608682e841bc3f4dd97f5b4a9856e972599f4b9fff58e3",
+      "expected_sha256": "8b3b87c808eb6a810c68d6a9be1cd9d436856d3b6fcdf1d7a006c00c97557e95",
+      "source_mand_id": 17,
+      "scene_fnv1a64": 593006976999711772,
+      "expected_fnv1a64": 4592474076800849288,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v17_old_addon",
+      "scene_sha256": "696f7aa0995a042b79f016c37d08f517d1a593efa6be6b4cfa979f75d6c7e755",
+      "expected_sha256": "aeaf6dc7ad26a29728787c3641062beccd21d052301c3e660e85557290348cac",
+      "source_mand_id": 17,
+      "scene_fnv1a64": 18202864869829579835,
+      "expected_fnv1a64": 967750305929437376,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v18_pixel_cache",
+      "scene_sha256": "e493db3a9d50a1e868f657e40b080c659d4524371ba8dc3b5693c348c7976792",
+      "expected_sha256": "75050943e95643273d948a874b74c24e7455734ae64b7e0cd3f2beca5e20d361",
+      "source_mand_id": 18,
+      "scene_fnv1a64": 4017817612007248867,
+      "expected_fnv1a64": 7702883051268379119,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v18_old_addon",
+      "scene_sha256": "03949a39b3d48510994d143adfdb2fa1d0f174bda83f3308cd80513fc0091fb2",
+      "expected_sha256": "e9b1714d0ca40bbf5b4a47b16b40b324351f4c20cabc001660a638abc023e488",
+      "source_mand_id": 18,
+      "scene_fnv1a64": 8362727586068348712,
+      "expected_fnv1a64": 9667520091189717227,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v19_pixel_cache",
+      "scene_sha256": "070aba3984f82119dbdd5b3fb3763926389c546ad50f2c61b6800d4e8c064312",
+      "expected_sha256": "2d136dba8001fb445ab323e9b97981b26736d1035e53bf0e4ff0a6a91c8a6cde",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 2837424786841519770,
+      "expected_fnv1a64": 8114343773215816978,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v19_old_addon",
+      "scene_sha256": "5eebdf8948de289036a0f206dca2313a63ea899bfb2ca8e6691664c7d6431d91",
+      "expected_sha256": "d44a17f79ab6cf185050f6de108bac44d1f83a9693393b9279233cfaa500a1b9",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 15459287756293826101,
+      "expected_fnv1a64": 8362927991179795566,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v20_pixel_cache",
+      "scene_sha256": "283326c29e068bf75e178b3c9525cbe041ff8f32f50ff54cd5a7b68488872e5f",
+      "expected_sha256": "f5db5d403a95f4727981c5de5cc6e03093157c0166484e04c03c360f692c79d5",
+      "source_mand_id": 20,
+      "scene_fnv1a64": 14094754461291050833,
+      "expected_fnv1a64": 16042213639151428667,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v20_old_addon",
+      "scene_sha256": "694ccd3634805aaa0950d28c1158bd44bcee1a54d2734fee052d69319a306a84",
+      "expected_sha256": "537dbc26c538735d7839923e96fb772eb4e16bd84748adc14513bf9bc1290f4b",
+      "source_mand_id": 20,
+      "scene_fnv1a64": 11361447993301486026,
+      "expected_fnv1a64": 9306030850635150879,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v34_pixel_cache",
+      "scene_sha256": "7ccf4c7484bb7e5e098a8e9d2986ebd481386a896bd24eb09e78ea94c5fce669",
+      "expected_sha256": "6511db6af49682091fa96cc0a23e6e48ec65c9adac26bc03d69f7133d1d2bf38",
+      "source_mand_id": 34,
+      "scene_fnv1a64": 1967459494301129319,
+      "expected_fnv1a64": 8642251478880879497,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v34_old_addon",
+      "scene_sha256": "91cee00b204fdf272b395aa858353f563169f58c630ebd050a49d1ce22504ff6",
+      "expected_sha256": "fb93ffccf239c4cd2a4f2f80f868ae74274ce611629f5222a3265d4aa504defc",
+      "source_mand_id": 34,
+      "scene_fnv1a64": 7628620602973075492,
+      "expected_fnv1a64": 14324693938483389145,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v35_pixel_cache",
+      "scene_sha256": "ab81cbf1bcf9779f380becaa181b73bf01832b7c957af5c9583ee2d33976f690",
+      "expected_sha256": "6861d25176b48fd97fbe8169c161fb99e9a8f330e7778fddeaea47294c294fb7",
+      "source_mand_id": 35,
+      "scene_fnv1a64": 14802382765915575282,
+      "expected_fnv1a64": 11107468954357585012,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v35_old_addon",
+      "scene_sha256": "a06eb30fb69bf6a9f29f4b5fb04cd8332705847211a02feced3d7ca504a080e7",
+      "expected_sha256": "a411f15368d0d2e40263d2c3304688de7629fa713e0408e9bfa71c125f40a86c",
+      "source_mand_id": 35,
+      "scene_fnv1a64": 7767278086300578333,
+      "expected_fnv1a64": 15828033065086579428,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v44_pixel_cache",
+      "scene_sha256": "3dc23118d2c4961fc675b8b975e5dd3da8e6c16db847710c4c974869a688f113",
+      "expected_sha256": "4f4a0212e02e97ae09000e15a6dfba0288fdf1e394a2a97540aba8554ad0c45d",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 946141889802864009,
+      "expected_fnv1a64": 3217395326874252425,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v44_old_addon",
+      "scene_sha256": "4e6a15158e1c06a94f58548e6423af931fbfeeb51b19b2576e040878aa09bd9d",
+      "expected_sha256": "847467fcc3d2f1eee4aa785d486438963234b2f4135f01691df6efb5093581a8",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 10654075125063422738,
+      "expected_fnv1a64": 8783149964014208025,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_ABoxMod1_named",
+      "scene_sha256": "d0f6763f2b3b5f8b68c1bc1bcd52bb769782013479f2f3950f5bc311612b93e8",
+      "expected_sha256": "30bb47dbaee76f6dfebe9071f98e0e2ab3600171fef1bf3f406c2845c487c2bf",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 3214266396533841590,
+      "expected_fnv1a64": 4847495194967529140,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v15_ABoxMod1_hybrid",
+      "scene_sha256": "9e1bdad230a0dcf6cfeb0e454a996189654ba5730e224ef2dedfb8f49910cf06",
+      "expected_sha256": "f42127acd60c83f0be21f237d77780171fbcf70f34089cea9fadd0f8295efc62",
+      "source_mand_id": 15,
+      "scene_fnv1a64": 2823045342923557069,
+      "expected_fnv1a64": 14262805681942617403,
+      "stored_pixel_bytes": 0,
+      "addon_offset": 0
+    },
+    {
+      "id": "v18_cache_clamp_30001x1",
+      "scene_sha256": "f5779d01d00f72aaec9c3f712400ee9803ccc06aaee2440798eb3ca5a8dcf599",
+      "expected_sha256": "22fcefad89d44f9151e71e13d83d21f0db9656ad67f8d66694a82515e47b2912",
+      "source_mand_id": 18,
+      "scene_fnv1a64": 8088669845805386894,
+      "expected_fnv1a64": 9260431683992744070,
+      "stored_pixel_bytes": 480016,
+      "addon_offset": 480720
+    },
+    {
+      "id": "v18_cache_clamp_1x30001",
+      "scene_sha256": "e7cf9343c49c3f626becbe4e228df957035aceca947fe9a31a706082a44238b9",
+      "expected_sha256": "079bec09c92b5ddf769cb67d5f0e3d5dc57363bac921574ad2d2e78bac6a16cf",
+      "source_mand_id": 18,
+      "scene_fnv1a64": 14910506365093853826,
+      "expected_fnv1a64": 1452767716388484202,
+      "stored_pixel_bytes": 480016,
+      "addon_offset": 480720
+    },
+    {
+      "id": "v19_cache_clamp_30001x1",
+      "scene_sha256": "9fe1f10fe100fd713b3a4fc59986d119e77140fc39e5e31665a666657a3ace51",
+      "expected_sha256": "0d3648b284914ed28ab634811071eab245e5c1659f56a566b8f1cb534bc63479",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 914588204396613051,
+      "expected_fnv1a64": 10644885057954405975,
+      "stored_pixel_bytes": 540000,
+      "addon_offset": 540704
+    },
+    {
+      "id": "v19_cache_clamp_1x30001",
+      "scene_sha256": "dbf9abb2dd566dfcd1b3f170c0956e361261ecfa6a34bd5a762bc7309c452da6",
+      "expected_sha256": "3cfbe3eb20cfb2428816523f76dcce1f66ca6af651706a5b34d01d9a9ab87cea",
+      "source_mand_id": 19,
+      "scene_fnv1a64": 12718564820587472087,
+      "expected_fnv1a64": 10015057883955291203,
+      "stored_pixel_bytes": 540000,
+      "addon_offset": 540704
+    },
+    {
+      "id": "v44_cache_clamp_30001x1",
+      "scene_sha256": "c0fc3fa0e66bd9ff7c3edb2ac09e326c4ab959a779712186ab480834fc4a5af4",
+      "expected_sha256": "6ce3b876fd2a5faa7961a09b67a8c8279647880f3b34d597df90dde45a44de48",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 281653291503685564,
+      "expected_fnv1a64": 18004371854236996924,
+      "stored_pixel_bytes": 540000,
+      "addon_offset": 540840
+    },
+    {
+      "id": "v44_cache_clamp_1x30001",
+      "scene_sha256": "5c0cf85ac5089952075e097f4f1893b13ddb69ccb546458beae5b380ded7bef6",
+      "expected_sha256": "4283ba6fad62287b94225dd8ad1bdd58e3e2431f43fe7698d2dfd18716741e70",
+      "source_mand_id": 44,
+      "scene_fnv1a64": 15335968977061294880,
+      "expected_fnv1a64": 8200711818650744992,
+      "stored_pixel_bytes": 540000,
+      "addon_offset": 540840
+    }
+  ],
+  "generator_sha256": "7c0daea50c214f7bb37c3e5e984532793fab039081b18b52aecea4ba75d63cdc",
+  "expected_records_generated_by_cpp": false
+}

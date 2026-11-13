@@ -1,0 +1,4 @@
+# Ordinary CPU tooling only. Verified on CPython 3.14 x64; no MC/JIT packages.
+numpy==2.4.3
+Pillow==12.2.0
+capstone==5.0.9

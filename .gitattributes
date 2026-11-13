@@ -1,0 +1,7 @@
+# Preserve source patches verbatim, including unified-diff context whitespace.
+*.patch -text -whitespace
+# Frozen excerpts keep original Pascal bytes, including source whitespace.
+comparison/results/**/preparation-v1/*.pas.fragment -text -whitespace
+# The audited Windows formula asset hashes include CRLF. Keep checkout bytes
+# stable even when the surrounding repository uses core.autocrlf=false.
+mb3d/M3Formulas/*.m3f text eol=crlf
